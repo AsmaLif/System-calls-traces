@@ -1,0 +1,2619 @@
+     0.000000 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4137, NULL, 8) = 1
+     0.007746 recvfrom(33, "nysv\0\0\0\0\310\336z\232\17\0\0\0\312\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000393 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000122 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000127 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000077 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000167 getuid32()                = 10377
+     0.000081 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000119 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000074 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4128, NULL, 8) = 1
+     0.015805 recvfrom(33, "nysv\0\0\0\0*zy\233\17\0\0\0\313\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000216 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000157 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000229 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000118 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000129 getuid32()                = 10377
+     0.000153 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000239 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000100 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4111, NULL, 8) = 1
+     0.015949 recvfrom(33, "nysv\0\0\0\0\262\344w\234\17\0\0\0\314\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000106 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000219 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000195 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000241 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000188 getuid32()                = 10377
+     0.000067 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000068 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000159 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4093, NULL, 8) = 1
+     0.014681 recvfrom(33, "nysv\0\0\0\0\370xv\235\17\0\0\0\315\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000162 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000172 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000198 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000117 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000129 getuid32()                = 10377
+     0.000121 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000090 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000097 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4078, NULL, 8) = 1
+     0.015767 recvfrom(33, "nysv\0\0\0\0\214\tu\236\17\0\0\0\316\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000328 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000389 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000275 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000177 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000278 getuid32()                = 10377
+     0.000181 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000134 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000176 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4060, NULL, 8) = 1
+     0.015219 recvfrom(33, "nysv\0\0\0\0O\202s\237\17\0\0\0\317\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000236 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000263 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000336 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000212 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000514 getuid32()                = 10377
+     0.000232 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000217 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000308 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4042, NULL, 8) = 1
+     0.013767 recvfrom(33, "nysv\0\0\0\0\274\34r\240\17\0\0\0\320\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000222 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000103 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000219 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000126 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000186 getuid32()                = 10377
+     0.000163 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000105 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000102 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4027, NULL, 8) = 1
+     0.015680 recvfrom(33, "nysv\0\0\0\0\36\245p\241\17\0\0\0\321\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000169 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000127 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000209 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000173 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000318 getuid32()                = 10377
+     0.000196 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000157 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000195 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 4010, NULL, 8) = 1
+     0.017936 recvfrom(33, "nysv\0\0\0\0\n\211n\242\17\0\0\0\322\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000282 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000292 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000406 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000274 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000362 getuid32()                = 10377
+     0.000257 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000147 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000139 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3990, NULL, 8) = 1
+     0.011562 recvfrom(33, "nysv\0\0\0\0n\27m\243\17\0\0\0\323\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000137 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000128 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000088 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000163 getuid32()                = 10377
+     0.000103 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000087 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000117 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3978, NULL, 8) = 1
+     0.015821 recvfrom(33, "nysv\0\0\0\0\244\226k\244\17\0\0\0\324\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000104 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000080 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000145 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000085 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000182 getuid32()                = 10377
+     0.000093 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000113 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000126 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3961, NULL, 8) = 1
+     0.019274 recvfrom(33, "nysv\0\0\0\0\327[i\245\17\0\0\0\325\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000339 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000271 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000323 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000208 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000387 getuid32()                = 10377
+     0.000248 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000287 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000217 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3939, NULL, 8) = 1
+     0.011121 recvfrom(33, "nysv\0\0\0\0n\354g\246\17\0\0\0\326\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000518 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000560 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000606 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000953 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000739 getuid32()                = 10377
+     0.000467 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000402 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000371 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3924, NULL, 8) = 1
+     0.011740 recvfrom(33, "nysv\0\0\0\0r\202f\247\17\0\0\0\327\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000384 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000427 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000521 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000487 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000699 getuid32()                = 10377
+     0.000530 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000646 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000565 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3908, NULL, 8) = 1
+     0.018702 recvfrom(33, "nysv\0\0\0\0\375\252c\250\17\0\0\0\330\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000677 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000617 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000721 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000795 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000871 getuid32()                = 10377
+     0.000466 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000517 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000536 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3884, NULL, 8) = 1
+     0.005206 recvfrom(33, "nysv\0\0\0\0KBb\251\17\0\0\0\331\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000395 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000317 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000484 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000381 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000373 getuid32()                = 10377
+     0.000501 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000374 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000330 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3875, NULL, 8) = 1
+     0.013583 recvfrom(33, "nysv\0\0\0\0\363\325`\252\17\0\0\0\332\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000558 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000522 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000482 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000413 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000626 getuid32()                = 10377
+     0.000458 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000447 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000444 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3858, NULL, 8) = 1
+     0.012947 recvfrom(33, "nysv\0\0\0\0\302d_\253\17\0\0\0\333\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000816 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000592 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000674 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000635 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000803 getuid32()                = 10377
+     0.000687 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000578 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000659 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3839, NULL, 8) = 1
+     0.011412 recvfrom(33, "nysv\0\0\0\0Y\362]\254\17\0\0\0\334\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000425 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000400 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000493 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000376 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000659 getuid32()                = 10377
+     0.000909 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000475 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000472 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3824, NULL, 8) = 1
+     0.011978 recvfrom(33, "nysv\0\0\0\0V\210\\\255\17\0\0\0\335\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001591 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000582 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000734 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000705 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000721 getuid32()                = 10377
+     0.001129 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000502 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000653 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3805, NULL, 8) = 1
+     0.010110 recvfrom(33, "nysv\0\0\0\0#\32[\256\17\0\0\0\336\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000609 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000552 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000552 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000593 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000843 getuid32()                = 10377
+     0.000597 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000725 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000580 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3790, NULL, 8) = 1
+     0.011724 recvfrom(33, "nysv\0\0\0\0\371\246Y\257\17\0\0\0\337\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000608 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000686 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000629 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000583 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000705 getuid32()                = 10377
+     0.000570 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000530 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000502 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3774, NULL, 8) = 1
+     0.011669 recvfrom(33, "nysv\0\0\0\00024X\260\17\0\0\0\340\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000387 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000331 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000309 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000516 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000592 getuid32()                = 10377
+     0.000359 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000468 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000346 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3759, NULL, 8) = 1
+     0.027844 recvfrom(33, "nysv\0\0\0\0004GS\261\17\0\0\0\341\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000269 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000273 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000364 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000294 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000326 getuid32()                = 10377
+     0.000209 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+     0.000268 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000276 recvfrom(33, "nysv\0\0\0\0^\227Q\262\17\0\0\0\342\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000243 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000413 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000313 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000238 getuid32()                = 10377
+     0.000259 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000277 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3727, NULL, 8) = 1
+     0.014981 recvfrom(33, "nysv\0\0\0\0\274\30P\263\17\0\0\0\343\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000295 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000307 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000417 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000334 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000488 getuid32()                = 10377
+     0.000302 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000319 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000414 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3709, NULL, 8) = 1
+     0.014373 recvfrom(33, "nysv\0\0\0\0\205yN\264\17\0\0\0\344\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000190 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000153 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000185 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000114 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000141 getuid32()                = 10377
+     0.000106 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000225 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000184 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3693, NULL, 8) = 1
+     0.015010 recvfrom(33, "nysv\0\0\0\0\374\370L\265\17\0\0\0\345\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000223 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000115 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000163 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000490 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000298 getuid32()                = 10377
+     0.000138 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000133 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000191 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3676, NULL, 8) = 1
+     0.039518 recvfrom(33, "nysv\0\0\0\0T\227H\267\17\0\0\0\346\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000131 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000113 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000184 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000151 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000282 getuid32()                = 10377
+     0.000154 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000138 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000166 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3636, NULL, 8) = 1
+     0.010191 recvfrom(33, "nysv\0\0\0\0~\347F\270\17\0\0\0\347\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000482 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000466 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000662 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000625 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000748 getuid32()                = 10377
+     0.000620 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000810 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000486 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3620, NULL, 8) = 1
+     0.008533 recvfrom(33, "nysv\0\0\0\0\32\205E\271\17\0\0\0\350\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000231 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000408 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000474 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000378 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000381 getuid32()                = 10377
+     0.000192 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000308 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000361 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3609, NULL, 8) = 1
+     0.013848 recvfrom(33, "nysv\0\0\0\0\235!D\272\17\0\0\0\351\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000382 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000665 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000660 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000594 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000646 getuid32()                = 10377
+     0.000410 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000863 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000821 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3590, NULL, 8) = 1
+     0.012053 recvfrom(33, "nysv\0\0\0\0I\274B\273\17\0\0\0\352\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000607 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000808 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000758 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000785 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000935 getuid32()                = 10377
+     0.000505 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.001651 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000439 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3572, NULL, 8) = 1
+     0.009819 recvfrom(33, "nysv\0\0\0\0kXA\274\17\0\0\0\353\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000374 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000548 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000514 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000585 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000865 getuid32()                = 10377
+     0.000571 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000586 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000542 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3558, NULL, 8) = 1
+     0.012470 recvfrom(33, "nysv\0\0\0\0\26\357?\275\17\0\0\0\354\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000269 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000306 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000457 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000415 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000365 getuid32()                = 10377
+     0.000810 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000340 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000309 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3542, NULL, 8) = 1
+     0.016829 recvfrom(33, "nysv\0\0\0\0\362\247=\276\17\0\0\0\355\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000483 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000863 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000730 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000546 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000776 getuid32()                = 10377
+     0.000393 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000578 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000662 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3520, NULL, 8) = 1
+     0.007670 recvfrom(33, "nysv\0\0\0\0\316><\277\17\0\0\0\356\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000348 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000277 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000360 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000320 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000332 getuid32()                = 10377
+     0.000247 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000256 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000284 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3510, NULL, 8) = 1
+     0.039908 recvfrom(33, "nysv\0\0\0\0\370\2707\301\17\0\0\0\357\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000199 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000228 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000159 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000116 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000271 getuid32()                = 10377
+     0.000137 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000097 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000119 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3468, NULL, 8) = 1
+     0.006507 recvfrom(33, "nysv\0\0\0\0CP6\302\17\0\0\0\360\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000179 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000158 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000449 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000148 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000168 getuid32()                = 10377
+     0.000102 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000116 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000173 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3460, NULL, 8) = 1
+     0.015589 recvfrom(33, "nysv\0\0\0\0\344\3054\303\17\0\0\0\361\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000159 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000107 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000197 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000159 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000279 getuid32()                = 10377
+     0.000165 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000096 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000121 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3444, NULL, 8) = 1
+     0.014811 recvfrom(33, "nysv\0\0\0\0\352]3\304\17\0\0\0\362\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000142 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000203 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000165 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000269 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000208 getuid32()                = 10377
+     0.000102 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000107 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000105 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3427, NULL, 8) = 1
+     0.015531 recvfrom(33, "nysv\0\0\0\0V\3611\305\17\0\0\0\363\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000162 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000140 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000302 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000264 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000286 getuid32()                = 10377
+     0.000222 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000120 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000117 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3410, NULL, 8) = 1
+     0.016076 recvfrom(33, "nysv\0\0\0\0nE0\306\17\0\0\0\364\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000167 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000173 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000490 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000244 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000451 getuid32()                = 10377
+     0.000204 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000230 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000161 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3392, NULL, 8) = 1
+     0.013173 recvfrom(33, "nysv\0\0\0\0\203\337.\307\17\0\0\0\365\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000233 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000106 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000125 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000075 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000140 getuid32()                = 10377
+     0.000071 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000071 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000109 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3378, NULL, 8) = 1
+     0.029146 recvfrom(33, "nysv\0\0\0\0\36\352+\310\17\0\0\0\366\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000290 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000185 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000190 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000092 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000175 getuid32()                = 10377
+     0.000111 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000061 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000096 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3348, NULL, 8) = 1
+     0.011380 recvfrom(33, "nysv\0\0\0\0H:*\311\17\0\0\0\367\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000238 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000204 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000205 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000149 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000390 getuid32()                = 10377
+     0.000091 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000115 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000105 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3335, NULL, 8) = 1
+     0.008327 recvfrom(33, "nysv\0\0\0\0r\212(\312\17\0\0\0\370\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000000 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000000 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.004474 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000372 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000753 getuid32()                = 10377
+     0.000132 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000232 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000145 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3320, NULL, 8) = 1
+     0.008230 recvfrom(33, "nysv\0\0\0\0\321,'\313\17\0\0\0\371\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000074 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000084 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000123 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000072 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000093 getuid32()                = 10377
+     0.000100 madvise(0xc8bf4000, 32768, MADV_DONTNEED) = 0
+     0.000072 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000049 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000106 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3311, NULL, 8) = 1
+     0.038984 recvfrom(33, "nysv\0\0\0\0\360z#\315\17\0\0\0\372\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000132 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000105 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000147 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000086 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000150 getuid32()                = 10377
+     0.000063 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000099 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000087 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3271, NULL, 8) = 1
+     0.037231 recvfrom(33, "nysv\0\0\0\0D\33 \317\17\0\0\0\373\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000413 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000484 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000409 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000339 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000744 getuid32()                = 10377
+     0.000378 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000326 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000599 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3231, NULL, 8) = 1
+     0.008991 recvfrom(33, "nysv\0\0\0\0nk\36\320\17\0\0\0\374\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000303 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000325 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000319 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000303 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000356 getuid32()                = 10377
+     0.000361 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000348 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000447 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3219, NULL, 8) = 1
+     0.006623 recvfrom(33, "nysv\0\0\0\0m\n\35\321\17\0\0\0\375\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000693 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000325 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000412 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000345 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000479 getuid32()                = 10377
+     0.000364 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000459 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000472 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3209, NULL, 8) = 1
+     0.014980 recvfrom(33, "nysv\0\0\0\0\336<\33\322\17\0\0\0\376\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000371 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000387 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000421 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000415 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000716 getuid32()                = 10377
+     0.000325 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000571 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000484 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3190, NULL, 8) = 1
+     0.011042 recvfrom(33, "nysv\0\0\0\0H\334\31\323\17\0\0\0\377\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000491 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000347 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000340 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000243 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000391 getuid32()                = 10377
+     0.000303 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000370 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000237 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3176, NULL, 8) = 1
+     0.019246 recvfrom(33, "nysv\0\0\0\0\26\254\27\324\17\0\0\0\0\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000414 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000515 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000539 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000500 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000488 getuid32()                = 10377
+     0.000450 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000418 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000494 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3153, NULL, 8) = 1
+     0.008510 recvfrom(33, "nysv\0\0\0\0(H\26\325\17\0\0\0\1\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000541 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000472 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000641 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000549 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000569 getuid32()                = 10377
+     0.000631 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000440 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000549 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3140, NULL, 8) = 1
+     0.015367 recvfrom(33, "nysv\0\0\0\0jL\24\326\17\0\0\0\2\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000704 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000477 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000500 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000496 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000697 getuid32()                = 10377
+     0.001154 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000601 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000357 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3120, NULL, 8) = 1
+     0.007590 recvfrom(33, "nysv\0\0\0\0+\356\22\327\17\0\0\0\3\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001233 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000297 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000372 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000371 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000536 getuid32()                = 10377
+     0.000295 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000277 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000275 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3109, NULL, 8) = 1
+     0.013471 recvfrom(33, "nysv\0\0\0\0L\207\21\330\17\0\0\0\4\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000527 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000520 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000475 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000580 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.001072 getuid32()                = 10377
+     0.000824 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000510 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000509 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3090, NULL, 8) = 1
+     0.011711 recvfrom(33, "nysv\0\0\0\0P\"\20\331\17\0\0\0\5\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000733 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000431 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000684 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000581 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000638 getuid32()                = 10377
+     0.000644 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000682 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000682 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3073, NULL, 8) = 1
+     0.011783 recvfrom(33, "nysv\0\0\0\0G\241\16\332\17\0\0\0\6\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000525 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000386 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000550 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000800 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000586 getuid32()                = 10377
+     0.000737 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000592 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000795 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3057, NULL, 8) = 1
+     0.011373 recvfrom(33, "nysv\0\0\0\0N;\r\333\17\0\0\0\7\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000491 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000456 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000395 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000318 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000444 getuid32()                = 10377
+     0.000313 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000300 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000288 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3042, NULL, 8) = 1
+     0.013762 recvfrom(33, "nysv\0\0\0\0\215\322\v\334\17\0\0\0\10\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000658 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000637 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000571 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000769 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000857 getuid32()                = 10377
+     0.000450 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000483 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000754 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3023, NULL, 8) = 1
+     0.011450 recvfrom(33, "nysv\0\0\0\0Bi\n\335\17\0\0\0\t\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000307 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000331 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000359 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000341 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000602 getuid32()                = 10377
+     0.000430 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000322 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000349 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 3009, NULL, 8) = 1
+     0.013454 recvfrom(33, "nysv\0\0\0\0\374\2\t\336\17\0\0\0\n\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000455 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000489 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000520 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000637 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000574 getuid32()                = 10377
+     0.000510 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000547 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000633 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2991, NULL, 8) = 1
+     0.012662 recvfrom(33, "nysv\0\0\0\0\5\224\7\337\17\0\0\0\v\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000534 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000349 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000630 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000576 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000613 getuid32()                = 10377
+     0.000503 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000595 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000551 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2974, NULL, 8) = 1
+     0.012032 recvfrom(33, "nysv\0\0\0\0\217'\6\340\17\0\0\0\f\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000345 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000328 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000302 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000299 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000370 getuid32()                = 10377
+     0.000240 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000511 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000362 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2959, NULL, 8) = 1
+     0.014066 recvfrom(33, "nysv\0\0\0\0P\266\4\341\17\0\0\0\r\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000500 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000346 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000467 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000435 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000462 getuid32()                = 10377
+     0.000397 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000000 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000000 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2942, NULL, 8) = 1
+     0.017101 recvfrom(33, "nysv\0\0\0\0007\212\2\342\17\0\0\0\16\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000550 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000581 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000553 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000833 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000869 getuid32()                = 10377
+     0.000419 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000517 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000616 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2920, NULL, 8) = 1
+     0.008428 recvfrom(33, "nysv\0\0\0\0\365!\1\343\17\0\0\0\17\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000415 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000318 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000569 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000372 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000449 getuid32()                = 10377
+     0.000318 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000414 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000371 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2909, NULL, 8) = 1
+     0.040014 recvfrom(33, "nysv\0\0\0\0\340\376\372\344\17\0\0\0\20\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000451 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000466 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000622 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000515 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000597 getuid32()                = 10377
+     0.000527 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000478 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000471 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2865, NULL, 8) = 1
+     0.002671 recvfrom(33, "nysv\0\0\0\0\236\241\371\345\17\0\0\0\21\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000800 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000621 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000622 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000508 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000856 getuid32()                = 10377
+     0.000554 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000480 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000478 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2857, NULL, 8) = 1
+     0.012200 recvfrom(33, "nysv\0\0\0\0<B\370\346\17\0\0\0\22\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000306 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000387 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000637 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000602 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000601 getuid32()                = 10377
+     0.000462 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000422 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000410 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2841, NULL, 8) = 1
+     0.018718 recvfrom(33, "nysv\0\0\0\0^\357\365\347\17\0\0\0\23\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000744 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000594 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000339 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000383 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000366 getuid32()                = 10377
+     0.000230 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000239 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000280 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2819, NULL, 8) = 1
+     0.007193 recvfrom(33, "nysv\0\0\0\0\306\200\364\350\17\0\0\0\24\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000303 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000270 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000299 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000396 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000390 getuid32()                = 10377
+     0.000406 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000326 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000380 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2809, NULL, 8) = 1
+     0.014125 recvfrom(33, "nysv\0\0\0\0E\35\363\351\17\0\0\0\25\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000616 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000501 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000603 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000502 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000690 getuid32()                = 10377
+     0.000581 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000605 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000608 epoll_pwait(29, [{EPOLLIN, {u32=54, u64=54}}], 16, 2790, NULL, 8) = 1
+     0.003158 read(54, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000654 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000784 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000773 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000754 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000903 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000626 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000844 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000728 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000280 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000271 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000273 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000204 futex(0xe1e20050, FUTEX_WAKE, 1) = 0
+     0.000211 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=68, tv_nsec=725388000}}, NULL) = 0
+     0.000258 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2780, NULL, 8) = 1
+     0.000745 recvfrom(33, "nysv\0\0\0\0\16\275\361\352\17\0\0\0\26\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000388 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000308 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000323 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000374 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000400 getuid32()                = 10377
+     0.000255 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000297 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000484 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2776, NULL, 8) = 1
+     0.014792 recvfrom(33, "nysv\0\0\0\0\3006\360\353\17\0\0\0\27\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000469 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000535 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000512 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000379 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000577 getuid32()                = 10377
+     0.000447 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000678 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000450 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2757, NULL, 8) = 1
+     0.012202 recvfrom(33, "nysv\0\0\0\0\25\314\356\354\17\0\0\0\30\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000512 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000447 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000656 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000545 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000709 getuid32()                = 10377
+     0.000477 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000462 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000410 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2741, NULL, 8) = 1
+     0.012265 recvfrom(33, "nysv\0\0\0\0005d\355\355\17\0\0\0\31\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000534 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000633 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000513 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000455 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000477 getuid32()                = 10377
+     0.000355 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000289 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000319 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2725, NULL, 8) = 1
+     0.012892 recvfrom(33, "nysv\0\0\0\0\233\371\353\356\17\0\0\0\32\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000398 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000324 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000400 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000369 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000315 getuid32()                = 10377
+     0.000293 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000343 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000386 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2709, NULL, 8) = 1
+     0.013830 recvfrom(33, "nysv\0\0\0\0\351\216\352\357\17\0\0\0\33\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000271 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000398 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000287 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000293 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000498 getuid32()                = 10377
+     0.000394 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000304 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000382 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2693, NULL, 8) = 1
+     0.013867 recvfrom(33, "nysv\0\0\0\0006*\351\360\17\0\0\0\34\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000535 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000408 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000527 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000370 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000484 getuid32()                = 10377
+     0.000211 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000361 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000469 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2675, NULL, 8) = 1
+     0.013464 recvfrom(33, "nysv\0\0\0\0L\300\347\361\17\0\0\0\35\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000338 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000559 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000462 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000822 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000699 getuid32()                = 10377
+     0.000558 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000613 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000582 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 2657, NULL, 8) = 1
+     0.012037 recvfrom(33, "nysv\0\0\0\0dP\346\362\17\0\0\0\36\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000677 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000308 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000342 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001443 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.001237 getuid32()                = 10377
+     0.004351 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000883 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001088 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 2635, NULL, 8) = 1
+     0.003316 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000258 getuid32()                = 10377
+     0.000400 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+     0.000253 fstatat64(AT_FDCWD, "/data/app/com.android.chrome-48ARNXJ3eK-hzrs0JOA8qw==/base.apk", {st_mode=S_IFREG|0644, st_size=48080717, ...}, 0) = 0
+     0.000414 ioctl(8, BINDER_WRITE_READ, 0xffb84ea8) = 0
+     0.000302 ioctl(8, BINDER_WRITE_READ, 0xffb84ea8) = 0
+     0.000486 getuid32()                = 10377
+     0.000307 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+     0.000213 fstatat64(AT_FDCWD, "/data/app/com.android.chrome-48ARNXJ3eK-hzrs0JOA8qw==/base.apk", {st_mode=S_IFREG|0644, st_size=48080717, ...}, 0) = 0
+     0.000373 ioctl(8, BINDER_WRITE_READ, 0xffb84dc8) = 0
+     0.002362 ioctl(8, BINDER_WRITE_READ, 0xffb84dc8) = 0
+     0.001163 getuid32()                = 10377
+     0.000426 getuid32()                = 10377
+     0.000286 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000656 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000235 ioctl(31, ASHMEM_GET_SIZE, 0) = 84
+     0.000283 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000289 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000493 ioctl(31, ASHMEM_PIN, 0xffb84f70) = 0
+     0.000336 ioctl(8, BINDER_WRITE_READ, 0xffb84e48) = 0
+     0.000380 ioctl(8, BINDER_WRITE_READ, 0xffb84e48) = 0
+     0.000666 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=524657357}) = 0
+     0.000635 ioctl(8, BINDER_WRITE_READ, 0xffb83648) = 0
+     0.000414 ioctl(8, BINDER_WRITE_READ, 0xffb83648) = 0
+     0.001420 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=527068309}) = 0
+     0.000512 ioctl(8, BINDER_WRITE_READ, 0xffb83a78) = 0
+     0.000267 ioctl(8, BINDER_WRITE_READ, 0xffb83a78) = 0
+     0.000509 ioctl(8, BINDER_WRITE_READ, 0xffb838c8) = 0
+     0.000245 ioctl(8, BINDER_WRITE_READ, 0xffb838c8) = 0
+     0.000286 write(70, "\0", 1)        = 1
+     0.000262 write(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000235 futex(0xc4ad18d8, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000388 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.000316 futex(0xed3efde0, FUTEX_WAKE, 1) = 1
+     0.000217 ioctl(8, BINDER_WRITE_READ, 0xffb83038) = 0
+     0.000286 ioctl(8, BINDER_WRITE_READ, 0xffb83038) = 0
+     0.000431 getuid32()                = 10377
+     0.000267 ioctl(8, BINDER_WRITE_READ, 0xffb832a8) = 0
+     0.000325 ioctl(8, BINDER_WRITE_READ, 0xffb832a8) = 0
+     0.000213 ioctl(8, BINDER_WRITE_READ, 0xffb832c8) = 0
+     0.000744 ioctl(8, BINDER_WRITE_READ, 0xffb832c8) = 0
+     0.000450 ioctl(8, BINDER_WRITE_READ, 0xffb83a48) = 0
+     0.002457 ioctl(8, BINDER_WRITE_READ, 0xffb83a48) = 0
+     0.001107 ioctl(8, BINDER_WRITE_READ, 0xffb83868) = 0
+     0.000481 ioctl(8, BINDER_WRITE_READ, 0xffb83868) = 0
+     0.000339 ioctl(8, BINDER_WRITE_READ, 0xffb83858) = 0
+     0.000227 ioctl(8, BINDER_WRITE_READ, 0xffb83858) = 0
+     0.000246 ioctl(8, BINDER_WRITE_READ, 0xffb83888) = 0
+     0.000277 ioctl(8, BINDER_WRITE_READ, 0xffb83888) = 0
+     0.000244 ioctl(8, BINDER_WRITE_READ, 0xffb83a78) = 0
+     0.000765 ioctl(8, BINDER_WRITE_READ, 0xffb83a78) = 0
+     0.000653 ioctl(8, BINDER_WRITE_READ, 0xffb83868) = 0
+     0.000609 ioctl(8, BINDER_WRITE_READ, 0xffb83868) = 0
+     0.000337 ioctl(8, BINDER_WRITE_READ, 0xffb83858) = 0
+     0.000684 ioctl(8, BINDER_WRITE_READ, 0xffb83858) = 0
+     0.000518 write(43, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000333 futex(0xca685130, FUTEX_WAKE, 1) = 1
+     0.000419 futex(0xca685110, FUTEX_WAKE, 1) = 1
+     0.000273 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.000334 futex(0xed3efde0, FUTEX_WAKE, 1) = 1
+     0.000377 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=543709307}) = 0
+     0.000575 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000254 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000383 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000411 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=545338171}) = 0
+     0.000282 getuid32()                = 10377
+     0.000386 writev(3, [{iov_base="\0\237\7x\375\272^F\310\203 ", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="cr_InstantAppsHandler\0", iov_len=22}, {iov_base="Package manager handles intents "..., iov_len=62}], 4) = 96
+     0.000394 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=546443870}) = 0
+     0.000439 ioctl(8, BINDER_WRITE_READ, 0xffb83dd8) = 0
+     0.000449 ioctl(8, BINDER_WRITE_READ, 0xffb83dd8) = 0
+     0.000301 getuid32()                = 10377
+     0.000235 ioctl(8, BINDER_WRITE_READ, 0xffb83ee8) = 0
+     0.000796 ioctl(8, BINDER_WRITE_READ, 0xffb83ee8) = 0
+     0.000428 ioctl(8, BINDER_WRITE_READ, 0xffb83e58) = 0
+     0.000234 ioctl(8, BINDER_WRITE_READ, 0xffb83e58) = 0
+     0.000364 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000199 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.002506 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000798 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000612 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000472 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000626 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000030 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000001 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffb83ea8) = 0
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffb842e8) = 0
+     0.004819 ioctl(8, BINDER_WRITE_READ, 0xffb842e8) = 0
+     0.000243 ioctl(8, BINDER_WRITE_READ, 0xffb842e8) = 0
+     0.002191 ioctl(8, BINDER_WRITE_READ, 0xffb842e8) = 0
+     0.000590 ioctl(8, BINDER_WRITE_READ, 0xffb84948) = 0
+     0.000423 ioctl(8, BINDER_WRITE_READ, 0xffb84948) = 0
+     0.003669 ioctl(8, BINDER_WRITE_READ, 0xffb84ea8) = 0
+     0.001144 ioctl(8, BINDER_WRITE_READ, 0xffb84ea8) = 0
+     0.001020 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 28714506) = 30
+     0.000531 pread64(24, "res/interpolator/linear_out_slow"..., 39, 28714536) = 39
+     0.000289 mmap2(NULL, 1828, PROT_READ, MAP_SHARED, 24, 0x1b62000) = 0xea2f8000
+     0.000221 munmap(0xea2f8000, 1828)  = 0
+     0.000286 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 28710049) = 30
+     0.000406 pread64(24, "res/interpolator/fast_out_linear"..., 39, 28710079) = 39
+     0.000149 mmap2(NULL, 1467, PROT_READ, MAP_SHARED, 24, 0x1b61000) = 0xea2f8000
+     0.000265 munmap(0xea2f8000, 1467)  = 0
+     0.000410 ioctl(8, BINDER_WRITE_READ, 0xffb84d48) = 0
+     0.000256 ioctl(8, BINDER_WRITE_READ, 0xffb84d48) = 0
+     0.000267 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\33\0\0\0", 30, 28853523) = 30
+     0.000328 pread64(24, "res/layout/screen_title.xml", 27, 28853553) = 27
+     0.000211 mmap2(NULL, 1929, PROT_READ, MAP_SHARED, 24, 0x1b84000) = 0xea2f8000
+     0.000235 munmap(0xea2f8000, 1929)  = 0
+     0.000365 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.000232 futex(0xed3efde0, FUTEX_WAKE, 1) = 1
+     0.000525 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\32\0\0\0", 30, 28699767) = 30
+     0.000160 pread64(24, "res/drawable/title_bar.xml", 26, 28699797) = 26
+     0.000159 mmap2(NULL, 3422, PROT_READ, MAP_SHARED, 24, 0x1b5e000) = 0xea2f8000
+     0.000193 munmap(0xea2f8000, 3422)  = 0
+     0.000210 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:\354\370A.\345\7\0\0\345\7\0\0.\0\7\0", 30, 4741177) = 30
+     0.000131 pread64(24, "res/drawable-xhdpi-v4/activity_t"..., 46, 4741207) = 46
+     0.000163 mmap2(NULL, 4209, PROT_READ, MAP_SHARED, 24, 0x485000) = 0xea2f7000
+     0.000165 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+     0.000190 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+     0.000175 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+     0.000191 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+     0.000149 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+     0.000484 munmap(0xea2f7000, 4209)  = 0
+     0.001628 ioctl(8, BINDER_WRITE_READ, 0xffb84f88) = 0
+     0.000214 ioctl(8, BINDER_WRITE_READ, 0xffb84f88) = 0
+     0.000225 getuid32()                = 10377
+     0.000235 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 2
+     0.000188 recvfrom(33, "nysv\0\0\0\0k\352\344\363\17\0\0\0\37\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000178 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000344 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000386 futex(0xcad7fdb8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000164 futex(0xcad7fdb4, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000496 futex(0xcc776964, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000221 futex(0xcad7fdb8, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000279 futex(0xcad7fdb4, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000141 futex(0xcc776964, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000125 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000152 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000333 write(75, "\0", 1)        = 1
+     0.000395 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000187 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000172 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000201 getuid32()                = 10377
+     0.000200 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 1
+     0.000140 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000266 getuid32()                = 10377
+     0.000737 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1
+     0.000483 recvfrom(33, "nysv\0\0\0\0\210\373\336\367\17\0\0\0#\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000563 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000502 ioctl(8, BINDER_WRITE_READ, 0xffb84ac8) = 0
+     0.000368 ioctl(8, BINDER_WRITE_READ, 0xffb84ac8) = 0
+     0.000425 getuid32()                = 10377
+     0.000671 ioctl(8, BINDER_WRITE_READ, 0xffb847e8) = 0
+     0.000626 ioctl(8, BINDER_WRITE_READ, 0xffb847e8) = 0
+     0.000633 getuid32()                = 10377
+     0.000413 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000258 getuid32()                = 10377
+     0.000298 ioctl(8, BINDER_WRITE_READ, 0xffb84808) = 0
+     0.000229 ioctl(8, BINDER_WRITE_READ, 0xffb84808) = 0
+     0.000433 getuid32()                = 10377
+     0.000184 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000343 getuid32()                = 10377
+     0.000409 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000317 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000210 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000368 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000350 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000335 getuid32()                = 10377
+     0.000258 writev(3, [{iov_base="\0\237\7x\375\272^\261\362L#", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="GooglePlayServicesUtil\0", iov_len=23}, {iov_base="Google Play services is missing."..., iov_len=33}], 4) = 68
+     0.000391 ioctl(8, BINDER_WRITE_READ, 0xffb833a8) = 0
+     0.000345 ioctl(8, BINDER_WRITE_READ, 0xffb833a8) = 0
+     0.000286 ioctl(8, BINDER_WRITE_READ, 0xffb83358) = 0
+     0.000227 ioctl(8, BINDER_WRITE_READ, 0xffb83358) = 0
+     0.000323 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000444 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000294 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000988 ioctl(8, BINDER_WRITE_READ, 0xffb835c8) = 0
+     0.000271 getuid32()                = 10377
+     0.000176 writev(3, [{iov_base="\0\237\7x\375\272^\340\211\207#", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="GooglePlayServicesUtil\0", iov_len=23}, {iov_base="Google Play services is missing."..., iov_len=33}], 4) = 68
+     0.000194 ioctl(8, BINDER_WRITE_READ, 0xffb833a8) = 0
+     0.000244 ioctl(8, BINDER_WRITE_READ, 0xffb833a8) = 0
+     0.000296 ioctl(8, BINDER_WRITE_READ, 0xffb83358) = 0
+     0.000182 ioctl(8, BINDER_WRITE_READ, 0xffb83358) = 0
+     0.000282 getuid32()                = 10377
+     0.000146 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000256 getuid32()                = 10377
+     0.000148 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000257 ioctl(8, BINDER_WRITE_READ, 0xffb84fd8) = 0
+     0.000232 ioctl(8, BINDER_WRITE_READ, 0xffb84fd8) = 0
+     0.004508 getuid32()                = 10377
+     0.000001 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.004384 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000403 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000563 getuid32()                = 10377
+     0.000188 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000248 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000217 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000277 getuid32()                = 10377
+     0.000357 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000776 ioctl(8, BINDER_WRITE_READ, 0xffb83f18) = 0
+     0.000349 ioctl(8, BINDER_WRITE_READ, 0xffb83f18) = 0
+     0.000397 ioctl(8, BINDER_WRITE_READ, 0xffb839b8) = 0
+     0.000195 ioctl(8, BINDER_WRITE_READ, 0xffb839b8) = 0
+     0.000233 getuid32()                = 10377
+     0.000502 getuid32()                = 10377
+     0.000240 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000197 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000424 ioctl(31, ASHMEM_GET_SIZE, 0) = 84
+     0.000306 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000228 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000297 ioctl(31, ASHMEM_PIN, 0xffb83d30) = 0
+     0.000304 ioctl(8, BINDER_WRITE_READ, 0xffb83c58) = 0
+     0.000223 ioctl(8, BINDER_WRITE_READ, 0xffb83c58) = 0
+     0.000480 write(42, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000268 getuid32()                = 10377
+     0.000150 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000313 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000175 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000472 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000256 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 94, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000961 ioctl(8, BINDER_WRITE_READ, 0xffb84e88) = 0
+     0.000830 ioctl(8, BINDER_WRITE_READ, 0xffb84e88) = 0
+     0.002740 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=68, tv_nsec=720811000}}, NULL) = 0
+     0.000633 ioctl(8, BINDER_WRITE_READ, 0xffb83078) = 0
+     0.000192 ioctl(8, BINDER_WRITE_READ, 0xffb83078) = 0
+     0.000452 getuid32()                = 10377
+     0.000157 writev(3, [{iov_base="\0\237\7x\375\272^\250t\26%", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="FeedAppLifecycleLstnr\0", iov_len=22}, {iov_base="onEnterForeground called\0", iov_len=25}], 4) = 59
+     0.000573 getuid32()                = 10377
+     0.000383 writev(3, [{iov_base="\0\237\7x\375\272^<J!%", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="FeedSessionManagerImpl\0", iov_len=23}, {iov_base="onLifecycleEvent foreground\0", iov_len=28}], 4) = 63
+     0.000483 getuid32()                = 10377
+     0.000279 getuid32()                = 10377
+     0.000213 fstat64(78, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000175 fstat64(78, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000170 ioctl(78, ASHMEM_GET_SIZE, 0) = 84
+     0.000168 fstat64(78, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000167 fstat64(78, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000185 ioctl(78, ASHMEM_PIN, 0xffb83f10) = 0
+     0.000565 gettimeofday({tv_sec=1589312888, tv_usec=625840}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000229 clock_gettime(CLOCK_BOOTTIME, {tv_sec=68, tv_nsec=626066636}) = 0
+     0.000218 ioctl(8, BINDER_WRITE_READ, 0xffb83bc8) = 0
+     0.000161 ioctl(8, BINDER_WRITE_READ, 0xffb83bc8) = 0
+     0.001402 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000183 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000394 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000602 ioctl(8, BINDER_WRITE_READ, 0xffb83648) = 0
+     0.000285 ioctl(8, BINDER_WRITE_READ, 0xffb83648) = 0
+     0.000397 gettimeofday({tv_sec=1589312888, tv_usec=629791}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000415 gettimeofday({tv_sec=1589312888, tv_usec=630214}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000424 gettimeofday({tv_sec=1589312888, tv_usec=630591}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000270 madvise(0xc97a9000, 4096, MADV_DONTNEED) = 0
+     0.000415 gettimeofday({tv_sec=1589312888, tv_usec=631322}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000316 gettimeofday({tv_sec=1589312888, tv_usec=631571}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000339 gettimeofday({tv_sec=1589312888, tv_usec=631904}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000358 gettimeofday({tv_sec=1589312888, tv_usec=632263}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000358 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000205 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000181 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000826 ioctl(8, BINDER_WRITE_READ, 0xffb846c8) = 0
+     0.000293 ioctl(8, BINDER_WRITE_READ, 0xffb846c8) = 0
+     0.000353 ioctl(8, BINDER_WRITE_READ, 0xffb83bd8) = 0
+     0.000577 ioctl(8, BINDER_WRITE_READ, 0xffb83bd8) = 0
+     0.000374 ioctl(8, BINDER_WRITE_READ, 0xffb83ed8) = 0
+     0.000180 ioctl(8, BINDER_WRITE_READ, 0xffb83ed8) = 0
+     0.000748 gettimeofday({tv_sec=1589312888, tv_usec=636321}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000365 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000867 ioctl(8, BINDER_WRITE_READ, 0xffb83c28) = 0
+     0.000418 ioctl(8, BINDER_WRITE_READ, 0xffb83c28) = 0
+     0.000513 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000187 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000283 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001720 ioctl(8, BINDER_WRITE_READ, 0xffb834e8) = 0
+     0.000473 ioctl(8, BINDER_WRITE_READ, 0xffb834e8) = 0
+     0.001255 write(70, "\0", 1)        = 1
+     0.000182 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000372 ioctl(8, BINDER_WRITE_READ, 0xffb84138) = 0
+     0.000274 ioctl(8, BINDER_WRITE_READ, 0xffb84138) = 0
+     0.000514 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000510 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000291 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000660 ioctl(8, BINDER_WRITE_READ, 0xffb84368) = 0
+     0.000359 ioctl(8, BINDER_WRITE_READ, 0xffb84368) = 0
+     0.000410 ioctl(8, BINDER_WRITE_READ, 0xffb84658) = 0
+     0.000293 ioctl(8, BINDER_WRITE_READ, 0xffb84658) = 0
+     0.000309 getuid32()                = 10377
+     0.000318 getuid32()                = 10377
+     0.000368 writev(3, [{iov_base="\2\237\7x\375\272^\346\332\214&", iov_len=11}, {iov_base="Fu\0\0", iov_len=4}, {iov_base="\3\3\0\0\0\0\0\0020\0\0\0org.chromium.chrome."..., iov_len=80}], 3) = 95
+     0.000425 ioctl(8, BINDER_WRITE_READ, 0xffb84fc8) = 0
+     0.000438 ioctl(8, BINDER_WRITE_READ, 0xffb84fc8) = 0
+     0.000178 getuid32()                = 10377
+     0.000208 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1
+     0.000285 recvfrom(33, "nysv\0\0\0\0I\26\334\371\17\0\0\0%\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000318 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000206 getuid32()                = 10377
+     0.000195 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000243 recvfrom(39, 0xdf483a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000300 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000218 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000240 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000426 getuid32()                = 10377
+     0.000369 ioctl(8, BINDER_WRITE_READ, 0xffb83948) = 0
+     0.000439 ioctl(8, BINDER_WRITE_READ, 0xffb83948) = 0
+     0.000240 ioctl(8, BINDER_WRITE_READ, 0xffb836d8) = 0
+     0.000290 ioctl(8, BINDER_WRITE_READ, 0xffb836d8) = 0
+     0.000740 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.000187 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.002737 getuid32()                = 10377
+     0.000652 ioctl(8, BINDER_WRITE_READ, 0xffb83948) = 0
+     0.000381 ioctl(8, BINDER_WRITE_READ, 0xffb83948) = 0
+     0.000309 ioctl(8, BINDER_WRITE_READ, 0xffb836d8) = 0
+     0.000370 ioctl(8, BINDER_WRITE_READ, 0xffb836d8) = 0
+     0.000790 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.001147 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.000630 getuid32()                = 10377
+     0.000542 ioctl(8, BINDER_WRITE_READ, 0xffb83998) = 0
+     0.000324 ioctl(8, BINDER_WRITE_READ, 0xffb83998) = 0
+     0.000631 ioctl(8, BINDER_WRITE_READ, 0xffb83728) = 0
+     0.000549 ioctl(8, BINDER_WRITE_READ, 0xffb83728) = 0
+     0.000421 ioctl(8, BINDER_WRITE_READ, 0xffb839d8) = 0
+     0.000223 ioctl(8, BINDER_WRITE_READ, 0xffb839d8) = 0
+     0.000557 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000399 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000335 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000281 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 98, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000413 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.000285 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.006319 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.000130 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.000143 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000154 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000190 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000101 ioctl(8, BINDER_WRITE_READ, 0xffb84d28) = 0
+     0.000118 ioctl(8, BINDER_WRITE_READ, 0xffb84d28) = 0
+     0.000778 ioctl(8, BINDER_WRITE_READ, 0xffb84c68) = 0
+     0.000140 ioctl(8, BINDER_WRITE_READ, 0xffb84c68) = 0
+     0.000178 ioctl(8, BINDER_WRITE_READ, 0xffb84568) = 0
+     0.000150 ioctl(8, BINDER_WRITE_READ, 0xffb84568) = 0
+     0.015516 ioctl(8, BINDER_WRITE_READ, 0xffb84398) = 0
+     0.000114 ioctl(8, BINDER_WRITE_READ, 0xffb84398) = 0
+     0.000163 ioctl(8, BINDER_WRITE_READ, 0xffb84568) = 0
+     0.000090 ioctl(8, BINDER_WRITE_READ, 0xffb84568) = 0
+     0.069346 ioctl(8, BINDER_WRITE_READ, 0xffb84398) = 0
+     0.000258 ioctl(8, BINDER_WRITE_READ, 0xffb84398) = 0
+     0.000135 ioctl(8, BINDER_WRITE_READ, 0xffb84c88) = 0
+     0.000108 ioctl(8, BINDER_WRITE_READ, 0xffb84c88) = 0
+     0.000244 getuid32()                = 10377
+     0.000088 writev(3, [{iov_base="\0\237\7x\375\272^b\311D-", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="cr_CompositorSurfaceMgr\0", iov_len=24}, {iov_base="surfaceCreated format : 0\0", iov_len=26}], 4) = 62
+     0.001101 write(70, "\0", 1)        = 1
+     0.000215 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000098 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000087 futex(0xe1e20050, FUTEX_WAKE, 1) = 0
+     0.000120 sendto(90, "\200\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 128, MSG_NOSIGNAL, NULL, 0) = 128
+     0.000242 sendto(90, "\230\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 152, MSG_NOSIGNAL, NULL, 0) = 152
+     0.001151 write(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000311 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000109 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000123 getuid32()                = 10377
+     0.000076 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=54, u64=54}}, {EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 4
+     0.000119 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000081 recvfrom(33, "nysv\0\0\0\0\311\f\331\373\17\0\0\0'\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000127 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000088 read(54, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000132 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000150 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.001138 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000225 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000399 read(55, "I\327\353\202p\5\267\340\260\243h\221$\252\205^", 16) = 16
+     0.000249 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 170
+     0.000282 fstat64(170, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000161 ioctl(170, ASHMEM_SET_NAME, 0xffb84d80) = 0
+     0.000181 ioctl(170, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x1000) = 0
+     0.001008 fstat64(170, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000182 ioctl(170, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x3) = 0
+     0.000383 ioctl(170, ASHMEM_GET_PROT_MASK, 0x1) = 3
+     0.000217 mmap2(NULL, 144, PROT_READ|PROT_WRITE, MAP_SHARED, 170, 0) = 0xea2f7000
+     0.000262 dup(170)                  = 171
+     0.000205 write(70, "\0", 1)        = 1
+     0.000452 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000250 write(70, "\0", 1)        = 1
+     0.000963 futex(0xcd1ff650, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=128, tv_nsec=770432839}, 0xffffffff) = 0
+     0.070712 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000323 read(55, "\310\1D\7:\377\362 \306I2\333t\316\25y", 16) = 16
+     0.000342 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 171
+     0.000240 fstat64(171, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000142 ioctl(171, ASHMEM_SET_NAME, 0xffb84d80) = 0
+     0.000229 ioctl(171, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x10000) = 0
+     0.000200 fstat64(171, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000409 ioctl(171, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x3) = 0
+     0.000316 ioctl(171, ASHMEM_GET_PROT_MASK, 0x1) = 3
+     0.000257 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_SHARED, 171, 0) = 0xe173e000
+     0.000404 dup(171)                  = 179
+     0.000295 write(70, "\0", 1)        = 1
+     0.000354 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000327 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000312 write(70, "\0", 1)        = 1
+     0.000365 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000568 read(55, "\34n\377\246U\245\325\270\370\353\326\373\351\33\215C", 16) = 16
+     0.001369 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 179
+     0.000217 fstat64(179, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000168 ioctl(179, ASHMEM_SET_NAME, 0xffb84d80) = 0
+     0.000235 ioctl(179, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x10000) = 0
+     0.000165 fstat64(179, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000157 ioctl(179, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x3) = 0
+     0.000324 ioctl(179, ASHMEM_GET_PROT_MASK, 0x1) = 3
+     0.000268 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_SHARED, 179, 0) = 0xe16f6000
+     0.000250 dup(179)                  = 180
+     0.000286 write(70, "\0", 1)        = 1
+     0.002666 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000614 read(55, "@,\331\341h\246\213\26", 8) = 8
+     0.000916 sendto(90, "0\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0>9Y\304\17)\31O"..., 48, MSG_NOSIGNAL, NULL, 0) = 48
+     0.000575 read(55, "\25\217\2547\213F\17\346", 8) = 8
+     0.000894 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000468 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000386 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000434 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000371 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000548 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000348 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000427 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000491 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000284 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000358 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000305 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000491 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000297 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000354 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000398 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000374 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000238 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000260 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000369 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000256 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000397 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000364 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000298 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000462 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000352 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000379 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000370 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000407 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000262 getcpu([2], NULL, NULL)   = 0
+     0.000262 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000627 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000591 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000559 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000426 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000523 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000512 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000600 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001251 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000825 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000254 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000585 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000631 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000246 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000440 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000853 sendto(90, "\330\2\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 728, MSG_NOSIGNAL, NULL, 0) = 728
+     0.002782 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000332 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000564 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000336 futex(0xe1e20050, FUTEX_WAKE, 1) = 0
+     0.000450 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000419 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000323 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000453 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000231 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000558 write(70, "\0", 1)        = 1
+     0.001728 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000750 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000511 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000442 sendto(90, "x\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 120, MSG_NOSIGNAL, NULL, 0) = 120
+     0.000470 sendto(90, "\360\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 240, MSG_NOSIGNAL, NULL, 0) = 240
+     0.000372 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000569 sendto(90, "x\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 120, MSG_NOSIGNAL, NULL, 0) = 120
+     0.000422 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000471 write(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000600 read(53, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000483 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001511 ioctl(8, BINDER_WRITE_READ, 0xffb84128) = 0
+     0.000654 ioctl(8, BINDER_WRITE_READ, 0xffb84128) = 0
+     0.000323 gettimeofday({tv_sec=1589312888, tv_usec=891158}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.000400 ioctl(8, BINDER_WRITE_READ, 0xffb834a8) = 0
+     0.000341 ioctl(8, BINDER_WRITE_READ, 0xffb834a8) = 0
+     0.000361 getuid32()                = 10377
+     0.000283 ioctl(8, BINDER_WRITE_READ, 0xffb83718) = 0
+     0.000292 ioctl(8, BINDER_WRITE_READ, 0xffb83718) = 0
+     0.000471 ioctl(8, BINDER_WRITE_READ, 0xffb83738) = 0
+     0.000185 ioctl(8, BINDER_WRITE_READ, 0xffb83738) = 0
+     0.000598 ioctl(8, BINDER_WRITE_READ, 0xffb836b8) = 0
+     0.000275 ioctl(8, BINDER_WRITE_READ, 0xffb836b8) = 0
+     0.000436 ioctl(8, BINDER_WRITE_READ, 0xffb834d8) = 0
+     0.000344 ioctl(8, BINDER_WRITE_READ, 0xffb834d8) = 0
+     0.000417 ioctl(8, BINDER_WRITE_READ, 0xffb834c8) = 0
+     0.002126 ioctl(8, BINDER_WRITE_READ, 0xffb834c8) = 0
+     0.000818 ioctl(8, BINDER_WRITE_READ, 0xffb834f8) = 0
+     0.000568 ioctl(8, BINDER_WRITE_READ, 0xffb834f8) = 0
+     0.000397 ioctl(8, BINDER_WRITE_READ, 0xffb836e8) = 0
+     0.000292 ioctl(8, BINDER_WRITE_READ, 0xffb836e8) = 0
+     0.000946 ioctl(8, BINDER_WRITE_READ, 0xffb839d8) = 0
+     0.000423 ioctl(8, BINDER_WRITE_READ, 0xffb839d8) = 0
+     0.000260 getuid32()                = 10377
+     0.000478 ioctl(8, BINDER_WRITE_READ, 0xffb83c48) = 0
+     0.000492 ioctl(8, BINDER_WRITE_READ, 0xffb83c48) = 0
+     0.000487 ioctl(8, BINDER_WRITE_READ, 0xffb83c68) = 0
+     0.000496 ioctl(8, BINDER_WRITE_READ, 0xffb83c68) = 0
+     0.000629 gettimeofday({tv_sec=1589312888, tv_usec=904793}, {tz_minuteswest=0, tz_dsttime=0}) = 0
+     0.001452 write(42, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000415 futex(0xca683f30, FUTEX_WAKE, 1) = 1
+     0.000337 futex(0xca683f10, FUTEX_WAKE, 1) = 1
+     0.000378 getuid32()                = 10377
+     0.000176 getuid32()                = 10377
+     0.000355 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.000293 ioctl(8, BINDER_WRITE_READ, 0xffb83988) = 0
+     0.000363 getuid32()                = 10377
+     0.000174 writev(3, [{iov_base="\0\237\7x\375\272^\v1\0306", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="cr_BTSPrefs\0", iov_len=12}, {iov_base="No data found for task id: 53\0", iov_len=30}], 4) = 54
+     0.000486 getuid32()                = 10377
+     0.000522 getuid32()                = 10377
+     0.000345 ioctl(8, BINDER_WRITE_READ, 0xffb839a8) = 0
+     0.000315 ioctl(8, BINDER_WRITE_READ, 0xffb839a8) = 0
+     0.000327 getuid32()                = 10377
+     0.000368 writev(3, [{iov_base="\0\237\7x\375\272^\2506:6", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="cr_BkgrdTaskScheduler\0", iov_len=22}, {iov_base="Task cannot be canceled because "..., iov_len=80}], 4) = 114
+     0.001344 write(70, "\0", 1)        = 1
+     0.000362 write(70, "\0", 1)        = 1
+     0.000533 write(70, "\0", 1)        = 1
+     0.000350 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000350 getuid32()                = 10377
+     0.000266 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 1
+     0.000294 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000453 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=72, tv_nsec=533391000}}, NULL) = 0
+     0.000441 getuid32()                = 10377
+     0.000985 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000831 getuid32()                = 10377
+     0.000227 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000362 recvfrom(39, 0xdf483a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000436 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000333 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000454 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000528 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000402 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000383 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 102, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.002209 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000370 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000309 futex(0xdf4b1cc0, FUTEX_WAIT_BITSET_PRIVATE, 110, NULL, 0xffffffff) = 0
+     0.071747 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000321 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 106, NULL, 0xffffffff) = 0
+     0.030829 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000458 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000973 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000580 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 110, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000409 getuid32()                = 10377
+     0.001449 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1
+     0.000768 recvfrom(33, "nysv\0\0\0\0\3569\277\f\20\0\0\0008\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000933 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000754 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.000935 futex(0xed3efde0, FUTEX_WAKE, 1) = 1
+     0.000747 write(70, "\0", 1)        = 1
+     0.000651 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000654 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000371 futex(0xcdf9ee30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+     0.000000 futex(0xcdf9ee2c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000001 futex(0xdcff8a04, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000000 clock_gettime(CLOCK_BOOTTIME, {tv_sec=69, tv_nsec=35017638}) = 0
+     0.000000 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.004510 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.006215 futex(0xed3efde0, FUTEX_WAKE, 1) = 1
+     0.000416 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000381 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000637 futex(0xed3efe00, FUTEX_WAKE, 1) = 1
+     0.000257 futex(0xed3efde0, FUTEX_WAKE, 1) = 0
+     0.001033 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000283 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000270 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000854 write(70, "\0", 1)        = 1
+     0.000300 futex(0xe1e20050, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000230 futex(0xe1e20050, FUTEX_WAKE, 1) = 0
+     0.000602 write(70, "\0", 1)        = 1
+     0.000731 ioctl(8, BINDER_WRITE_READ, 0xffb84f68) = 0
+     0.000359 ioctl(8, BINDER_WRITE_READ, 0xffb84f68) = 0
+     0.001670 dup(180)                  = 181
+     0.000241 fcntl64(181, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000714 close(180)                = 0
+     0.000544 getuid32()                = 10377
+     0.001022 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 1
+     0.000476 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.002100 clock_gettime(CLOCK_BOOTTIME, {tv_sec=69, tv_nsec=58976577}) = 0
+     0.002318 clock_gettime(CLOCK_BOOTTIME, {tv_sec=69, tv_nsec=61288359}) = 0
+     0.004092 futex(0xcc68abc0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000268 futex(0xcc68ab9c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.002895 read(55, "7\355\370\fs\234m%q\220n_p\370\350\254", 16) = 16
+     0.000677 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000380 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000491 read(55, "\2718\342\200\241\252\375M\21\34J\317q\217\334\242", 16) = 16
+     0.000311 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 180
+     0.000680 fstat64(180, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000362 ioctl(180, ASHMEM_SET_NAME, 0xffb84d80) = 0
+     0.000343 ioctl(180, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x13b000) = 0
+     0.000371 fstat64(180, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000309 ioctl(180, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x3) = 0
+     0.000552 ioctl(180, ASHMEM_GET_PROT_MASK, 0x1) = 3
+     0.000422 mmap2(NULL, 1290240, PROT_READ|PROT_WRITE, MAP_SHARED, 180, 0) = 0xc7e45000
+     0.000476 ioctl(180, ASHMEM_GET_PROT_MASK, 0) = 3
+     0.000391 fstat64(180, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000439 ioctl(180, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x1) = 0
+     0.000341 dup(180)                  = 183
+     0.000472 write(70, "\0", 1)        = 1
+     0.000420 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.001574 write(70, "\0", 1)        = 1
+     0.000492 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000342 close(139)                = 0
+     0.000337 munmap(0xc8f00000, 1048576) = 0
+     0.001066 close(180)                = 0
+     0.001629 munmap(0xc7e45000, 1290240) = 0
+     0.000535 read(55, "\211\254TB\202\304\277w\27\20T[\246\350\256\212", 16) = 16
+     0.000379 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000420 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000499 read(55, "\312\233Z\266t%\377K\0r\234b\250\344\330\346", 16) = 16
+     0.006951 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 139
+     0.000388 fstat64(139, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000299 ioctl(139, ASHMEM_SET_NAME, 0xffb84d80) = 0
+     0.000310 ioctl(139, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x100000) = 0
+     0.000322 fstat64(139, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000223 ioctl(139, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x3) = 0
+     0.000558 ioctl(139, ASHMEM_GET_PROT_MASK, 0x1) = 3
+     0.000349 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_SHARED, 139, 0) = 0xc8f00000
+     0.000309 ioctl(139, ASHMEM_GET_PROT_MASK, 0) = 3
+     0.000222 fstat64(139, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000222 ioctl(139, _IOC(_IOC_WRITE, 0x77, 0x5, 0x4), 0x1) = 0
+     0.000242 dup(139)                  = 180
+     0.000244 write(70, "\0", 1)        = 1
+     0.000281 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000178 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000371 write(70, "\0", 1)        = 1
+     0.000178 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000156 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000538 read(55, "\2661\361\3\270c\25\307\201x\251\344\30\341\220(", 16) = 16
+     0.000433 read(55, " \353\17\36\27\200\320\373\341:^\236\304e\252\315", 16) = 16
+     0.002851 write(70, "\0", 1)        = 1
+     0.001075 write(70, "\0", 1)        = 1
+     0.002055 futex(0xcd1ff4a8, FUTEX_WAIT_BITSET_PRIVATE, 0, {tv_sec=129, tv_nsec=101848946}, 0xffffffff) = 0
+     0.001167 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000221 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.002852 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.002885 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000536 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000225 sendto(90, "\300#\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 9152, MSG_NOSIGNAL, NULL, 0) = 9152
+     0.007182 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000677 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000292 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000702 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000459 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000977 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000359 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000373 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.000334 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000303 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000512 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000204 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000439 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000282 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.000424 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000485 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000920 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.000733 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000630 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000403 getuid32()                = 10377
+     0.000425 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 0, NULL, 8) = 1
+     0.000253 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000357 ioctl(8, BINDER_WRITE_READ, 0xffb84ac8) = 0
+     0.000520 ioctl(8, BINDER_WRITE_READ, 0xffb84ac8) = 0
+     0.000362 getuid32()                = 10377
+     0.000204 ioctl(8, BINDER_WRITE_READ, 0xffb847e8) = 0
+     0.000507 ioctl(8, BINDER_WRITE_READ, 0xffb847e8) = 0
+     0.000339 getuid32()                = 10377
+     0.000333 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000435 getuid32()                = 10377
+     0.000313 ioctl(8, BINDER_WRITE_READ, 0xffb84808) = 0
+     0.000405 ioctl(8, BINDER_WRITE_READ, 0xffb84808) = 0
+     0.000387 getuid32()                = 10377
+     0.000296 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000464 getuid32()                = 10377
+     0.000337 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000311 recvfrom(39, 0xdf483a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000334 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001170 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000540 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000673 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000344 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.002793 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 114, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000287 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.006053 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.002378 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.000265 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.000554 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000323 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000162 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000170 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 118, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000366 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000279 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000244 futex(0xdf4b1cc0, FUTEX_WAIT_BITSET_PRIVATE, 114, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000309 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000891 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 122, NULL, 0xffffffff) = 0
+     0.017478 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000258 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000460 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000411 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 126, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000614 getuid32()                = 10377
+     0.000245 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1
+     0.000536 recvfrom(33, "nysv\0\0\0\0\371\276\252\31\20\0\0\0E\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000317 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000341 getuid32()                = 10377
+     0.000291 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000314 getuid32()                = 10377
+     0.000207 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000368 getuid32()                = 10377
+     0.000732 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000236 getuid32()                = 10377
+     0.000247 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000289 getuid32()                = 10377
+     0.000320 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000312 getuid32()                = 10377
+     0.000223 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000340 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000326 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000243 getuid32()                = 10377
+     0.000435 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000333 ioctl(8, BINDER_WRITE_READ, 0xffb84ff8) = 0
+     0.000446 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000336 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1968, NULL, 8) = 1
+     0.006861 recvfrom(33, "nysv\0\0\0\0M_\247\33\20\0\0\0G\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000353 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000293 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000379 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000269 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000380 getuid32()                = 10377
+     0.000433 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000250 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000333 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1959, NULL, 8) = 1
+     0.013811 recvfrom(33, "nysv\0\0\0\0w\257\245\34\20\0\0\0H\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000415 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000377 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000401 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000328 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000465 getuid32()                = 10377
+     0.000313 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000323 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000397 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1942, NULL, 8) = 1
+     0.013592 recvfrom(33, "nysv\0\0\0\0\241\377\243\35\20\0\0\0I\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000480 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000340 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000331 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000639 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000457 getuid32()                = 10377
+     0.000968 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000499 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000431 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1924, NULL, 8) = 1
+     0.012582 recvfrom(33, "nysv\0\0\0\0\313O\242\36\20\0\0\0J\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000512 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000483 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000436 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000623 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000330 getuid32()                = 10377
+     0.000461 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000387 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000247 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1908, NULL, 8) = 1
+     0.013445 recvfrom(33, "nysv\0\0\0\0\214\320\240\37\20\0\0\0K\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000380 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001212 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001258 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000311 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000384 getuid32()                = 10377
+     0.000291 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000354 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000280 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 1890, NULL, 8) = 1
+     0.008263 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000611 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000726 ioctl(8, BINDER_WRITE_READ, 0xffb831c8) = 0
+     0.000279 ioctl(8, BINDER_WRITE_READ, 0xffb831c8) = 0
+     0.001194 getuid32()                = 10377
+     0.000838 writev(3, [{iov_base="\0\237\7y\375\272^i\274\343\17", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="BpSurfaceComposerClient\0", iov_len=24}, {iov_base="Failed to transact (-1)\0", iov_len=24}], 4) = 60
+     0.000624 ioctl(8, BINDER_WRITE_READ, 0xffb833c8) = 0
+     0.000326 ioctl(8, BINDER_WRITE_READ, 0xffb831e8) = 0
+     0.000342 ioctl(8, BINDER_WRITE_READ, 0xffb831e8) = 0
+     0.000585 getuid32()                = 10377
+     0.000632 writev(3, [{iov_base="\0\237\7y\375\272^)\213\r\20", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="BpSurfaceComposerClient\0", iov_len=24}, {iov_base="Failed to transact (-1)\0", iov_len=24}], 4) = 60
+     0.000429 ioctl(8, BINDER_WRITE_READ, 0xffb833e8) = 0
+     0.000442 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000316 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000394 ioctl(8, BINDER_WRITE_READ, 0xffb83728) = 0
+     0.001945 ioctl(8, BINDER_WRITE_READ, 0xffb83728) = 0
+     0.000770 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001103 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000717 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.001243 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001685 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000442 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000342 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000588 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000240 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000381 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000411 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000240 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000249 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000261 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000290 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000846 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001402 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001251 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000603 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000748 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000337 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000616 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000403 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000313 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000666 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000428 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000827 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000232 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000222 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000799 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000491 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000257 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000253 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000401 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000207 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.001034 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000404 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000923 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001555 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000380 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000218 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000359 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000456 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000169 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000360 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000179 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000494 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001533 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000367 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000210 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000375 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000353 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000349 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000347 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000605 sendto(90, "h#\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 9064, MSG_NOSIGNAL, NULL, 0) = 9064
+     0.001703 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.001400 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000165 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.000238 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.000281 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 0
+     0.000335 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000167 ioctl(8, BINDER_WRITE_READ, 0xffb85208) = 0
+     0.000130 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}, {EPOLLIN, {u32=33, u64=33}}], 16, -1, NULL, 8) = 2
+     0.000164 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000179 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=69, tv_nsec=317055000}}, NULL) = 0
+     0.000162 recvfrom(33, "nysv\0\0\0\0\266 \237 \20\0\0\0L\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000160 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000146 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000149 recvfrom(39, 0xdf483a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000157 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000125 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000170 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000166 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000144 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000290 futex(0xdf4b1d30, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000165 futex(0xdf4b1d34, FUTEX_WAIT_BITSET_PRIVATE, 130, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000212 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.000137 ioctl(8, BINDER_WRITE_READ, 0xffb84d98) = 0
+     0.000930 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.001493 ioctl(8, BINDER_WRITE_READ, 0xffb84bc8) = 0
+     0.000455 write(35, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000233 futex(0xed3b2728, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000288 futex(0xdf4b1cc0, FUTEX_WAIT_BITSET_PRIVATE, 118, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000521 getuid32()                = 10377
+     0.000315 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+     0.000240 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000292 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000428 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.001070 sendto(90, "h\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 104, MSG_NOSIGNAL, NULL, 0) = 104
+     0.000616 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000764 ioctl(8, BINDER_WRITE_READ, 0xffb84fb8) = 0
+     0.000272 getuid32()                = 10377
+     0.000249 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}, {EPOLLIN, {u32=54, u64=54}}, {EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 3
+     0.000243 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000406 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=72, tv_nsec=533391000}}, NULL) = 0
+     0.000476 read(54, 0xcd1ffee8, 8)   = -1 EAGAIN (Try again)
+     0.000849 timerfd_settime(54, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=72, tv_nsec=533391000}}, NULL) = 0
+     0.000283 recvfrom(33, "nysv\0\0\0\0)l\232#\20\0\0\0O\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000283 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000478 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000252 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000338 getuid32()                = 10377
+     0.000339 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000382 getuid32()                = 10377
+     0.000382 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000314 getuid32()                = 10377
+     0.000247 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000288 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1820, NULL, 8) = 1
+     0.009231 recvfrom(33, "nysv\0\0\0\0S\274\230$\20\0\0\0P\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000296 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000330 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000330 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000352 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000464 getuid32()                = 10377
+     0.000284 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000381 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000290 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 1808, NULL, 8) = 1
+     0.006246 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000899 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000478 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 1801, NULL, 8) = 1
+     0.000248 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000359 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}], 16, 1800, NULL, 8) = 1
+     0.003811 read(53, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000448 madvise(0xc93db000, 20480, MADV_DONTNEED) = 0
+     0.000935 madvise(0xc8bfc000, 12288, MADV_DONTNEED) = 0
+     0.005028 futex(0xe1fbccbc, FUTEX_WAKE, 2147483647) = 1
+     0.000595 futex(0xe1e2007c, FUTEX_WAIT, 2, NULL) = -1 EAGAIN (Try again)
+     0.000497 futex(0xe1e2007c, FUTEX_WAKE, 1) = 0
+     0.001017 sendto(90, "\220\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0031\220]6_\203 "..., 144, MSG_NOSIGNAL, NULL, 0) = 144
+     0.000611 write(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.001259 epoll_pwait(29, [{EPOLLIN, {u32=53, u64=53}}, {EPOLLIN, {u32=33, u64=33}}], 16, 1787, NULL, 8) = 2
+     0.000272 read(53, "\0\0\0\0\1\0\0\0", 8) = 8
+     0.000216 recvfrom(33, "nysv\0\0\0\0}\f\227%\20\0\0\0Q\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000842 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000407 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000398 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000409 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000539 getuid32()                = 10377
+     0.000433 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000520 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000390 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1782, NULL, 8) = 1
+     0.004295 recvfrom(33, "nysv\0\0\0\0\247\\\225&\20\0\0\0R\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000367 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000337 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001782 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000442 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000401 getuid32()                = 10377
+     0.000507 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000353 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000433 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1773, NULL, 8) = 1
+     0.013002 recvfrom(33, "nysv\0\0\0\0\321\254\223'\20\0\0\0S\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001232 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000572 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000781 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000569 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000934 getuid32()                = 10377
+     0.001010 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000546 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000340 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1754, NULL, 8) = 1
+     0.010305 recvfrom(33, "nysv\0\0\0\0\373\374\221(\20\0\0\0T\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001173 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000335 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000574 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000638 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000424 getuid32()                = 10377
+     0.000382 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000150 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001421 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1738, NULL, 8) = 1
+     0.011431 recvfrom(33, "nysv\0\0\0\0%M\220)\20\0\0\0U\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000096 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000000 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000001 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.004825 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000480 getuid32()                = 10377
+     0.000495 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000489 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000774 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1720, NULL, 8) = 1
+     0.009025 recvfrom(33, "nysv\0\0\0\0O\235\216*\20\0\0\0V\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000510 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000704 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001453 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000370 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000698 getuid32()                = 10377
+     0.000738 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000709 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000305 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1705, NULL, 8) = 1
+     0.010036 recvfrom(33, "nysv\0\0\0\0y\355\214+\20\0\0\0W\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000001 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.005457 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000530 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000673 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000340 getuid32()                = 10377
+     0.000515 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000748 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000520 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1686, NULL, 8) = 1
+     0.009189 recvfrom(33, "nysv\0\0\0\0\243=\213,\20\0\0\0X\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000834 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001005 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000692 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000872 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000635 getuid32()                = 10377
+     0.000653 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000407 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000545 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1672, NULL, 8) = 1
+     0.014234 recvfrom(33, "nysv\0\0\0\0\367\304\210-\20\0\0\0Y\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000448 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000550 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000594 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000443 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000579 getuid32()                = 10377
+     0.000553 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000572 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000732 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1653, NULL, 8) = 1
+     0.008126 recvfrom(33, "nysv\0\0\0\0!\25\207.\20\0\0\0Z\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000534 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000731 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000746 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000564 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000490 getuid32()                = 10377
+     0.000504 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000421 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000456 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1640, NULL, 8) = 1
+     0.012786 recvfrom(33, "nysv\0\0\0\0Ke\205/\20\0\0\0[\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000398 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000844 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001140 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000714 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000646 getuid32()                = 10377
+     0.000520 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000854 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001130 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1622, NULL, 8) = 1
+     0.009646 recvfrom(33, "nysv\0\0\0\0u\265\2030\20\0\0\0\\\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000325 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000423 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000451 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000451 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000512 getuid32()                = 10377
+     0.000458 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000353 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000531 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1608, NULL, 8) = 1
+     0.013737 recvfrom(33, "nysv\0\0\0\0\237\5\2021\20\0\0\0]\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000499 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000779 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000959 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001955 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.001001 getuid32()                = 10377
+     0.000364 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000593 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000354 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1588, NULL, 8) = 1
+     0.009500 recvfrom(33, "nysv\0\0\0\0\311U\2002\20\0\0\0^\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000182 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000168 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000136 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000099 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000110 getuid32()                = 10377
+     0.000055 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000146 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000099 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1577, NULL, 8) = 1
+     0.015843 recvfrom(33, "nysv\0\0\0\0\300\314~3\20\0\0\0_\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000124 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000190 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000066 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000199 getuid32()                = 10377
+     0.000057 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000087 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000075 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1560, NULL, 8) = 1
+     0.015655 recvfrom(33, "nysv\0\0\0\0\215C}4\20\0\0\0`\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000186 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000192 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000190 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000087 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000222 getuid32()                = 10377
+     0.000105 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000148 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000145 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1544, NULL, 8) = 1
+     0.015213 recvfrom(33, "nysv\0\0\0\0\256\301{5\20\0\0\0a\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000093 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000173 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000108 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000084 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000172 getuid32()                = 10377
+     0.000077 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000095 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000085 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1527, NULL, 8) = 1
+     0.015878 recvfrom(33, "nysv\0\0\0\0\330\21z6\20\0\0\0b\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000103 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000144 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000128 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000099 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000326 getuid32()                = 10377
+     0.000152 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000258 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000209 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1510, NULL, 8) = 1
+     0.015213 recvfrom(33, "nysv\0\0\0\0\2bx7\20\0\0\0c\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000112 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000232 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000188 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000103 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000205 getuid32()                = 10377
+     0.000137 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000121 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000147 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1494, NULL, 8) = 1
+     0.015500 recvfrom(33, "nysv\0\0\0\0,\262v8\20\0\0\0d\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000115 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000142 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000138 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000127 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000286 getuid32()                = 10377
+     0.000052 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000057 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000056 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1477, NULL, 8) = 1
+     0.015842 recvfrom(33, "nysv\0\0\0\0V\2u9\20\0\0\0e\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000166 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000187 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000152 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000092 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000218 getuid32()                = 10377
+     0.000100 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000057 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000081 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1460, NULL, 8) = 1
+     0.016642 recvfrom(33, "nysv\0\0\0\0\200Rs:\20\0\0\0f\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000138 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000107 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000113 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000060 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000105 getuid32()                = 10377
+     0.000129 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000048 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000078 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1443, NULL, 8) = 1
+     0.014614 recvfrom(33, "nysv\0\0\0\0\252\242q;\20\0\0\0g\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000095 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000167 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000152 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000071 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000112 getuid32()                = 10377
+     0.000107 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000076 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000041 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1427, NULL, 8) = 1
+     0.015854 recvfrom(33, "nysv\0\0\0\0\352\34p<\20\0\0\0h\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000076 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000083 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000198 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000106 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000124 getuid32()                = 10377
+     0.000070 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000143 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000067 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1411, NULL, 8) = 1
+     0.015821 recvfrom(33, "nysv\0\0\0\0\24mn=\20\0\0\0i\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000091 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000132 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000112 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000080 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000187 getuid32()                = 10377
+     0.000125 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000069 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000074 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1394, NULL, 8) = 1
+     0.015980 recvfrom(33, "nysv\0\0\0\0>\275l>\20\0\0\0j\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000128 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000102 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000228 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000064 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000171 getuid32()                = 10377
+     0.000065 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000078 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000103 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1377, NULL, 8) = 1
+     0.015968 recvfrom(33, "nysv\0\0\0\0h\rk?\20\0\0\0k\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000099 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000082 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000114 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000158 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000150 getuid32()                = 10377
+     0.000051 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000057 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000101 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1360, NULL, 8) = 1
+     0.015473 recvfrom(33, "nysv\0\0\0\0\222]i@\20\0\0\0l\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000077 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000111 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000241 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000106 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000150 getuid32()                = 10377
+     0.000121 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000077 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000075 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1344, NULL, 8) = 1
+     0.015620 recvfrom(33, "nysv\0\0\0\0\274\255gA\20\0\0\0m\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000195 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000174 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000201 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000155 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000172 getuid32()                = 10377
+     0.000156 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000155 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000143 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1327, NULL, 8) = 1
+     0.015385 recvfrom(33, "nysv\0\0\0\0\346\375eB\20\0\0\0n\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000102 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000096 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000176 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000280 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000157 getuid32()                = 10377
+     0.000113 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000204 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000113 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1310, NULL, 8) = 1
+     0.015622 recvfrom(33, "nysv\0\0\0\0\20NdC\20\0\0\0o\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000000 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000000 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000000 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000000 getuid32()                = 10377
+     0.000000 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000000 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000000 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1295, NULL, 8) = 1
+     0.016512 recvfrom(33, "nysv\0\0\0\0:\236bD\20\0\0\0p\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000072 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000059 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000138 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000113 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000098 getuid32()                = 10377
+     0.000071 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000070 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000209 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1277, NULL, 8) = 1
+     0.015980 recvfrom(33, "nysv\0\0\0\0d\356`E\20\0\0\0q\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000106 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000086 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000124 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000181 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000179 getuid32()                = 10377
+     0.000211 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000138 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000084 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1260, NULL, 8) = 1
+     0.015468 recvfrom(33, "nysv\0\0\0\0\216>_F\20\0\0\0r\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000096 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000075 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000282 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000143 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000180 getuid32()                = 10377
+     0.000157 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000105 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000059 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1244, NULL, 8) = 1
+     0.015701 recvfrom(33, "nysv\0\0\0\0\270\216]G\20\0\0\0s\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000140 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000142 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000277 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000203 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.001109 getuid32()                = 10377
+     0.000104 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000171 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000113 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1226, NULL, 8) = 1
+     0.014262 recvfrom(33, "nysv\0\0\0\0\342\336[H\20\0\0\0t\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000082 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000071 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000181 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000131 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000489 getuid32()                = 10377
+     0.000155 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000147 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000170 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1210, NULL, 8) = 1
+     0.015920 recvfrom(33, "nysv\0\0\0\0\f/ZI\20\0\0\0u\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000136 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000171 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000272 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000271 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000343 getuid32()                = 10377
+     0.000190 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000190 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000192 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1192, NULL, 8) = 1
+     0.017758 recvfrom(33, "nysv\0\0\0\0\320\316WJ\20\0\0\0v\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000107 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000118 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000167 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000095 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000166 getuid32()                = 10377
+     0.000149 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000113 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000124 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1174, NULL, 8) = 1
+     0.011950 recvfrom(33, "nysv\0\0\0\0\372\36VK\20\0\0\0w\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000092 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000130 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000161 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000107 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000174 getuid32()                = 10377
+     0.000052 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000132 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000147 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1161, NULL, 8) = 1
+     0.015753 recvfrom(33, "nysv\0\0\0\0$oTL\20\0\0\0x\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000177 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000135 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000236 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000126 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000433 getuid32()                = 10377
+     0.000347 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000106 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000079 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1143, NULL, 8) = 1
+     0.015092 recvfrom(33, "nysv\0\0\0\0*\347RM\20\0\0\0y\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000142 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000124 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000180 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000371 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000306 getuid32()                = 10377
+     0.000176 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000242 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000108 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1127, NULL, 8) = 1
+     0.015003 recvfrom(33, "nysv\0\0\0\0T7QN\20\0\0\0z\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000184 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000190 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000213 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000269 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000303 getuid32()                = 10377
+     0.000164 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000116 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000163 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1110, NULL, 8) = 1
+     0.014962 recvfrom(33, "nysv\0\0\0\0'\266OO\20\0\0\0{\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000191 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000208 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000330 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000239 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000422 getuid32()                = 10377
+     0.000293 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000361 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000207 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1093, NULL, 8) = 1
+     0.014428 recvfrom(33, "nysv\0\0\0\0Q\6NP\20\0\0\0|\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000176 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000149 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000253 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000406 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000289 getuid32()                = 10377
+     0.000130 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000195 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000114 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1077, NULL, 8) = 1
+     0.015362 recvfrom(33, "nysv\0\0\0\0jjLQ\20\0\0\0}\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000138 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000128 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000152 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000161 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000200 getuid32()                = 10377
+     0.000092 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000094 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000109 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1060, NULL, 8) = 1
+     0.015345 recvfrom(33, "nysv\0\0\0\0\224\272JR\20\0\0\0~\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000213 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000184 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000254 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000190 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000313 getuid32()                = 10377
+     0.000283 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000195 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000177 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1043, NULL, 8) = 1
+     0.014626 recvfrom(33, "nysv\0\0\0\0\276\nIS\20\0\0\0\177\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000076 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000140 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000258 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000124 getuid32()                = 10377
+     0.000173 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000119 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000094 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1027, NULL, 8) = 1
+     0.015772 recvfrom(33, "nysv\0\0\0\0\361\215GT\20\0\0\0\200\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000172 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000169 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000199 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000126 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000174 getuid32()                = 10377
+     0.000123 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000084 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000115 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 1010, NULL, 8) = 1
+     0.015306 recvfrom(33, "nysv\0\0\0\0\33\336EU\20\0\0\0\201\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000148 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000091 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000176 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000130 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000280 getuid32()                = 10377
+     0.000106 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000097 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000219 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 994, NULL, 8) = 1
+     0.015335 recvfrom(33, "nysv\0\0\0\0\350\\DV\20\0\0\0\202\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000157 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000115 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000119 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000064 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000115 getuid32()                = 10377
+     0.000084 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000088 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000082 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 978, NULL, 8) = 1
+     0.015827 recvfrom(33, "nysv\0\0\0\0\22\255BW\20\0\0\0\203\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000118 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000108 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000186 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000107 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000165 getuid32()                = 10377
+     0.000070 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000104 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000078 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 961, NULL, 8) = 1
+     0.015919 recvfrom(33, "nysv\0\0\0\0<\375@X\20\0\0\0\204\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000177 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000155 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000185 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000202 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000156 getuid32()                = 10377
+     0.000070 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000102 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000066 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 944, NULL, 8) = 1
+     0.015385 recvfrom(33, "nysv\0\0\0\0fM?Y\20\0\0\0\205\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000091 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000099 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000145 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000094 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000220 getuid32()                = 10377
+     0.000165 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000098 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000237 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 927, NULL, 8) = 1
+     0.018868 recvfrom(33, "nysv\0\0\0\0\362\5=Z\20\0\0\0\206\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000078 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000071 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000094 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000108 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000090 getuid32()                = 10377
+     0.000112 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000086 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000074 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 908, NULL, 8) = 1
+     0.012885 recvfrom(33, "nysv\0\0\0\0\34V;[\20\0\0\0\207\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000063 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000060 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000103 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000060 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000081 getuid32()                = 10377
+     0.000041 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000101 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000085 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 894, NULL, 8) = 1
+     0.017206 recvfrom(33, "nysv\0\0\0\0F\2469\\\20\0\0\0\210\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000095 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000076 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000205 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000109 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000313 getuid32()                = 10377
+     0.000096 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000140 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000142 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 876, NULL, 8) = 1
+     0.014272 recvfrom(33, "nysv\0\0\0\0p\3667]\20\0\0\0\211\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000181 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000180 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000321 getuid32()                = 10377
+     0.000127 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000081 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000070 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 860, NULL, 8) = 1
+     0.015391 recvfrom(33, "nysv\0\0\0\0\232F6^\20\0\0\0\212\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000142 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000172 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000389 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000166 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000335 getuid32()                = 10377
+     0.000116 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000103 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000180 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 843, NULL, 8) = 1
+     0.015071 recvfrom(33, "nysv\0\0\0\0\304\2264_\20\0\0\0\213\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000115 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000127 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000210 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000165 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000147 getuid32()                = 10377
+     0.000105 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000099 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000131 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 827, NULL, 8) = 1
+     0.015618 recvfrom(33, "nysv\0\0\0\0\356\3462`\20\0\0\0\214\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000138 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000102 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000255 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000270 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000174 getuid32()                = 10377
+     0.000112 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000118 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000107 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 810, NULL, 8) = 1
+     0.022425 recvfrom(33, "nysv\0\0\0\0\03071a\20\0\0\0\215\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000069 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000057 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000094 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000104 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000086 getuid32()                = 10377
+     0.000082 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000058 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000059 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 787, NULL, 8) = 1
+     0.008760 recvfrom(33, "nysv\0\0\0\0B\207/b\20\0\0\0\216\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000079 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000065 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000162 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000129 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000238 getuid32()                = 10377
+     0.000128 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000095 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000208 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 777, NULL, 8) = 1
+     0.015826 recvfrom(33, "nysv\0\0\0\0l\327-c\20\0\0\0\217\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000194 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000109 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000285 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000207 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000134 getuid32()                = 10377
+     0.000141 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000142 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000119 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 760, NULL, 8) = 1
+     0.015404 recvfrom(33, "nysv\0\0\0\0\226',d\20\0\0\0\220\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001023 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000255 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000287 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000187 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000379 getuid32()                = 10377
+     0.000174 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000201 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000164 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 742, NULL, 8) = 1
+     0.013988 recvfrom(33, "nysv\0\0\0\0\300w*e\20\0\0\0\221\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000209 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000284 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000343 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000155 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000424 getuid32()                = 10377
+     0.000184 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000109 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000178 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 726, NULL, 8) = 1
+     0.014738 recvfrom(33, "nysv\0\0\0\0\352\307(f\20\0\0\0\222\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000136 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000105 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000145 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000140 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000111 getuid32()                = 10377
+     0.000096 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000064 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 711, NULL, 8) = 1
+     0.015638 recvfrom(33, "nysv\0\0\0\0\227C'g\20\0\0\0\223\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000129 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000219 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000204 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000154 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000143 getuid32()                = 10377
+     0.000140 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000109 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000122 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 694, NULL, 8) = 1
+     0.015435 recvfrom(33, "nysv\0\0\0\0\301\223%h\20\0\0\0\224\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000159 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000075 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000255 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000154 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.001497 getuid32()                = 10377
+     0.000166 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000157 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000450 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 675, NULL, 8) = 1
+     0.013807 recvfrom(33, "nysv\0\0\0\0_\10$i\20\0\0\0\225\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000138 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000084 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000150 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000092 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000129 getuid32()                = 10377
+     0.000083 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000054 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000076 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 661, NULL, 8) = 1
+     0.015718 recvfrom(33, "nysv\0\0\0\0J\206\"j\20\0\0\0\226\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000121 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000094 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000207 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000331 getuid32()                = 10377
+     0.000073 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000078 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000086 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 644, NULL, 8) = 1
+     0.015709 recvfrom(33, "nysv\0\0\0\0R\377 k\20\0\0\0\227\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000167 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000200 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000136 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000108 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000188 getuid32()                = 10377
+     0.000162 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000120 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000156 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 627, NULL, 8) = 1
+     0.015320 recvfrom(33, "nysv\0\0\0\0\352|\37l\20\0\0\0\230\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000197 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000174 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000165 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000158 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000196 getuid32()                = 10377
+     0.000128 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000169 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000153 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 610, NULL, 8) = 1
+     0.015254 recvfrom(33, "nysv\0\0\0\0\24\315\35m\20\0\0\0\231\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000140 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000102 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000165 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000112 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000106 getuid32()                = 10377
+     0.000053 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000090 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000127 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 594, NULL, 8) = 1
+     0.015784 recvfrom(33, "nysv\0\0\0\0>\35\34n\20\0\0\0\232\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000088 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000065 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000141 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000123 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000098 getuid32()                = 10377
+     0.000097 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000080 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000044 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 578, NULL, 8) = 1
+     0.016141 recvfrom(33, "nysv\0\0\0\0hm\32o\20\0\0\0\233\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000225 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000121 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000265 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000152 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000108 getuid32()                = 10377
+     0.000165 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000071 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000072 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 560, NULL, 8) = 1
+     0.015429 recvfrom(33, "nysv\0\0\0\0\222\275\30p\20\0\0\0\234\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000202 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000166 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000219 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000134 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000243 getuid32()                = 10377
+     0.000116 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000155 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000134 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 544, NULL, 8) = 1
+     0.017525 recvfrom(33, "nysv\0\0\0\0\274\r\27q\20\0\0\0\235\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000186 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000223 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000343 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000165 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000269 getuid32()                = 10377
+     0.000228 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000188 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000162 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 524, NULL, 8) = 1
+     0.012646 recvfrom(33, "nysv\0\0\0\0\346]\25r\20\0\0\0\236\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000121 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000082 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000138 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000122 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000106 getuid32()                = 10377
+     0.000048 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000110 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000297 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 511, NULL, 8) = 1
+     0.015884 recvfrom(33, "nysv\0\0\0\0\20\256\23s\20\0\0\0\237\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000137 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000127 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000204 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000121 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000191 getuid32()                = 10377
+     0.000137 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000184 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000232 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 494, NULL, 8) = 1
+     0.015679 recvfrom(33, "nysv\0\0\0\0:\376\21t\20\0\0\0\240\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000125 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000197 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000135 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000081 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000145 getuid32()                = 10377
+     0.000076 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000120 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000144 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 477, NULL, 8) = 1
+     0.015083 recvfrom(33, "nysv\0\0\0\0dN\20u\20\0\0\0\241\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000232 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000173 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000218 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000150 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000215 getuid32()                = 10377
+     0.000082 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000112 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000138 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 460, NULL, 8) = 1
+     0.015994 recvfrom(33, "nysv\0\0\0\0\216\236\16v\20\0\0\0\242\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000167 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000110 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000163 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000131 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000212 getuid32()                = 10377
+     0.000112 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000127 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000123 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 443, NULL, 8) = 1
+     0.015660 recvfrom(33, "nysv\0\0\0\0\242\363\fw\20\0\0\0\243\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000196 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000154 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000259 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000158 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000236 getuid32()                = 10377
+     0.000118 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000125 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000137 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 426, NULL, 8) = 1
+     0.018899 recvfrom(33, "nysv\0\0\0\0\337]\nx\20\0\0\0\244\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000502 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000288 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.001658 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000160 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000194 getuid32()                = 10377
+     0.000125 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000155 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 404, NULL, 8) = 1
+     0.008934 recvfrom(33, "nysv\0\0\0\0\t\256\10y\20\0\0\0\245\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000115 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000087 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000183 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000137 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000227 getuid32()                = 10377
+     0.000139 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000097 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000095 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 394, NULL, 8) = 1
+     0.016018 recvfrom(33, "nysv\0\0\0\0H\20\7z\20\0\0\0\246\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000121 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000104 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000176 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000110 getuid32()                = 10377
+     0.000110 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000080 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000113 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 377, NULL, 8) = 1
+     0.015289 recvfrom(33, "nysv\0\0\0\0\335\213\5{\20\0\0\0\247\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000141 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000174 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000176 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000125 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000122 getuid32()                = 10377
+     0.000045 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000131 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000095 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 361, NULL, 8) = 1
+     0.015635 recvfrom(33, "nysv\0\0\0\0\7\334\3|\20\0\0\0\250\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000096 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000084 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000222 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000192 getuid32()                = 10377
+     0.000146 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000371 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000129 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 344, NULL, 8) = 1
+     0.017188 recvfrom(33, "nysv\0\0\0\0\22\355\1}\20\0\0\0\251\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000151 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000172 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000182 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000125 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000198 getuid32()                = 10377
+     0.000344 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000095 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000141 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 325, NULL, 8) = 1
+     0.013376 recvfrom(33, "nysv\0\0\0\0<=\0~\20\0\0\0\252\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000176 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000131 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000347 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000172 getuid32()                = 10377
+     0.000160 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000099 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000194 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 310, NULL, 8) = 1
+     0.015382 recvfrom(33, "nysv\0\0\0\0f\215\376~\20\0\0\0\253\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000183 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000137 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000349 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000121 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000176 getuid32()                = 10377
+     0.000071 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000076 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000077 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 294, NULL, 8) = 1
+     0.015324 recvfrom(33, "nysv\0\0\0\0\220\335\374\177\20\0\0\0\254\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000129 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000099 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000142 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000249 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000236 getuid32()                = 10377
+     0.000150 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000075 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000077 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 277, NULL, 8) = 1
+     0.015622 recvfrom(33, "nysv\0\0\0\0\272-\373\200\20\0\0\0\255\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000304 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000119 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000189 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000108 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000205 getuid32()                = 10377
+     0.000058 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000099 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000094 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 260, NULL, 8) = 1
+     0.015476 recvfrom(33, "nysv\0\0\0\0\344}\371\201\20\0\0\0\256\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000127 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000124 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000151 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000106 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000224 getuid32()                = 10377
+     0.000203 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000181 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000125 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 244, NULL, 8) = 1
+     0.015382 recvfrom(33, "nysv\0\0\0\0?\367\367\202\20\0\0\0\257\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000086 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000085 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000155 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000126 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000102 getuid32()                = 10377
+     0.000064 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000111 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000106 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 228, NULL, 8) = 1
+     0.015864 recvfrom(33, "nysv\0\0\0\0iG\366\203\20\0\0\0\260\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000145 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000125 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000131 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000128 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000194 getuid32()                = 10377
+     0.000109 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000211 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000159 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 210, NULL, 8) = 1
+     0.015576 recvfrom(33, "nysv\0\0\0\0\223\227\364\204\20\0\0\0\261\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000175 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000197 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000197 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000325 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000146 getuid32()                = 10377
+     0.000105 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000094 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000194 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 193, NULL, 8) = 1
+     0.020416 recvfrom(33, "nysv\0\0\0\0\244\354\361\205\20\0\0\0\262\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000141 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000098 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000133 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000086 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000083 getuid32()                = 10377
+     0.000038 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000077 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000045 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 172, NULL, 8) = 1
+     0.010572 recvfrom(33, "nysv\0\0\0\0\316<\360\206\20\0\0\0\263\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000110 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000185 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000155 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000084 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000181 getuid32()                = 10377
+     0.000090 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000067 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000093 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 161, NULL, 8) = 1
+     0.015648 recvfrom(33, "nysv\0\0\0\0\370\214\356\207\20\0\0\0\264\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000128 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000105 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000176 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000217 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000127 getuid32()                = 10377
+     0.000234 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000069 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000069 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 144, NULL, 8) = 1
+     0.015678 recvfrom(33, "nysv\0\0\0\0\"\335\354\210\20\0\0\0\265\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000108 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000094 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000128 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000058 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000184 getuid32()                = 10377
+     0.000049 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000108 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000099 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 127, NULL, 8) = 1
+     0.015758 recvfrom(33, "nysv\0\0\0\0L-\353\211\20\0\0\0\266\6\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000196 recvfrom(33, 0xffb84708, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000164 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000250 recvfrom(33, 0xffb846a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000121 ioctl(8, BINDER_WRITE_READ, 0xffb84db8) = 0
+     0.000176 getuid32()                = 10377
+     0.000448 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000183 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000212 epoll_pwait(29, ^Cstrace: Process 1951 detached
+

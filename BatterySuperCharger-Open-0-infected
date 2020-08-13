@@ -1,0 +1,1066 @@
+     #Application:BatterySuperCharger
+     #Action:Open
+     #Number:0
+     #Infected
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73369, 131818748}) = 0
+     0.000147 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, -1) = 1
+     1.852552 read(23, "W", 16)         = 1
+     0.000112 clock_gettime(CLOCK_MONOTONIC, {73370, 984882171}) = 0
+     0.000479 stat64("/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=15388311, ...}) = 0
+     0.000181 stat64("/data/app/com.extend.battery-1.apk", {st_mode=S_IFREG|0644, st_size=957158, ...}) = 0
+     0.000210 gettimeofday({1589573285, 986101}, NULL) = 0
+     0.000243 getpid()                  = 6497
+     0.000452 gettid()                  = 6497
+     0.000092 clock_gettime(CLOCK_MONOTONIC, {73370, 986242911}) = 0
+     0.000027 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000380 clock_gettime(CLOCK_MONOTONIC, {73370, 986654073}) = 0
+     0.000434 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\2178��m\4�\1\0\0�\3\0\0\34\0\0\0", 30, 9017450) = 30
+     0.000319 mmap2(NULL, 2655, PROT_READ, MAP_SHARED, 18, 0x899) = 0x9ed5c000
+     0.000201 munmap(0x9ed5c000, 2655)  = 0
+     0.000574 clock_gettime(CLOCK_MONOTONIC, {73370, 988346731}) = 0
+     0.000439 pread64(34, "PK\3\4\24\0\10\0\10\0\27\204?@(\10\7@v\1\0\0\210\3\0\0\25\0\0\0", 30, 814041) = 30
+     0.000162 mmap2(NULL, 3458, PROT_READ, MAP_SHARED, 34, 0xc6) = 0x9ed5c000
+     0.000051 munmap(0x9ed5c000, 3458)  = 0
+     0.000561 clock_gettime(CLOCK_MONOTONIC, {73370, 989543832}) = 0
+     0.000186 write(38, "W", 1)         = 1
+     0.000189 clock_gettime(CLOCK_MONOTONIC, {73370, 989767914}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {73370, 989795063}) = 0
+     0.000117 stat64("/data/data/com.extend.battery/shared_prefs/PRO_VERSION.xml", 0xbfa2a8d0) = -1 ENOENT (No such file or directory)
+     0.000395 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x9c4f2000
+     0.000070 madvise(0x9c4f2000, 16384, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000170 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98477000
+     0.000033 madvise(0x98477000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000158 mprotect(0x98477000, 4096, PROT_NONE) = 0
+     0.000036 clone(child_stack=0x98576ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 6547
+     0.000316 futex(0xb6875c18, FUTEX_WAIT_PRIVATE, -738, NULL) = 0
+     0.001823 futex(0xb6875c14, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000031 futex(0xb6875c14, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000025 futex(0xb6875c18, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+     0.000159 futex(0xb93305d0, FUTEX_WAIT_PRIVATE, -328, NULL) = 0
+     0.000115 futex(0xb93305c0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000116 futex(0xb93305c0, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73370, 993383854}) = 0
+     0.000044 futex(0xb9455900, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000143 clock_gettime(CLOCK_MONOTONIC, {73370, 993568015}) = 0
+     0.000032 futex(0xb9455900, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000166 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x9c4ee000
+     0.000054 madvise(0x9c4ee000, 16384, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000144 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98377000
+     0.000032 madvise(0x98377000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000148 mprotect(0x98377000, 4096, PROT_NONE) = 0
+     0.000027 clone(child_stack=0x98476ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 6548
+     0.000075 futex(0xb6875c18, FUTEX_WAIT_PRIVATE, -742, NULL) = 0
+     0.000392 futex(0xb6875c14, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000024 futex(0xb6875c14, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000040 futex(0xb6875c18, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+     0.000182 clock_gettime(CLOCK_MONOTONIC, {73370, 994886687}) = 0
+     0.000041 writev(5, [{"Fu\0\0", 4}, {"\2\31\0\0\0com.extend.battery.Splash\n", 31}], 2) = 35
+     0.000394 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73370, 995359541}) = 0
+     0.000135 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {73370, 995537058}) = 0
+     0.000145 getpid()                  = 6497
+     0.000020 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73370, 995719542}) = 0
+     0.000131 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000184 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000094 clock_gettime(CLOCK_MONOTONIC, {73370, 996121357}) = 0
+     0.000091 clock_gettime(CLOCK_MONOTONIC, {73370, 996221572}) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {73370, 996250792}) = 0
+     0.000147 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000031 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000310 clock_gettime(CLOCK_MONOTONIC, {73370, 996787625}) = 0
+     0.000108 getpid()                  = 6497
+     0.000118 gettid()                  = 6497
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73370, 996981108}) = 0
+     0.000021 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000869 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000085 clock_gettime(CLOCK_MONOTONIC, {73370, 997956742}) = 0
+     0.000026 dup(47)                   = 49
+     0.000020 fcntl64(49, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000026 close(47)                 = 0
+     0.000136 epoll_ctl(30, EPOLL_CTL_ADD, 49, {EPOLLIN, {u32=49, u64=49}}) = 0
+     0.000046 getpid()                  = 6497
+     0.000115 getuid32()                = 10049
+     0.000027 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, 0) = 1
+     0.000028 recvfrom(46, "nysv�\2057\4�B\0\0\203o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000128 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {73370, 998534646}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {73370, 998559164}) = 0
+     0.000118 clock_gettime(CLOCK_MONOTONIC, {73370, 998679872}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {73370, 998701758}) = 0
+     0.000026 recvfrom(49, 0xb944f8d8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000131 clock_gettime(CLOCK_MONOTONIC, {73370, 998864742}) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {73370, 998887539}) = 0
+     0.000024 write(29, "W", 1)         = 1
+     0.000317 getpid()                  = 6497
+     0.000020 gettid()                  = 6497
+     0.000116 clock_gettime(CLOCK_MONOTONIC, {73370, 999366638}) = 0
+     0.000025 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000308 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.016021 clock_gettime(CLOCK_MONOTONIC, {73371, 15724317}) = 0
+     0.000060 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000306 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000345 clock_gettime(CLOCK_MONOTONIC, {73371, 16539097}) = 0
+     0.000141 clock_gettime(CLOCK_MONOTONIC, {73371, 16570954}) = 0
+     0.000067 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000112 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000162 clock_gettime(CLOCK_MONOTONIC, {73371, 16917300}) = 0
+     0.000272 getpid()                  = 6497
+     0.000080 getuid32()                = 10049
+     0.000027 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000140 read(23, "W", 16)         = 1
+     0.000061 clock_gettime(CLOCK_MONOTONIC, {73371, 17693638}) = 0
+     0.000295 getpid()                  = 6497
+     0.000023 getuid32()                = 10049
+     0.000264 epoll_wait(30, {}, 16, 0) = 0
+     0.000071 clock_gettime(CLOCK_MONOTONIC, {73371, 18209984}) = 0
+     0.000096 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, -1) = 1
+     0.012982 recvfrom(46, "nysv\34&4\6�B\0\0\205o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000205 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000057 clock_gettime(CLOCK_MONOTONIC, {73371, 31653496}) = 0
+     0.000211 write(29, "W", 1)         = 1
+     0.000413 clock_gettime(CLOCK_MONOTONIC, {73371, 32112233}) = 0
+     0.000035 clock_gettime(CLOCK_MONOTONIC, {73371, 32145576}) = 0
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {73371, 32188153}) = 0
+     0.000416 recvfrom(49, 0xb944f8d8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000359 clock_gettime(CLOCK_MONOTONIC, {73371, 32959055}) = 0
+     0.000329 clock_gettime(CLOCK_MONOTONIC, {73371, 33295699}) = 0
+     0.000448 write(29, "W", 1)         = 1
+     0.000351 ioctl(9, 0xc0186201, 0xbfa2a038) = 0
+     0.000195 ioctl(9, 0xc0186201, 0xbfa2a038) = 0
+     0.000187 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000254 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.028818 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000321 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000040 dup(51)                   = 54
+     0.000152 sendto(50, ")'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000234 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000022 getpid()                  = 6497
+     0.000034 mmap2(NULL, 1540096, PROT_READ|PROT_WRITE, MAP_SHARED, 54, 0) = 0x981ff000
+     0.000194 getpid()                  = 6497
+     0.000125 getpid()                  = 6497
+     0.000019 close(51)                 = 0
+     0.000150 getpid()                  = 6497
+     0.000031 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000654 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000161 clock_gettime(CLOCK_MONOTONIC, {73371, 65808707}) = 0
+     0.001354 sendto(50, "('\0\0(p\27\0�\1\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000426 sendto(50, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000178 sendto(50, "�\6\21��\6\21��\6\17��\6\17��\7\16��\7\16��\7\16��\7\16�"..., 1536000, 0, NULL, 0) = 1536000
+     0.009428 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001358 clock_gettime(CLOCK_MONOTONIC, {73371, 78424482}) = 0
+     0.000054 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000384 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000214 getpid()                  = 6497
+     0.000197 gettid()                  = 6497
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {73371, 79305149}) = 0
+     0.000191 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000745 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000091 clock_gettime(CLOCK_MONOTONIC, {73371, 80326534}) = 0
+     0.000031 getpid()                  = 6497
+     0.000017 getuid32()                = 10049
+     0.000023 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.001738 read(23, "WW", 16)        = 2
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {73371, 82163615}) = 0
+     0.000049 clock_gettime(CLOCK_MONOTONIC, {73371, 82213757}) = 0
+     0.000155 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000118 clock_gettime(CLOCK_MONOTONIC, {73371, 82509721}) = 0
+     0.000027 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000524 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000086 clock_gettime(CLOCK_MONOTONIC, {73371, 83144239}) = 0
+     0.000039 getpid()                  = 6497
+     0.000043 getuid32()                = 10049
+     0.000105 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73371, 83351639}) = 0
+     0.000023 getpid()                  = 6497
+     0.000120 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {73371, 83536150}) = 0
+     0.000124 getpid()                  = 6497
+     0.000020 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000117 clock_gettime(CLOCK_MONOTONIC, {73371, 83821692}) = 0
+     0.000030 getpid()                  = 6497
+     0.000017 getuid32()                = 10049
+     0.000119 epoll_wait(30, {}, 16, 0) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {73371, 84007998}) = 0
+     0.000109 getpid()                  = 6497
+     0.000091 gettid()                  = 6497
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {73371, 84225762}) = 0
+     0.000023 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000405 clock_gettime(CLOCK_MONOTONIC, {73371, 84656704}) = 0
+     0.000034 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {73371, 84803494}) = 0
+     0.000127 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, -1) = 1
+     0.380419 read(23, "W", 16)         = 1
+     0.000063 clock_gettime(CLOCK_MONOTONIC, {73371, 465410100}) = 0
+     0.000444 clock_gettime(CLOCK_MONOTONIC, {73371, 465773490}) = 0
+     0.000054 clock_gettime(CLOCK_MONOTONIC, {73371, 465820657}) = 0
+     0.000067 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000294 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000097 clock_gettime(CLOCK_MONOTONIC, {73371, 466295990}) = 0
+     0.000226 getpid()                  = 6497
+     0.000000 getuid32()                = 10049
+     0.000271 epoll_wait(30, {}, 16, 0) = 0
+     0.000056 clock_gettime(CLOCK_MONOTONIC, {73371, 467203109}) = 0
+     0.001263 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, -1) = 1
+     0.013044 recvfrom(46, "nysv\212\232\6!�B\0\0�o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000498 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000064 clock_gettime(CLOCK_MONOTONIC, {73371, 481712058}) = 0
+     0.000095 write(29, "W", 1)         = 1
+     0.000302 clock_gettime(CLOCK_MONOTONIC, {73371, 482100329}) = 0
+     0.000054 clock_gettime(CLOCK_MONOTONIC, {73371, 482151769}) = 0
+     0.000044 clock_gettime(CLOCK_MONOTONIC, {73371, 482195946}) = 0
+     0.000112 recvfrom(49, 0xb944f8d8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000137 clock_gettime(CLOCK_MONOTONIC, {73371, 482449632}) = 0
+     0.000052 clock_gettime(CLOCK_MONOTONIC, {73371, 482496794}) = 0
+     0.000052 write(29, "W", 1)         = 1
+     0.000730 getpid()                  = 6497
+     0.000048 getuid32()                = 10049
+     0.000075 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000075 read(23, "WW", 16)        = 2
+     0.001260 clock_gettime(CLOCK_MONOTONIC, {73371, 484744645}) = 0
+     0.000445 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, -1) = 1
+     1.042909 read(23, "W", 16)         = 1
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {73372, 528105044}) = 0
+     0.000037 clock_gettime(CLOCK_MONOTONIC, {73372, 528140530}) = 0
+     0.000022 write(38, "W", 1)         = 1
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {73372, 528190347}) = 0
+     0.000030 writev(5, [{"Eu\0\0", 4}, {"\2\31\0\0\0com.extend.battery.Splash\n", 31}], 2) = 35
+     0.000170 getpid()                  = 6497
+     0.000019 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 528426724}) = 0
+     0.000130 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000913 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000613 clock_gettime(CLOCK_MONOTONIC, {73372, 530085649}) = 0
+     0.000056 getpid()                  = 6497
+     0.000161 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000044 clock_gettime(CLOCK_MONOTONIC, {73372, 530442929}) = 0
+     0.000106 ioctl(9, 0xc0186201, 0xbfa2a8e8) = 0
+     0.000024 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, -1) = 1
+     0.078371 read(23, "W", 16)         = 1
+     0.000040 clock_gettime(CLOCK_MONOTONIC, {73372, 608911145}) = 0
+     0.000040 stat64("/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=15388311, ...}) = 0
+     0.000233 stat64("/data/app/com.extend.battery-1.apk", {st_mode=S_IFREG|0644, st_size=957158, ...}) = 0
+     0.000237 gettimeofday({1589573287, 610191}, NULL) = 0
+     0.000369 getpid()                  = 6497
+     0.000157 gettid()                  = 6497
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {73372, 610094770}) = 0
+     0.000160 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000191 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000634 clock_gettime(CLOCK_MONOTONIC, {73372, 610950134}) = 0
+     0.000295 clock_gettime(CLOCK_MONOTONIC, {73372, 611330005}) = 0
+     0.000155 pread64(34, "PK\3\4\24\0\10\0\10\0\27\204?@=\4\n�e\1\0\0�\3\0\0\23\0\0\0", 30, 809021) = 30
+     0.000050 mmap2(NULL, 2515, PROT_READ, MAP_SHARED, 34, 0xc5) = 0x9ed5c000
+     0.000374 munmap(0x9ed5c000, 2515)  = 0
+     0.000469 clock_gettime(CLOCK_MONOTONIC, {73372, 612374722}) = 0
+     0.000133 clock_gettime(CLOCK_MONOTONIC, {73372, 612436248}) = 0
+     0.000338 getpid()                  = 6497
+     0.000102 gettid()                  = 6497
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {73372, 612900630}) = 0
+     0.000161 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000552 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000108 clock_gettime(CLOCK_MONOTONIC, {73372, 613721838}) = 0
+     0.000054 getpid()                  = 6497
+     0.000317 gettid()                  = 6497
+     0.000538 clock_gettime(CLOCK_MONOTONIC, {73372, 614718353}) = 0
+     0.000376 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000418 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000117 clock_gettime(CLOCK_MONOTONIC, {73372, 615542569}) = 0
+     0.000192 clock_gettime(CLOCK_MONOTONIC, {73372, 615736599}) = 0
+     0.000228 clock_gettime(CLOCK_MONOTONIC, {73372, 616031001}) = 0
+     0.000482 clock_gettime(CLOCK_MONOTONIC, {73372, 616516896}) = 0
+     0.000124 clock_gettime(CLOCK_MONOTONIC, {73372, 616568280}) = 0
+     0.000186 getpid()                  = 6497
+     0.000028 gettid()                  = 6497
+     0.000151 clock_gettime(CLOCK_MONOTONIC, {73372, 616934907}) = 0
+     0.000035 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000322 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000133 clock_gettime(CLOCK_MONOTONIC, {73372, 617553737}) = 0
+     0.000180 getuid32()                = 10049
+     0.000150 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 617789084}) = 0
+     0.000133 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000199 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {73372, 618252082}) = 0
+     0.000212 stat64("/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=15388311, ...}) = 0
+     0.000475 stat64("/data/app/com.extend.battery-1.apk", {st_mode=S_IFREG|0644, st_size=957158, ...}) = 0
+     0.000197 gettimeofday({1589573287, 619674}, NULL) = 0
+     0.000209 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {73372, 619387519}) = 0
+     0.000143 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000229 clock_gettime(CLOCK_MONOTONIC, {73372, 619758900}) = 0
+     0.000549 pread64(34, "PK\3\4\24\0\10\0\10\0\27\204?@�P�\203\35\5\0\0|\26\0\0\26\0\0\0", 30, 803497) = 30
+     0.000042 mmap2(NULL, 2042, PROT_READ, MAP_SHARED, 34, 0xc4) = 0x9ed5c000
+     0.000059 munmap(0x9ed5c000, 2042)  = 0
+     0.002281 clock_gettime(CLOCK_MONOTONIC, {73372, 622681385}) = 0
+     0.000144 write(38, "W", 1)         = 1
+     0.000041 clock_gettime(CLOCK_MONOTONIC, {73372, 622770629}) = 0
+     0.000035 clock_gettime(CLOCK_MONOTONIC, {73372, 622805086}) = 0
+     0.000061 getpid()                  = 6497
+     0.000099 gettid()                  = 6497
+     0.000171 clock_gettime(CLOCK_MONOTONIC, {73372, 623135393}) = 0
+     0.000026 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000071 clock_gettime(CLOCK_MONOTONIC, {73372, 623309570}) = 0
+     0.000138 pread64(34, "PK\3\4\24\0\10\0\10\0\27\204?@\202����\0\0\0�\1\0\0\22\0\0\0", 30, 43163) = 30
+     0.000150 mmap2(NULL, 2463, PROT_READ, MAP_SHARED, 34, 0xa) = 0x9ed5c000
+     0.000048 munmap(0x9ed5c000, 2463)  = 0
+     0.000199 pread64(34, "PK\3\4\24\0\10\0\10\0\27\204?@�Y\23�\31\1\0\0t\2\0\0\22\0\0\0", 30, 44165) = 30
+     0.000117 mmap2(NULL, 3534, PROT_READ, MAP_SHARED, 34, 0xa) = 0x9ed5c000
+     0.000101 munmap(0x9ed5c000, 3534)  = 0
+     0.000728 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98477000
+     0.000411 madvise(0x98477000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000212 mprotect(0x98477000, 4096, PROT_NONE) = 0
+     0.000028 clone(child_stack=0x98576ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 6550
+     0.000041 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98377000
+     0.000146 madvise(0x98377000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000026 mprotect(0x98377000, 4096, PROT_NONE) = 0
+     0.000041 clone(child_stack=0x98476ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 6551
+     0.000164 pread64(34, "PK\3\4\n\0\0\0\0\0\27\204?@3.��\200p\0\0\200p\0\0\27\0\1\0", 30, 817186) = 30
+     0.000054 mmap2(NULL, 30936, PROT_READ, MAP_SHARED, 34, 0xc7) = 0x9c4ee000
+     0.000171 open("/data/app/com.extend.battery-1.apk", O_RDONLY|O_LARGEFILE) = 51
+     0.000054 munmap(0x9c4ee000, 30936) = 0
+     0.000158 dup(51)                   = 55
+     0.000040 futex(0xb94601ac, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000147 close(51)                 = 0
+     0.000158 getpid()                  = 6497
+     0.000117 gettid()                  = 6497
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {73372, 626714484}) = 0
+     0.000043 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000535 clock_gettime(CLOCK_MONOTONIC, {73372, 627280966}) = 0
+     0.000214 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\2178�\6f�\"\2\0\0�\4\0\0\36\0\0\0", 30, 9008448) = 30
+     0.000165 mmap2(NULL, 1950, PROT_READ, MAP_SHARED, 18, 0x897) = 0x9ed5c000
+     0.000275 munmap(0x9ed5c000, 1950)  = 0
+     0.000265 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\2178�X(~E\0\0\0|\0\0\0 \0\0\0", 30, 216083) = 30
+     0.000104 mmap2(NULL, 3222, PROT_READ, MAP_SHARED, 18, 0x34) = 0x9ed5c000
+     0.000187 munmap(0x9ed5c000, 3222)  = 0
+     0.000431 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\21785\204�]\223\1\0\0`\3\0\0000\0\0\0", 30, 9017967) = 30
+     0.000107 mmap2(NULL, 3152, PROT_READ, MAP_SHARED, 18, 0x899) = 0x9ed5c000
+     0.000157 munmap(0x9ed5c000, 3152)  = 0
+     0.000504 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\2178-}\203#�\4\0\0D\21\0\0\33\0\0\0", 30, 8929727) = 30
+     0.000106 mmap2(NULL, 1704, PROT_READ, MAP_SHARED, 18, 0x884) = 0x9ed5c000
+     0.000195 munmap(0x9ed5c000, 1704)  = 0
+     0.000970 clock_gettime(CLOCK_MONOTONIC, {73372, 632048062}) = 0
+     0.001160 clock_gettime(CLOCK_MONOTONIC, {73372, 632244442}) = 0
+     0.000436 clock_gettime(CLOCK_MONOTONIC, {73372, 632642894}) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {73372, 632700821}) = 0
+     0.000488 clock_gettime(CLOCK_MONOTONIC, {73372, 633239903}) = 0
+     0.000109 clock_gettime(CLOCK_MONOTONIC, {73372, 633297220}) = 0
+     0.000488 getpid()                  = 6497
+     0.000086 gettid()                  = 6497
+     0.000033 clock_gettime(CLOCK_MONOTONIC, {73372, 633902554}) = 0
+     0.000146 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000095 clock_gettime(CLOCK_MONOTONIC, {73372, 634217992}) = 0
+     0.000256 getpid()                  = 6497
+     0.000030 gettid()                  = 6497
+     0.000113 clock_gettime(CLOCK_MONOTONIC, {73372, 634669437}) = 0
+     0.000169 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000249 clock_gettime(CLOCK_MONOTONIC, {73372, 635068216}) = 0
+     0.000221 clock_gettime(CLOCK_MONOTONIC, {73372, 635287240}) = 0
+     0.000152 clock_gettime(CLOCK_MONOTONIC, {73372, 635332581}) = 0
+     0.000183 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000042 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000212 clock_gettime(CLOCK_MONOTONIC, {73372, 635878972}) = 0
+     0.000169 getpid()                  = 6497
+     0.000109 gettid()                  = 6497
+     0.000123 clock_gettime(CLOCK_MONOTONIC, {73372, 636168749}) = 0
+     0.000026 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000690 clock_gettime(CLOCK_MONOTONIC, {73372, 636884421}) = 0
+     0.000030 dup(51)                   = 56
+     0.000020 fcntl64(56, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000126 close(51)                 = 0
+     0.000037 epoll_ctl(30, EPOLL_CTL_ADD, 56, {EPOLLIN, {u32=56, u64=56}}) = 0
+     0.000128 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x9c4f2000
+     0.000096 madvise(0x9c4f2000, 16384, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000128 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x980ff000
+     0.000026 madvise(0x980ff000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000019 mprotect(0x980ff000, 4096, PROT_NONE) = 0
+     0.000041 clone(child_stack=0x981feef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 6552
+     0.000033 futex(0xb6875c18, FUTEX_WAIT_PRIVATE, -746, NULL) = 0
+     0.001685 futex(0xb6875c14, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000000 futex(0xb6875c14, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000001 futex(0xb6875c18, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+     0.000000 getpid()                  = 6497
+     0.000000 gettid()                  = 6497
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 639245949}) = 0
+     0.000001 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 639246729}) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 639247093}) = 0
+     0.000001 pread64(18, "PK\3\4\24\0\10\0\10\0\31�\2178^�\n\3�\1\0\0�\3\0\0\34\0\0\0", 30, 9037065) = 30
+     0.000000 mmap2(NULL, 1816, PROT_READ, MAP_SHARED, 18, 0x89e) = 0x980f6000
+     0.000000 munmap(0x980f6000, 1816)  = 0
+     0.000001 clock_gettime(CLOCK_MONOTONIC, {73372, 639248793}) = 0
+     0.004648 clock_gettime(CLOCK_MONOTONIC, {73372, 644196619}) = 0
+     0.000482 clock_gettime(CLOCK_MONOTONIC, {73372, 644489244}) = 0
+     0.000499 clock_gettime(CLOCK_MONOTONIC, {73372, 644941614}) = 0
+     0.000161 clock_gettime(CLOCK_MONOTONIC, {73372, 645121696}) = 0
+     0.000336 clock_gettime(CLOCK_MONOTONIC, {73372, 645439514}) = 0
+     0.000133 clock_gettime(CLOCK_MONOTONIC, {73372, 645620999}) = 0
+     0.000497 clock_gettime(CLOCK_MONOTONIC, {73372, 646045477}) = 0
+     0.000188 clock_gettime(CLOCK_MONOTONIC, {73372, 646302347}) = 0
+     0.000501 clock_gettime(CLOCK_MONOTONIC, {73372, 646757096}) = 0
+     0.000096 writev(5, [{"Fu\0\0", 4}, {"\2\"\0\0\0com.extend.battery.BoosterA"..., 40}], 2) = 44
+     0.000273 writev(5, [{"Fu\0\0", 4}, {"\2\35\0\0\0com.extend.battery.TabHandl"..., 35}], 2) = 39
+     0.000346 getpid()                  = 6497
+     0.000079 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 647510704}) = 0
+     0.000023 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000149 clock_gettime(CLOCK_MONOTONIC, {73372, 647683159}) = 0
+     0.000136 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 647856861}) = 0
+     0.000135 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000128 clock_gettime(CLOCK_MONOTONIC, {73372, 648191753}) = 0
+     0.000120 clock_gettime(CLOCK_MONOTONIC, {73372, 648240678}) = 0
+     0.001078 clock_gettime(CLOCK_MONOTONIC, {73372, 649673215}) = 0
+     0.000519 clock_gettime(CLOCK_MONOTONIC, {73372, 650048484}) = 0
+     0.000418 getpid()                  = 6497
+     0.000022 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 650293551}) = 0
+     0.000130 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000407 clock_gettime(CLOCK_MONOTONIC, {73372, 650833935}) = 0
+     0.000030 dup(51)                   = 57
+     0.000024 fcntl64(57, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000132 close(51)                 = 0
+     0.000037 epoll_ctl(30, EPOLL_CTL_ADD, 57, {EPOLLIN, {u32=57, u64=57}}) = 0
+     0.000160 getpid()                  = 6497
+     0.000024 getuid32()                = 10049
+     0.000131 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, 0) = 1
+     0.000048 recvfrom(46, "nysv\6\206\220f�B\0\0�o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000139 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {73372, 651584054}) = 0
+     0.000138 clock_gettime(CLOCK_MONOTONIC, {73372, 651721183}) = 0
+     0.000036 getpid()                  = 6497
+     0.000126 gettid()                  = 6497
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 651901227}) = 0
+     0.000021 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000177 clock_gettime(CLOCK_MONOTONIC, {73372, 652104899}) = 0
+     0.000103 getpid()                  = 6497
+     0.000057 gettid()                  = 6497
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 652280502}) = 0
+     0.000022 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {73372, 652479698}) = 0
+     0.000097 getpid()                  = 6497
+     0.000018 gettid()                  = 6497
+     0.000098 clock_gettime(CLOCK_MONOTONIC, {73372, 652681867}) = 0
+     0.000118 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000061 clock_gettime(CLOCK_MONOTONIC, {73372, 652969130}) = 0
+     0.000143 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000126 clock_gettime(CLOCK_MONOTONIC, {73372, 653156952}) = 0
+     0.000022 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000180 clock_gettime(CLOCK_MONOTONIC, {73372, 653361583}) = 0
+     0.000030 getpid()                  = 6497
+     0.000022 getuid32()                = 10049
+     0.000128 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 653559220}) = 0
+     0.000200 stat64("/data/data/com.extend.battery/databases", {st_mode=S_IFDIR|0771, st_size=4096, ...}) = 0
+     0.000208 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000161 open("/data/data/com.extend.battery/databases/applicationdata", O_RDWR|O_CREAT|O_LARGEFILE, 0600) = 51
+     0.000142 fcntl64(51, F_GETFD)      = 0
+     0.000022 fcntl64(51, F_SETFD, FD_CLOEXEC) = 0
+     0.000019 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000146 pread64(51, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\6"..., 100, 0) = 100
+     0.000222 gettimeofday({1589573287, 655428}, NULL) = 0
+     0.000196 gettimeofday({1589573287, 655716}, NULL) = 0
+     0.000241 gettimeofday({1589573287, 655759}, NULL) = 0
+     0.000149 gettimeofday({1589573287, 655914}, NULL) = 0
+     0.000057 gettimeofday({1589573287, 655968}, NULL) = 0
+     0.000163 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000032 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000142 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000028 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000098 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000164 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000034 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000744 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000184 umask(0)                  = 077
+     0.000208 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 58
+     0.000183 umask(077)                = 0
+     0.000027 fchown32(58, 10049, 10049) = 0
+     0.000044 fcntl64(58, F_GETFD)      = 0
+     0.000135 fcntl64(58, F_SETFD, FD_CLOEXEC) = 0
+     0.000021 pread64(58, "\0", 1, 0)   = 1
+     0.000038 close(58)                 = 0
+     0.000140 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000046 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000041 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000038 pread64(51, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\6"..., 4096, 0) = 4096
+     0.000117 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000060 gettimeofday({1589573287, 658652}, NULL) = 0
+     0.000033 gettimeofday({1589573287, 658684}, NULL) = 0
+     0.000040 gettimeofday({1589573287, 658725}, NULL) = 0
+     0.000039 gettimeofday({1589573287, 658763}, NULL) = 0
+     0.000039 gettimeofday({1589573287, 658803}, NULL) = 0
+     0.000032 gettimeofday({1589573287, 658834}, NULL) = 0
+     0.000037 gettimeofday({1589573287, 658871}, NULL) = 0
+     0.000032 gettimeofday({1589573287, 658902}, NULL) = 0
+     0.000037 gettimeofday({1589573287, 658941}, NULL) = 0
+     0.000029 gettimeofday({1589573287, 658969}, NULL) = 0
+     0.000040 gettimeofday({1589573287, 659127}, NULL) = 0
+     0.000159 gettimeofday({1589573287, 659172}, NULL) = 0
+     0.000175 gettimeofday({1589573287, 659347}, NULL) = 0
+     0.000169 brk(0xb9538000)           = 0xb9538000
+     0.000475 brk(0xb9539000)           = 0xb9539000
+     0.000119 gettimeofday({1589573287, 660238}, NULL) = 0
+     0.000197 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000147 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000466 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000001 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000132 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000171 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000037 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000151 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000170 umask(0)                  = 077
+     0.000027 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 58
+     0.000649 umask(077)                = 0
+     0.000092 fchown32(58, 10049, 10049) = 0
+     0.000026 fcntl64(58, F_GETFD)      = 0
+     0.000018 fcntl64(58, F_SETFD, FD_CLOEXEC) = 0
+     0.000058 pread64(58, "\0", 1, 0)   = 1
+     0.000076 close(58)                 = 0
+     0.000141 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000118 pread64(51, "\0\0\0\4\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16
+     0.000084 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000155 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000076 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.001038 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000037 gettimeofday({1589573287, 664178}, NULL) = 0
+     0.000642 gettimeofday({1589573287, 664875}, NULL) = 0
+     0.001642 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000120 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000024 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000038 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000153 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000171 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000033 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000148 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000171 umask(0)                  = 077
+     0.000078 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 58
+     0.000279 umask(077)                = 0
+     0.000041 fchown32(58, 10049, 10049) = 0
+     0.000147 fcntl64(58, F_GETFD)      = 0
+     0.000203 fcntl64(58, F_SETFD, FD_CLOEXEC) = 0
+     0.000021 pread64(58, "\0", 1, 0)   = 1
+     0.000022 close(58)                 = 0
+     0.000127 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000042 pread64(51, "\0\0\0\4\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16
+     0.000132 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000041 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000283 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000141 brk(0xb953a000)           = 0xb953a000
+     0.000031 pread64(51, "\r\0\0\0\1\17�\0\17�\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+     0.000101 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000104 gettimeofday({1589573287, 669108}, NULL) = 0
+     0.000147 chmod("/data/data/com.extend.battery/databases/applicationdata", 0660) = 0
+     0.000227 gettimeofday({1589573287, 669888}, NULL) = 0
+     0.000795 gettimeofday({1589573287, 670722}, NULL) = 0
+     0.000899 gettimeofday({1589573287, 671237}, NULL) = 0
+     0.000119 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000353 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000033 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000039 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000163 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000135 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000071 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000151 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000057 umask(0)                  = 077
+     0.000137 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 58
+     0.000144 umask(077)                = 0
+     0.000000 fchown32(58, 10049, 10049) = 0
+     0.000114 fcntl64(58, F_GETFD)      = 0
+     0.000018 fcntl64(58, F_SETFD, FD_CLOEXEC) = 0
+     0.000088 pread64(58, "\0", 1, 0)   = 1
+     0.000030 close(58)                 = 0
+     0.000024 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000303 pread64(51, "\0\0\0\4\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16
+     0.000032 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000161 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000041 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000186 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000187 gettimeofday({1589573287, 673897}, NULL) = 0
+     0.000472 gettimeofday({1589573287, 674297}, NULL) = 0
+     0.000511 gettimeofday({1589573287, 675003}, NULL) = 0
+     0.000412 open("/dev/ashmem", O_RDWR|O_LARGEFILE) = 58
+     0.000472 ioctl(58, 0x41007701, 0xbfa2a770) = 0
+     0.000043 ioctl(58, 0x40047703, 0x200000) = 0
+     0.000184 ioctl(58, 0x40047705, 0x3) = 0
+     0.000041 mmap2(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED, 58, 0) = 0x97ef7000
+     0.000196 ioctl(58, 0x40047705, 0x1) = 0
+     0.000225 gettimeofday({1589573287, 676326}, NULL) = 0
+     0.000202 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.001044 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000299 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000412 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000278 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000155 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000186 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000199 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000353 umask(0)                  = 077
+     0.000111 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 60
+     0.000207 umask(077)                = 0
+     0.000035 fchown32(60, 10049, 10049) = 0
+     0.000249 fcntl64(60, F_GETFD)      = 0
+     0.000091 fcntl64(60, F_SETFD, FD_CLOEXEC) = 0
+     0.000021 pread64(60, "\0", 1, 0)   = 1
+     0.000022 close(60)                 = 0
+     0.000116 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000037 pread64(51, "\0\0\0\4\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16
+     0.000046 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000121 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000130 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000043 brk(0xb953b000)           = 0xb953b000
+     0.000293 pread64(51, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 12288) = 4096
+     0.000093 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000054 gettimeofday({1589573287, 681167}, NULL) = 0
+     0.000197 gettimeofday({1589573287, 681314}, NULL) = 0
+     0.000357 gettimeofday({1589573287, 681726}, NULL) = 0
+     0.000099 gettimeofday({1589573287, 681769}, NULL) = 0
+     0.000028 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000128 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000023 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000023 access("/data/data/com.extend.battery/databases/applicationdata-journal", F_OK) = 0
+     0.000131 stat64("/data/data/com.extend.battery/databases/applicationdata-journal", {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000045 fcntl64(51, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741825, len=1, pid=0}) = 0
+     0.000124 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000032 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000278 umask(0)                  = 077
+     0.000022 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDONLY|O_LARGEFILE) = 60
+     0.000032 umask(077)                = 0
+     0.000117 fchown32(60, 10049, 10049) = 0
+     0.000151 fcntl64(60, F_GETFD)      = 0
+     0.000022 fcntl64(60, F_SETFD, FD_CLOEXEC) = 0
+     0.000019 pread64(60, "\0", 1, 0)   = 1
+     0.000043 close(60)                 = 0
+     0.000097 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000034 pread64(51, "\0\0\0\4\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16
+     0.000093 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000076 access("/data/data/com.extend.battery/databases/applicationdata-wal", F_OK) = -1 ENOENT (No such file or directory)
+     0.000035 fstat64(51, {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000131 fcntl64(51, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+     0.000184 stat64("/data/data/com.extend.battery/databases/applicationdata", {st_mode=S_IFREG|0660, st_size=24576, ...}) = 0
+     0.000044 umask(0)                  = 077
+     0.000120 open("/data/data/com.extend.battery/databases/applicationdata-journal", O_RDWR|O_CREAT|O_LARGEFILE, 0660) = 60
+     0.000034 umask(077)                = 0
+     0.000039 fchown32(60, 10049, 10049) = 0
+     0.000101 fcntl64(60, F_GETFD)      = 0
+     0.000019 fcntl64(60, F_SETFD, FD_CLOEXEC) = 0
+     0.000141 pwrite64(60, "\0\0\0\0\0\0\0\0\0\0\0\0DpKB\0\0\0\6\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512
+     0.000041 pwrite64(60, "\0\0\0\4", 4, 512) = 4
+     0.000125 pwrite64(60, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 516) = 4096
+     0.000146 pwrite64(60, "DpKB", 4, 4612) = 4
+     0.000030 fcntl64(51, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+     0.000023 fcntl64(51, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000102 pwrite64(60, "\0\0\0\1", 4, 4616) = 4
+     0.000088 pwrite64(60, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\6"..., 4096, 4620) = 4096
+     0.000274 pwrite64(60, "DpLa", 4, 8716) = 4
+     0.000029 pread64(60, "", 8, 9216)  = 0
+     0.000019 fdatasync(60)             = 0
+     0.000911 open("/data/data/com.extend.battery/databases", O_RDONLY|O_LARGEFILE) = 65
+     0.000033 fcntl64(65, F_GETFD)      = 0
+     0.000019 fcntl64(65, F_SETFD, FD_CLOEXEC) = 0
+     0.000117 fdatasync(65)             = 0
+     0.000600 close(65)                 = 0
+     0.000023 pwrite64(60, "��\5� �c�\0\0\0\2", 12, 0) = 12
+     0.000028 fdatasync(60)             = 0
+     0.001617 pwrite64(51, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\6"..., 4096, 0) = 4096
+     0.000209 pwrite64(51, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 12288) = 4096
+     0.000036 fdatasync(51)             = 0
+     0.000976 pwrite64(60, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28
+     0.000097 fdatasync(60)             = 0
+     0.000644 fstat64(60, {st_mode=S_IFREG|0600, st_size=8720, ...}) = 0
+     0.000040 fcntl64(51, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+     0.000030 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+     0.000317 close(60)                 = 0
+     0.000023 fcntl64(51, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+     0.000030 gettimeofday({1589573287, 690766}, NULL) = 0
+     0.000146 munmap(0x97ef7000, 2097152) = 0
+     0.000169 close(58)                 = 0
+     0.000038 gettimeofday({1589573287, 691118}, NULL) = 0
+     0.000101 close(51)                 = 0
+     0.000123 gettimeofday({1589573287, 691457}, NULL) = 0
+     0.000247 getpid()                  = 6497
+     0.000467 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {73372, 691458062}) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {73372, 691483585}) = 0
+     0.000122 clock_gettime(CLOCK_MONOTONIC, {73372, 691608094}) = 0
+     0.000036 recvfrom(56, 0xb9510d88, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000052 recvfrom(57, 0xb95167a8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000103 clock_gettime(CLOCK_MONOTONIC, {73372, 691797395}) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {73372, 691818727}) = 0
+     0.000047 write(29, "W", 1)         = 1
+     0.000490 clock_gettime(CLOCK_MONOTONIC, {73372, 692411506}) = 0
+     0.000092 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000028 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.003116 clock_gettime(CLOCK_MONOTONIC, {73372, 695595233}) = 0
+     0.000052 clock_gettime(CLOCK_MONOTONIC, {73372, 695644230}) = 0
+     0.000374 getpid()                  = 6497
+     0.000534 gettid()                  = 6497
+     0.000338 clock_gettime(CLOCK_MONOTONIC, {73372, 696904307}) = 0
+     0.000053 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000635 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.013970 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.004553 clock_gettime(CLOCK_MONOTONIC, {73372, 716105707}) = 0
+     0.000486 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000499 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000305 clock_gettime(CLOCK_MONOTONIC, {73372, 717666284}) = 0
+     0.000366 clock_gettime(CLOCK_MONOTONIC, {73372, 717759512}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {73372, 717786526}) = 0
+     0.001627 getpid()                  = 6497
+     0.000206 gettid()                  = 6497
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {73372, 719637993}) = 0
+     0.000023 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000291 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000403 clock_gettime(CLOCK_MONOTONIC, {73372, 720348657}) = 0
+     0.000000 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000001 ioctl(9, 0xc0186201, 0xbfa2a5b8) = 0
+     0.000391 clock_gettime(CLOCK_MONOTONIC, {73372, 721845429}) = 0
+     0.001214 clock_gettime(CLOCK_MONOTONIC, {73372, 721964253}) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {73372, 721988137}) = 0
+     0.000025 getpid()                  = 6497
+     0.000017 getuid32()                = 10049
+     0.000025 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}, {EPOLLIN, {u32=46, u64=46}}}, 16, 0) = 2
+     0.000149 read(23, "W", 16)         = 1
+     0.000047 recvfrom(46, "nysv\204v\213i�B\0\0�o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000052 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {73372, 722445301}) = 0
+     0.000220 clock_gettime(CLOCK_MONOTONIC, {73372, 722544676}) = 0
+     0.000158 clock_gettime(CLOCK_MONOTONIC, {73372, 722717074}) = 0
+     0.000158 clock_gettime(CLOCK_MONOTONIC, {73372, 722869533}) = 0
+     0.000043 clock_gettime(CLOCK_MONOTONIC, {73372, 722917267}) = 0
+     0.000131 getpid()                  = 6497
+     0.000031 getuid32()                = 10049
+     0.000135 epoll_wait(30, {}, 16, 0) = 0
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {73372, 723246845}) = 0
+     0.000033 getpid()                  = 6497
+     0.000144 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {73372, 723460205}) = 0
+     0.000123 clock_gettime(CLOCK_MONOTONIC, {73372, 723586450}) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {73372, 723609085}) = 0
+     0.000031 recvfrom(56, 0xb9510d88, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000147 recvfrom(57, 0xb95167a8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {73372, 723814861}) = 0
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {73372, 723979240}) = 0
+     0.000194 ioctl(9, 0xc0186201, 0xbfa2a038) = 0
+     0.000210 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000266 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.001103 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000043 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000025 dup(60)                   = 65
+     0.000138 sendto(50, ")'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000232 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000023 getpid()                  = 6497
+     0.000132 mmap2(NULL, 180224, PROT_READ|PROT_WRITE, MAP_SHARED, 65, 0) = 0x97ec7000
+     0.000026 getpid()                  = 6497
+     0.000017 getpid()                  = 6497
+     0.000131 close(60)                 = 0
+     0.000030 getpid()                  = 6497
+     0.000059 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000145 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000342 clock_gettime(CLOCK_MONOTONIC, {73372, 726969481}) = 0
+     0.000442 clock_gettime(CLOCK_MONOTONIC, {73372, 727442387}) = 0
+     0.000042 clock_gettime(CLOCK_MONOTONIC, {73372, 727442595}) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 727442959}) = 0
+     0.000167 sendto(50, "('\0\0��\2\0�\1\0\0\0\0\0\0\0\0\0\0�\0\0\0�\0\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000345 sendto(50, "\210�\2\0", 4, 0, NULL, 0) = 4
+     0.000113 sendto(50, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 177800, 0, NULL, 0) = 177800
+     0.005407 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000664 clock_gettime(CLOCK_MONOTONIC, {73372, 734138810}) = 0
+     0.000129 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000158 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000164 getpid()                  = 6497
+     0.000027 gettid()                  = 6497
+     0.000132 clock_gettime(CLOCK_MONOTONIC, {73372, 734755251}) = 0
+     0.000031 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000401 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000532 clock_gettime(CLOCK_MONOTONIC, {73372, 735722016}) = 0
+     0.000084 ioctl(9, 0xc0186201, 0xbfa2a038) = 0
+     0.000188 ioctl(9, 0xc0186201, 0xbfa2a038) = 0
+     0.000109 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000226 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.005854 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000125 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000170 dup(70)                   = 71
+     0.000031 sendto(50, ")'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000200 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000023 getpid()                  = 6497
+     0.000044 mmap2(NULL, 1540096, PROT_READ|PROT_WRITE, MAP_SHARED, 71, 0) = 0x97d4f000
+     0.000105 getpid()                  = 6497
+     0.000017 getpid()                  = 6497
+     0.000019 close(70)                 = 0
+     0.000128 getpid()                  = 6497
+     0.000030 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000183 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000175 clock_gettime(CLOCK_MONOTONIC, {73372, 743560608}) = 0
+     0.000777 brk(0xb9547000)           = 0xb9547000
+     0.006089 brk(0xb954b000)           = 0xb954b000
+     0.002264 sendto(50, "('\0\0(p\27\0�\1\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000837 sendto(50, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000178 sendto(50, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.005694 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.005709 clock_gettime(CLOCK_MONOTONIC, {73372, 765159836}) = 0
+     0.000226 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000157 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000240 getpid()                  = 6497
+     0.000398 gettid()                  = 6497
+     0.000035 clock_gettime(CLOCK_MONOTONIC, {73372, 766035447}) = 0
+     0.000025 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000572 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.001147 clock_gettime(CLOCK_MONOTONIC, {73372, 767771698}) = 0
+     0.000000 getpid()                  = 6497
+     0.000001 getuid32()                = 10049
+     0.000000 epoll_wait(30, {}, 16, 0) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 767773051}) = 0
+     0.000001 clock_gettime(CLOCK_MONOTONIC, {73372, 767773727}) = 0
+     0.000000 getpid()                  = 6497
+     0.000001 getuid32()                = 10049
+     0.000000 epoll_wait(30, {}, 16, 0) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 767775131}) = 0
+     0.000001 clock_gettime(CLOCK_MONOTONIC, {73372, 767775652}) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {73372, 767776016}) = 0
+     0.003724 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000898 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000049 clock_gettime(CLOCK_MONOTONIC, {73372, 772453632}) = 0
+     0.000136 getpid()                  = 6497
+     0.000021 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {73372, 772764838}) = 0
+     0.000166 getpid()                  = 6497
+     0.000021 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000127 clock_gettime(CLOCK_MONOTONIC, {73372, 773101056}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {73372, 773129283}) = 0
+     0.000144 clock_gettime(CLOCK_MONOTONIC, {73372, 773264110}) = 0
+     0.000141 clock_gettime(CLOCK_MONOTONIC, {73372, 773414460}) = 0
+     0.000028 getpid()                  = 6497
+     0.000017 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 773497450}) = 0
+     0.000056 clock_gettime(CLOCK_MONOTONIC, {73372, 773554600}) = 0
+     0.000337 ioctl(9, 0xc0186201, 0xbfa2a858) = 0
+     0.000089 ioctl(9, 0xc0186201, 0xbfa2a1f8) = 0
+     0.000068 sendto(50, "\36'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000259 getpid()                  = 6497
+     0.000036 munmap(0x97ec7000, 180224) = 0
+     0.000051 close(65)                 = 0
+     0.000164 epoll_ctl(30, EPOLL_CTL_DEL, 56, NULL) = 0
+     0.000214 getpid()                  = 6497
+     0.000032 gettid()                  = 6497
+     0.000123 clock_gettime(CLOCK_MONOTONIC, {73372, 774930306}) = 0
+     0.000028 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000738 clock_gettime(CLOCK_MONOTONIC, {73372, 775695868}) = 0
+     0.000032 close(56)                 = 0
+     0.000029 write(29, "W", 1)         = 1
+     0.000110 getpid()                  = 6497
+     0.000018 getuid32()                = 10049
+     0.000123 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000028 read(23, "W", 16)         = 1
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {73372, 776130772}) = 0
+     0.000176 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000121 clock_gettime(CLOCK_MONOTONIC, {73372, 776375809}) = 0
+     0.000026 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000166 clock_gettime(CLOCK_MONOTONIC, {73372, 776565892}) = 0
+     0.000172 ioctl(9, 0xc0186201, 0xbfa2a858) = 0
+     0.000208 ioctl(9, 0xc0186201, 0xbfa2a1f8) = 0
+     0.000277 sendto(50, "\36'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000182 getpid()                  = 6497
+     0.000019 munmap(0x981ff000, 1540096) = 0
+     0.000146 close(54)                 = 0
+     0.000030 epoll_ctl(30, EPOLL_CTL_DEL, 49, NULL) = 0
+     0.000129 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000017 clock_gettime(CLOCK_MONOTONIC, {73372, 777766879}) = 0
+     0.000124 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000459 clock_gettime(CLOCK_MONOTONIC, {73372, 778352139}) = 0
+     0.000030 close(49)                 = 0
+     0.000736 clock_gettime(CLOCK_MONOTONIC, {73372, 779219257}) = 0
+     0.000298 getpid()                  = 6497
+     0.000194 gettid()                  = 6497
+     0.000043 clock_gettime(CLOCK_MONOTONIC, {73372, 779752608}) = 0
+     0.000130 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000188 clock_gettime(CLOCK_MONOTONIC, {73372, 779969298}) = 0
+     0.000076 getpid()                  = 6497
+     0.000046 getuid32()                = 10049
+     0.000109 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 780220618}) = 0
+     0.000102 clock_gettime(CLOCK_MONOTONIC, {73372, 780365966}) = 0
+     0.000073 clock_gettime(CLOCK_MONOTONIC, {73372, 780396569}) = 0
+     0.000058 clock_gettime(CLOCK_MONOTONIC, {73372, 781299980}) = 0
+     0.000903 getpid()                  = 6497
+     0.000001 getuid32()                = 10049
+     0.000017 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, 0) = 1
+     0.000068 recvfrom(46, "nysvV\7\203n�B\0\0�o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000313 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {73372, 781785552}) = 0
+     0.000057 clock_gettime(CLOCK_MONOTONIC, {73372, 781920094}) = 0
+     0.000124 clock_gettime(CLOCK_MONOTONIC, {73372, 781967638}) = 0
+     0.000251 getpid()                  = 6497
+     0.000076 gettid()                  = 6497
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {73372, 782311973}) = 0
+     0.000027 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000431 clock_gettime(CLOCK_MONOTONIC, {73372, 782772530}) = 0
+     0.000043 getpid()                  = 6497
+     0.000248 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 783109928}) = 0
+     0.000137 getpid()                  = 6497
+     0.000020 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000110 clock_gettime(CLOCK_MONOTONIC, {73372, 783400854}) = 0
+     0.000141 getpid()                  = 6497
+     0.000020 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000132 clock_gettime(CLOCK_MONOTONIC, {73372, 783711790}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {73372, 783736016}) = 0
+     0.000112 clock_gettime(CLOCK_MONOTONIC, {73372, 783850345}) = 0
+     0.000035 recvfrom(57, 0xb95167a8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000136 clock_gettime(CLOCK_MONOTONIC, {73372, 784019228}) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {73372, 784044813}) = 0
+     0.000577 write(29, "W", 1)         = 1
+     0.001424 getpid()                  = 6497
+     0.000308 gettid()                  = 6497
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 786371897}) = 0
+     0.000023 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000477 clock_gettime(CLOCK_MONOTONIC, {73372, 786878706}) = 0
+     0.001267 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000277 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.003451 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000052 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000029 dup(56)                   = 65
+     0.000190 sendto(50, ")'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000157 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000143 getpid()                  = 6497
+     0.000020 mmap2(NULL, 1540096, PROT_READ|PROT_WRITE, MAP_SHARED, 65, 0) = 0x981ff000
+     0.000023 getpid()                  = 6497
+     0.000118 getpid()                  = 6497
+     0.000019 close(56)                 = 0
+     0.000028 getpid()                  = 6497
+     0.000111 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000150 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000165 clock_gettime(CLOCK_MONOTONIC, {73372, 793073550}) = 0
+     0.000774 brk(0xb955d000)           = 0xb955d000
+     0.005756 brk(0xb9561000)           = 0xb9561000
+     0.002590 sendto(50, "('\0\0(p\27\0�\1\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000391 sendto(50, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000114 sendto(50, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.009170 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001137 clock_gettime(CLOCK_MONOTONIC, {73372, 813008851}) = 0
+     0.000037 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000170 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000139 getpid()                  = 6497
+     0.000021 getuid32()                = 10049
+     0.000026 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000129 read(23, "W", 16)         = 1
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {73372, 813555473}) = 0
+     0.000025 getpid()                  = 6497
+     0.000120 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {73372, 814620003}) = 0
+     0.001007 getpid()                  = 6497
+     0.000023 getuid32()                = 10049
+     0.000152 epoll_wait(30, {}, 16, 0) = 0
+     0.000047 clock_gettime(CLOCK_MONOTONIC, {73372, 814973992}) = 0
+     0.000312 getpid()                  = 6497
+     0.000021 gettid()                  = 6497
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {73372, 815510767}) = 0
+     0.000331 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000392 clock_gettime(CLOCK_MONOTONIC, {73372, 816081232}) = 0
+     0.000041 epoll_wait(30, {}, 16, 0) = 0
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {73372, 816134626}) = 0
+     0.000027 epoll_wait(30, {}, 16, 1) = 0
+     0.001978 clock_gettime(CLOCK_MONOTONIC, {73372, 818147526}) = 0
+     0.000048 clock_gettime(CLOCK_MONOTONIC, {73372, 818355183}) = 0
+     0.000210 getpid()                  = 6497
+     0.000133 getuid32()                = 10049
+     0.000180 epoll_wait(30, {}, 16, 0) = 0
+     0.000038 clock_gettime(CLOCK_MONOTONIC, {73372, 818753325}) = 0
+     0.000189 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 1077) = 1
+     0.024362 read(23, "W", 16)         = 1
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {73372, 843348566}) = 0
+     0.000072 clock_gettime(CLOCK_MONOTONIC, {73372, 843543417}) = 0
+     0.000158 clock_gettime(CLOCK_MONOTONIC, {73372, 843575078}) = 0
+     0.000033 recvfrom(46, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000140 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000164 clock_gettime(CLOCK_MONOTONIC, {73372, 843915155}) = 0
+     0.000122 getpid()                  = 6497
+     0.000079 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000129 clock_gettime(CLOCK_MONOTONIC, {73372, 844268351}) = 0
+     0.000029 epoll_wait(30, {{EPOLLIN, {u32=46, u64=46}}}, 16, -1) = 1
+     0.003214 recvfrom(46, "nysv�G|r�B\0\0�o\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000119 recvfrom(46, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {73372, 847794861}) = 0
+     0.000177 write(29, "W", 1)         = 1
+     0.001316 clock_gettime(CLOCK_MONOTONIC, {73372, 849208716}) = 0
+     0.000092 clock_gettime(CLOCK_MONOTONIC, {73372, 849240472}) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {73372, 849262379}) = 0
+     0.000029 recvfrom(57, 0xb95167a8, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000124 clock_gettime(CLOCK_MONOTONIC, {73372, 849418640}) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {73372, 849442648}) = 0
+     0.000025 write(29, "W", 1)         = 1
+     0.000496 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000163 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.001914 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000053 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000135 dup(47)                   = 52
+     0.000049 sendto(50, ")'\0\0\f\0\0\0�\1\0\0", 12, 0, NULL, 0) = 12
+     0.000183 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000169 getpid()                  = 6497
+     0.000022 mmap2(NULL, 1540096, PROT_READ|PROT_WRITE, MAP_SHARED, 52, 0) = 0x97bd7000
+     0.000138 getpid()                  = 6497
+     0.000020 getpid()                  = 6497
+     0.000023 close(47)                 = 0
+     0.000137 getpid()                  = 6497
+     0.000028 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000177 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000116 getpid()                  = 6497
+     0.000133 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000197 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001283 sendto(50, "('\0\0(p\27\0�\1\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000137 sendto(50, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000536 sendto(50, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.009610 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000774 getpid()                  = 6497
+     0.000029 sendto(50, "&'\0\0\24\0\0\0�\1\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000155 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000165 clock_gettime(CLOCK_MONOTONIC, {73372, 866314625}) = 0
+     0.001704 mmap2(NULL, 188416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x97ba9000
+     0.000057 madvise(0x97ba9000, 188416, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000213 sendto(50, "('\0\0��\2\0�\1\0\0�\0\0\0�\1\0\0�\0\0\0�\0\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000189 sendto(50, "��\2\0", 4, 0, NULL, 0) = 4
+     0.000202 sendto(50, ">LY�>LW�?LW�?LW�?LY�?LY�?LY�?LY�"..., 184756, 0, NULL, 0) = 184756
+     0.001017 recvfrom(50, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000393 munmap(0x97ba9000, 188416) = 0
+     0.000050 clock_gettime(CLOCK_MONOTONIC, {73372, 870139353}) = 0
+     0.000140 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000844 getpid()                  = 6497
+     0.000038 getuid32()                = 10049
+     0.000134 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000049 read(23, "WW", 16)        = 2
+     0.000529 clock_gettime(CLOCK_MONOTONIC, {73372, 871900246}) = 0
+     0.000038 ioctl(9, 0xc0186201, 0xbfa2a8e8) = 0
+     0.000031 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 1024) = 1
+     0.309913 read(23, "W", 16)         = 1
+     0.000072 clock_gettime(CLOCK_MONOTONIC, {73373, 181933682}) = 0
+     0.000059 getpid()                  = 6497
+     0.000049 getuid32()                = 10049
+     0.000163 epoll_wait(30, {}, 16, 0) = 0
+     0.000334 clock_gettime(CLOCK_MONOTONIC, {73373, 182537590}) = 0
+     0.000064 epoll_wait(30, {}, 16, 713) = 0
+     0.714062 clock_gettime(CLOCK_MONOTONIC, {73373, 896666603}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {73373, 896717067}) = 0
+     0.000052 getpid()                  = 6497
+     0.000030 getuid32()                = 10049
+     0.000040 epoll_wait(30, {}, 16, 0) = 0
+     0.000035 clock_gettime(CLOCK_MONOTONIC, {73373, 896881715}) = 0
+     0.000059 epoll_wait(30, ^C <unfinished ...>
+

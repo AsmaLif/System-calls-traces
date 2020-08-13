@@ -1,0 +1,1297 @@
+     0.000000 epoll_pwait(29, [], 16, 363, NULL, 8) = 0
+     0.363895 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000239 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000365 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000372 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000365 getuid32()                = 10079
+     0.000187 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000417 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.011877 recvfrom(35, "nysv\0\0\0\0\316\221\246\264;\0\0\0\336\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000316 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000406 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000418 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000706 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000414 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000470 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000425 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001106 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 822, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000402 getuid32()                = 10079
+     0.000547 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000389 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000653 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 481, NULL, 8) = 1
+     0.071117 recvfrom(55, "\2\0\0\0\210)\367\355\230\2\0\0\300#\366\355\250\276?\271;\0\0\0\1\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+     0.001003 recvfrom(35, 0xffa5b0c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000975 ioctl(8, BINDER_WRITE_READ, 0xffa5b7d8) = 0
+     0.000815 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000647 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000706 sendto(55, "\3\0\0\0\370xJ\23\230\2\0\0\1g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000619 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000632 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.000568 recvfrom(35, "nysv\0\0\0\0005S\236\271;\0\0\0\340\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000661 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000422 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000602 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000430 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000934 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000615 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000675 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001090 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 826, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000834 getuid32()                = 10079
+     0.000355 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000645 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000701 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 390, NULL, 8) = 1
+     0.006617 recvfrom(55, "\2\0\0\0\210)\367\355\232\2\0\0\300#\366\355\30\301{\272;\0\0\0\1\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+     0.000645 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000318 ioctl(8, BINDER_WRITE_READ, 0xffa5c248) = 0
+     0.000862 ioctl(8, BINDER_WRITE_READ, 0xffa5c278) = 0
+     0.001122 ioctl(8, BINDER_WRITE_READ, 0xffa5c278) = 0
+     0.000458 sendto(55, "\3\0\0\0008}L\23\232\2\0\0\1g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000609 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000566 getuid32()                = 10079
+     0.000384 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000496 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000392 recvfrom(35, 0xffa5c718, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000257 ioctl(8, BINDER_WRITE_READ, 0xffa5ce28) = 0
+     0.000376 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000274 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000228 getuid32()                = 10079
+     0.000286 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000397 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.011032 recvfrom(35, "nysv\0\0\0\0\351\30\233\273;\0\0\0\342\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000269 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000383 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000451 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000367 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000748 ioctl(8, BINDER_WRITE_READ, 0xffa5d398) = 0
+     0.000312 ioctl(8, BINDER_WRITE_READ, 0xffa5d398) = 0
+     0.000292 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000648 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000344 futex(0xdb75d1d0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000332 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000324 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000648 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000352 futex(0xdb75d1d0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000348 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000340 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000386 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000404 futex(0xdb75d1d0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000557 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000378 recvfrom(35, 0xffa5cb48, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001299 ioctl(8, BINDER_WRITE_READ, 0xffa5d258) = 0
+     0.000383 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000469 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000464 ioctl(8, BINDER_WRITE_READ, 0xffa5d408) = 0
+     0.000442 ioctl(8, BINDER_WRITE_READ, 0xffa5d408) = 0
+     0.000611 dup(40)                   = 49
+     0.001577 fcntl64(49, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000262 close(40)                 = 0
+     0.000439 epoll_ctl(29, EPOLL_CTL_ADD, 49, {EPOLLIN, {u32=49, u64=49}}) = 0
+     0.000518 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000507 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000486 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000767 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 830, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000752 getuid32()                = 10079
+     0.000267 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+     0.001894 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000351 recvfrom(35, "nysv\0\0\0\0\300|\231\274;\0\0\0\343\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000373 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000285 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000340 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = 0
+     0.001811 getuid32()                = 10079
+     0.000177 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000290 recvfrom(49, 0xcfd19210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000527 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000296 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000254 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000209 futex(0xdb75d1d0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000200 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000341 ioctl(8, BINDER_WRITE_READ, 0xffa5d5c8) = 0
+     0.000942 ioctl(8, BINDER_WRITE_READ, 0xffa5d5c8) = 0
+     0.002534 ioctl(8, BINDER_WRITE_READ, 0xffa5d3f8) = 0
+     0.000449 ioctl(8, BINDER_WRITE_READ, 0xffa5d3f8) = 0
+     0.000468 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000267 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000268 ioctl(8, BINDER_WRITE_READ, 0xffa5d598) = 0
+     0.000464 ioctl(8, BINDER_WRITE_READ, 0xffa5d598) = 0
+     0.008129 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000475 ioctl(8, BINDER_WRITE_READ, 0xffa5d558) = 0
+     0.000448 ioctl(8, BINDER_WRITE_READ, 0xffa5d558) = 0
+     0.000558 recvfrom(35, 0xffa5cde8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000324 ioctl(8, BINDER_WRITE_READ, 0xffa5d4f8) = 0
+     0.000407 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000262 getuid32()                = 10079
+     0.000230 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000277 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000348 getuid32()                = 10079
+     0.000245 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000336 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.008063 recvfrom(35, "nysv\0\0\0\0\200@\226\276;\0\0\0\345\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000322 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000597 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000477 recvfrom(49, 0xcfd19210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000509 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000465 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = 0
+     0.089819 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000383 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000421 futex(0xdb75d160, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+     0.044927 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000222 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = 0
+     0.013070 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000293 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000262 futex(0xdb75d1d0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000226 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000358 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.000507 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.000594 getuid32()                = 10079
+     0.000276 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000282 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000501 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000517 epoll_pwait(29, [], 16, 166, NULL, 8) = 0
+     0.166823 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000187 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000412 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000197 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000348 getuid32()                = 10079
+     0.000209 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000208 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.010005 recvfrom(35, "nysv\0\0\0\0e\22u\322;\0\0\0\347\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000364 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000222 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000259 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000271 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000564 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000321 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000477 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 834, NULL, 0xffffffff) = 0
+     0.001091 getuid32()                = 10079
+     0.000524 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000322 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000435 epoll_pwait(29, [], 16, 484, NULL, 8) = 0
+     0.484970 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000335 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000362 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000310 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000268 getuid32()                = 10079
+     0.000352 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000434 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.008208 recvfrom(35, "nysv\0\0\0\0\n\252B\360;\0\0\0\351\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001143 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000421 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000387 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000397 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000597 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000365 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000385 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000430 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 838, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000525 getuid32()                = 10079
+     0.000292 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000535 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000349 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 485, NULL, 8) = 1
+     0.196620 recvfrom(55, "\1\0\0\0\0\0\0\0\234\2\0\0\0\0\0\0\310uR\374;\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000456 sendto(57, "\1\0\0\0\0\0\0\0\27\0\0\0\1\0\0\0\0aM\374;\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000470 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000413 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 287, NULL, 8) = 1
+     0.000480 recvfrom(57, "\3\0\0\0\350\237\0\321\27\0\0\0\0 !\352", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000497 ioctl(8, BINDER_WRITE_READ, 0xffa5d028) = 0
+     0.000446 ioctl(8, BINDER_WRITE_READ, 0xffa5d028) = 0
+     0.000356 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000333 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000889 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000410 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000402 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000410 futex(0xdb75d1d4, FUTEX_WAIT_BITSET_PRIVATE, 38, NULL, 0xffffffff) = 0
+     0.022422 epoll_ctl(29, EPOLL_CTL_DEL, 49, NULL) = 0
+     0.000381 ioctl(8, BINDER_WRITE_READ, 0xffa5cdc8) = 0
+     0.000365 ioctl(8, BINDER_WRITE_READ, 0xffa5cdc8) = 0
+     0.001199 close(49)                 = 0
+     0.000759 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40
+     0.000389 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000240 ioctl(40, ASHMEM_SET_NAME, 0xffa5b670) = 0
+     0.000301 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x2000) = 0
+     0.000292 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xeba3f000
+     0.000354 close(40)                 = 0
+     0.001314 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xce776000
+     0.000325 madvise(0xce776000, 1069056, MADV_MERGEABLE) = 0
+     0.000236 mprotect(0xce776000, 4096, PROT_NONE) = 0
+     0.000260 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xce776000, 4096, "thread stack guard page") = 0
+     0.000382 mmap2(NULL, 20480, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xeb525000
+     0.000415 madvise(0xeb525000, 20480, MADV_MERGEABLE) = 0
+     0.000366 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xeb525000, 20480, "bionic TLS guard page") = 0
+     0.000298 mprotect(0xeb526000, 12288, PROT_READ|PROT_WRITE) = 0
+     0.000340 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xeb526000, 12288, "bionic TLS") = 0
+     0.000281 clone(child_stack=0xce87a960, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xce87a978, tls=0xffa5b8f0, child_tidptr=0xce87a978) = 2430
+     0.004311 futex(0xce87a9b0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000279 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000364 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000590 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000266 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000315 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000442 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000242 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000499 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000462 sendto(55, "\3\0\0\0\243\322B\350\234\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000422 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000357 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.002344 recvfrom(35, "nysv\0\0\0\0\234\236)\377;\0\0\0\353\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000312 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000223 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000325 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000371 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000377 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000344 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000501 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000281 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000225 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000340 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 842, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.001037 getuid32()                = 10079
+     0.000378 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000350 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000385 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000355 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 490, NULL, 8) = 1
+     0.026013 recvfrom(55, "\1\0\0\0\0\0\0\0\236\2\0\0\0\0\0\0x%\f\1<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000383 sendto(57, "\1\0\0\0\0\0\0\0\30\0\0\0\360\307\245\377\300\322\2\1<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000427 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000266 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 462, NULL, 8) = 1
+     0.000362 recvfrom(57, "\3\0\0\0\350\237\0\321\30\0\0\0\0\323\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000283 sendto(55, "\3\0\0\0\243\322B\350\236\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000351 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000243 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 461, NULL, 8) = 1
+     0.111354 recvfrom(55, "\1\0\0\0\0\0\0\0\240\2\0\0\0\0\0\0\0300\316\7<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000810 sendto(57, "\1\0\0\0Z?\324\351\31\0\0\0X\267\344\320\0\21\277\7<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000694 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000845 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 348, NULL, 8) = 1
+     0.000656 recvfrom(57, "\3\0\0\0\350\237\0\321\31\0\0\0\0 !\352", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000895 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40
+     0.000414 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000511 ioctl(40, ASHMEM_SET_NAME, 0xffa5b670) = 0
+     0.000428 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x2000) = 0
+     0.000579 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xeb9a4000
+     0.000564 close(40)                 = 0
+     0.000481 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xce104000
+     0.000350 madvise(0xce104000, 1069056, MADV_MERGEABLE) = 0
+     0.000316 mprotect(0xce104000, 4096, PROT_NONE) = 0
+     0.000340 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xce104000, 4096, "thread stack guard page") = 0
+     0.000344 mmap2(NULL, 20480, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xeb470000
+     0.000543 madvise(0xeb470000, 20480, MADV_MERGEABLE) = 0
+     0.000279 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xeb470000, 20480, "bionic TLS guard page") = 0
+     0.000258 mprotect(0xeb471000, 12288, PROT_READ|PROT_WRITE) = 0
+     0.000284 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xeb471000, 12288, "bionic TLS") = 0
+     0.000249 clone(child_stack=0xce208960, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xce208978, tls=0xffa5b8f0, child_tidptr=0xce208978) = 2431
+     0.000369 futex(0xce2089b0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000296 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000234 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000436 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000348 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000429 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000292 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000574 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000314 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000301 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000330 sendto(55, "\3\0\0\0\243\322B\350\240\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000405 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000317 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.010427 recvfrom(35, "nysv\0\0\0\0\261,\30\t<\0\0\0\355\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000000 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000001 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000000 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.004303 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000412 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000317 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000912 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000464 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000478 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000354 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 846, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000365 getuid32()                = 10079
+     0.000717 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000577 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000579 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000463 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 478, NULL, 8) = 1
+     0.031897 recvfrom(55, "\1\0\0\0\0\0\0\0\242\2\0\0\0\0\0\0h\201\311\v<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000754 sendto(57, "\1\0\0\0\0\0\0\0\32\0\0\0\360\307\245\377\300g\275\v<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000457 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000327 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 444, NULL, 8) = 1
+     0.000554 recvfrom(57, "\3\0\0\0\320\370/\336\32\0\0\0\0\323\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000443 sendto(55, "\3\0\0\0\243\322B\350\242\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000348 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000325 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 443, NULL, 8) = 1
+     0.122411 recvfrom(55, "\1\0\0\0\0\0\0\0\244\2\0\0\0\0\0\0px@\23<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000982 sendto(57, "\1\0\0\0Z?\324\351\33\0\0\0X\267\344\320@\3@\23<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001201 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000911 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 317, NULL, 8) = 1
+     0.000838 recvfrom(57, "\3\0\0\0\350\237\0\321\33\0\0\0\0 !\352", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001289 futex(0xea18b738, FUTEX_WAKE, 1) = 1
+     0.000781 futex(0xcfd5d150, FUTEX_WAKE, 1) = 1
+     0.000633 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000691 futex(0xe0a85090, FUTEX_WAKE, 1) = 1
+     0.000600 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000615 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000595 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000564 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000489 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000511 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000337 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000694 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000500 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000393 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000496 sendto(55, "\3\0\0\0\243\322B\350\244\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000480 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000405 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.000344 recvfrom(35, "nysv\0\0\0\0\272\305\5\24<\0\0\0\357\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000334 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000334 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000290 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000301 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000365 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000326 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000542 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000362 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000343 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000303 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 850, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000271 getuid32()                = 10079
+     0.000476 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000385 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000299 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000290 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 492, NULL, 8) = 1
+     0.091727 recvfrom(55, "\1\0\0\0\0\0\0\0\246\2\0\0\0\0\0\0`\233\340\31<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.001008 sendto(57, "\1\0\0\0\0\0\0\0\34\0\0\0\360\307\245\377\0\275\335\31<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001024 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001049 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 397, NULL, 8) = 1
+     0.000778 recvfrom(57, "\3\0\0\0\350\237\0\321\34\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001680 sendto(55, "\3\0\0\0\243\322B\350\246\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000926 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000742 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 393, NULL, 8) = 1
+     0.089481 recvfrom(55, "\1\0\0\0\0\0\0\0\250\2\0\0\0\0\0\0@\335\244\37<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.001113 sendto(57, "\1\0\0\0Z?\324\351\35\0\0\0X\267\344\320\0\225\226\37<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001041 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001111 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 300, NULL, 8) = 1
+     0.000887 recvfrom(57, "\3\0\0\0\0 !\352\35\0\0\0\0 !\352", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001770 futex(0xded9dcd8, FUTEX_WAKE, 1) = 1
+     0.000947 futex(0xd0314510, FUTEX_WAKE, 1) = 1
+     0.000847 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000588 futex(0xe0a85450, FUTEX_WAKE, 1) = 1
+     0.000811 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000469 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000438 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000377 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000309 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000440 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000340 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000441 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000320 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000370 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000354 sendto(55, "\3\0\0\0\243\322B\350\250\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000488 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000291 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.007207 recvfrom(35, "nysv\0\0\0\0\363\0\360 <\0\0\0\361\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000452 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000453 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000327 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000355 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000438 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000699 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000561 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000595 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000469 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 854, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000858 getuid32()                = 10079
+     0.000508 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000579 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000529 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000435 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 484, NULL, 8) = 1
+     0.050039 recvfrom(55, "\1\0\0\0\0\0\0\0\252\2\0\0\0\0\0\0P\241X$<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000479 sendto(57, "\1\0\0\0\0\0\0\0\36\0\0\0\360\307\245\377\300\6L$<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000266 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000191 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 432, NULL, 8) = 1
+     0.000283 recvfrom(57, "\3\0\0\0\350\237\0\321\36\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000279 sendto(55, "\3\0\0\0\243\322B\350\252\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000355 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000483 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 431, NULL, 8) = 1
+     0.333933 recvfrom(55, "\1\0\0\0\0\0\0\0\254\2\0\0\0\0\0\0H\272`8<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000421 sendto(57, "\1\0\0\0Z?\324\351\37\0\0\0X\267\344\320\300\372R8<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000359 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000461 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 96, NULL, 8) = 1
+     0.000333 recvfrom(57, "\3\0\0\0\350\237\0\321\37\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000576 futex(0xddeda8a8, FUTEX_WAKE, 1) = 1
+     0.000271 futex(0xd0314720, FUTEX_WAKE, 1) = 1
+     0.000325 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000358 futex(0xea1d1050, FUTEX_WAKE, 1) = 1
+     0.000277 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000243 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000436 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000275 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000433 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000310 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000418 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000482 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000337 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000571 sendto(55, "\3\0\0\0\243\322B\350\254\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000311 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000455 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.000506 recvfrom(35, "nysv\0\0\0\0\315\254\3078<\0\0\0\363\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000587 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000435 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000593 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000370 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000385 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000569 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000521 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000301 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000868 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 858, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000469 getuid32()                = 10079
+     0.000355 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000669 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000391 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000490 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 491, NULL, 8) = 1
+     0.048796 recvfrom(55, "\1\0\0\0\0\0\0\0\256\2\0\0\0\0\0\0(\213.<<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000908 sendto(57, "\1\0\0\0\0\0\0\0 \0\0\0\360\307\245\377\300\212#<<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000955 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000753 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 439, NULL, 8) = 1
+     0.000785 recvfrom(57, "\3\0\0\0\350\237\0\321 \0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001110 sendto(55, "\3\0\0\0\243\322B\350\256\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000701 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000718 epoll_pwait(29, [], 16, 436, NULL, 8) = 0
+     0.437517 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000681 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.001651 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000995 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000988 getuid32()                = 10079
+     0.000861 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000439 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.010194 recvfrom(35, "nysv\0\0\0\0\212\202\223W<\0\0\0\365\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000467 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000427 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000310 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000440 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000481 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000339 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000382 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000293 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 862, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000407 getuid32()                = 10079
+     0.000362 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000426 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000588 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 484, NULL, 8) = 1
+     0.015514 recvfrom(55, "\1\0\0\0\0\0\0\0\260\2\0\0\0\0\0\0\230o\307X<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000436 sendto(57, "\1\0\0\0Z?\324\351!\0\0\0X\267\344\320\300\302\277X<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000377 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000279 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 467, NULL, 8) = 1
+     0.000355 recvfrom(57, "\3\0\0\0\350\237\0\321!\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000707 futex(0xea18b738, FUTEX_WAKE, 1) = 1
+     0.000337 futex(0xcfd5d150, FUTEX_WAKE, 1) = 1
+     0.000268 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000530 futex(0xe0a85090, FUTEX_WAKE, 1) = 1
+     0.000889 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.001128 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000561 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000671 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000324 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000902 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000503 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000596 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000296 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000433 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000425 sendto(55, "\3\0\0\0\243\322B\350\260\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000362 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000231 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.002020 recvfrom(35, "nysv\0\0\0\0\237:\220Y<\0\0\0\367\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000173 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000169 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000180 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000141 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000289 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000205 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000384 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000214 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000191 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000182 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 866, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000271 getuid32()                = 10079
+     0.000309 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000415 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000182 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000408 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 493, NULL, 8) = 1
+     0.047989 recvfrom(55, "\1\0\0\0\0\0\0\0\262\2\0\0\0\0\0\0\360s\236\\<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000533 sendto(57, "\1\0\0\0\0\0\0\0\"\0\0\0\360\307\245\377\300R\220\\<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000574 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000499 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 443, NULL, 8) = 1
+     0.000405 recvfrom(57, "\3\0\0\0\350\237\0\321\"\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000539 sendto(55, "\3\0\0\0\243\322B\350\262\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000417 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000611 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 441, NULL, 8) = 1
+     0.093367 recvfrom(55, "\1\0\0\0\0\0\0\0\264\2\0\0\0\0\0\0 \2bb<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000658 sendto(57, "\1\0\0\0Z?\324\351#\0\0\0X\267\344\320\0mXb<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000987 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000541 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 346, NULL, 8) = 1
+     0.000694 recvfrom(57, "\3\0\0\0\350\237\0\321#\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001271 futex(0xded9dcd8, FUTEX_WAKE, 1) = 1
+     0.000489 futex(0xd0314510, FUTEX_WAKE, 1) = 1
+     0.000601 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000674 futex(0xe0a85450, FUTEX_WAKE, 1) = 1
+     0.000389 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000696 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000351 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000394 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000280 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000383 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000527 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000392 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000208 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000286 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000354 sendto(55, "\3\0\0\0\243\322B\350\264\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000573 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000382 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.007251 recvfrom(35, "nysv\0\0\0\0\v \177c<\0\0\0\371\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000242 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000238 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000360 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000271 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000342 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000234 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000504 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000266 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000223 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000318 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 870, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000366 getuid32()                = 10079
+     0.000255 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000448 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000301 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000519 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 486, NULL, 8) = 1
+     0.039421 recvfrom(55, "\1\0\0\0\0\0\0\0\266\2\0\0\0\0\0\0\330\367#f<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000230 sendto(57, "\1\0\0\0\0\0\0\0$\0\0\0\360\307\245\377\300\272\31f<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000209 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000134 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 446, NULL, 8) = 1
+     0.000165 recvfrom(57, "\3\0\0\0\350\237\0\321$\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000296 sendto(55, "\3\0\0\0\243\322B\350\266\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000211 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000109 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 445, NULL, 8) = 1
+     0.111958 recvfrom(55, "\1\0\0\0\0\0\0\0\270\2\0\0\0\0\0\0008\204\340l<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000311 sendto(57, "\1\0\0\0Z?\324\351%\0\0\0X\267\344\320\0\371\325l<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001052 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000244 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 331, NULL, 8) = 1
+     0.000491 recvfrom(57, "\3\0\0\0\350\237\0\321%\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001026 futex(0xddeda8a8, FUTEX_WAKE, 1) = 1
+     0.000213 futex(0xd0314720, FUTEX_WAKE, 1) = 1
+     0.000231 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000163 futex(0xea1d1050, FUTEX_WAKE, 1) = 1
+     0.000117 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.001576 futex(0xea195180, FUTEX_WAKE, 1) = 0
+     0.001829 futex(0xea26c748, FUTEX_WAIT, 13, NULL) = -1 EAGAIN (Try again)
+     0.000998 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000538 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000396 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000335 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000341 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000360 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000583 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000318 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000347 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000315 sendto(55, "\3\0\0\0\243\322B\350\270\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000381 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000253 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.017681 recvfrom(35, "nysv\0\0\0\0\325\262kn<\0\0\0\373\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000502 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000498 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000519 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000593 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000759 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000567 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000650 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000441 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000466 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000717 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 874, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000573 getuid32()                = 10079
+     0.000942 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000459 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000426 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000408 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 473, NULL, 8) = 1
+     0.073309 recvfrom(55, "\1\0\0\0\0\0\0\0\272\2\0\0\0\0\0\0x\"\215s<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000634 sendto(57, "\1\0\0\0\0\0\0\0&\0\0\0\360\307\245\377\0\365\202s<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000597 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000675 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 397, NULL, 8) = 1
+     0.000914 recvfrom(57, "\3\0\0\0\350\237\0\321&\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000977 sendto(55, "\3\0\0\0\4\222!\352\272\2\0\0\0\355\30\354", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.001522 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000330 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 393, NULL, 8) = 1
+     0.009713 recvfrom(55, "\1\0\0\0\0\0\0\0\274\2\0\0\0\0\0\0\10M|t<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000496 sendto(57, "\1\0\0\0\0340 \352'\0\0\0x'\36\354\0\31wt<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000534 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000386 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 382, NULL, 8) = 1
+     0.000316 recvfrom(57, "\3\0\0\0\350\237\0\321'\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000812 futex(0xea18b738, FUTEX_WAKE, 1) = 1
+     0.000333 futex(0xcfd5d150, FUTEX_WAKE, 1) = 1
+     0.000354 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000508 futex(0xe0a85090, FUTEX_WAKE, 1) = 1
+     0.000477 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000884 futex(0xea195180, FUTEX_WAKE, 1) = 0
+     0.000473 futex(0xea26c748, FUTEX_WAIT, 14, NULL) = -1 EAGAIN (Try again)
+     0.000350 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000456 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000509 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000454 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000467 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000363 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000802 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000717 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000462 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000450 sendto(55, "\3\0\0\0\243\322B\350\274\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000707 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000556 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.003046 recvfrom(35, "nysv\0\0\0\0\226\24`u<\0\0\0\375\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000348 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000305 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000297 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000270 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000467 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000268 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000512 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000254 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000323 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000262 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 878, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000308 getuid32()                = 10079
+     0.000429 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000375 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000290 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000451 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 489, NULL, 8) = 1
+     0.076341 recvfrom(55, "\1\0\0\0\0\0\0\0\276\2\0\0\0\0\0\0000\3055z<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000888 sendto(57, "\1\0\0\0\0\0\0\0(\0\0\0\360\307\245\377\0\361/z<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000820 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000437 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 410, NULL, 8) = 1
+     0.000584 recvfrom(57, "\3\0\0\0\350\237\0\321(\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000481 sendto(55, "\3\0\0\0\243\322B\350\276\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000543 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000723 epoll_pwait(29, [], 16, 408, NULL, 8) = 0
+     0.409315 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000684 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.001295 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000641 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000688 getuid32()                = 10079
+     0.000656 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000717 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.000718 recvfrom(35, "nysv\0\0\0\0d\234-\223<\0\0\0\377\4\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.001139 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001018 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000720 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000628 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000858 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000701 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000662 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001067 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 882, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000278 getuid32()                = 10079
+     0.000545 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000329 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000402 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 490, NULL, 8) = 1
+     0.293619 recvfrom(55, "\1\0\0\0\0\0\0\0\300\2\0\0\0\0\0\0@\376*\245<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.001004 sendto(57, "\1\0\0\0Z?\324\351)\0\0\0X\267\344\320@\207)\245<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001170 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000644 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 193, NULL, 8) = 1
+     0.000370 recvfrom(57, "\3\0\0\0\350\237\0\321)\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000932 futex(0xded9dcd8, FUTEX_WAKE, 1) = 1
+     0.000416 futex(0xd0314510, FUTEX_WAKE, 1) = 1
+     0.000413 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000406 futex(0xe0a85450, FUTEX_WAKE, 1) = 1
+     0.000423 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000498 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000801 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000676 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000847 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000625 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000555 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000635 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000368 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000335 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000353 sendto(55, "\3\0\0\0\243\322B\350\300\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000509 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000380 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.001605 recvfrom(35, "nysv\0\0\0\0\323\271\r\246<\0\0\0\1\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000484 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000287 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000300 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000279 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000367 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000353 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000572 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000279 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000291 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000736 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 886, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000192 getuid32()                = 10079
+     0.000171 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000177 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000178 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000173 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 491, NULL, 8) = 1
+     0.076533 recvfrom(55, "\1\0\0\0\0\0\0\0\302\2\0\0\0\0\0\0`H\336\252<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000993 sendto(57, "\1\0\0\0\0\0\0\0*\0\0\0\360\307\245\377\0\35\323\252<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001243 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000824 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 412, NULL, 8) = 1
+     0.000846 recvfrom(57, "\3\0\0\0\350\237\0\321*\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001048 sendto(55, "\3\0\0\0\243\322B\350\302\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000769 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000659 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 408, NULL, 8) = 1
+     0.314223 recvfrom(55, "\1\0\0\0\0\0\0\0\304\2\0\0\0\0\0\0h\303\367\275<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.001200 sendto(57, "\1\0\0\0Z?\324\351+\0\0\0X\267\344\320@/\365\275<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001151 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000619 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 91, NULL, 8) = 1
+     0.000625 recvfrom(57, "\3\0\0\0\350\237\0\321+\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.002081 futex(0xddeda8a8, FUTEX_WAKE, 1) = 1
+     0.000586 futex(0xd0314720, FUTEX_WAKE, 1) = 1
+     0.000429 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000352 futex(0xea1d1050, FUTEX_WAKE, 1) = 1
+     0.000435 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000848 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000635 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000708 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000499 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000584 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000605 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000869 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.001007 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000552 sendto(55, "\3\0\0\0\243\322B\350\304\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000488 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000357 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.000289 recvfrom(35, "nysv\0\0\0\0u\270\343\276<\0\0\0\3\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000294 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000292 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000312 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000287 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000395 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000349 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000455 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000329 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000334 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000538 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 890, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000453 getuid32()                = 10079
+     0.000325 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000337 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000278 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000284 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 492, NULL, 8) = 1
+     0.058142 recvfrom(55, "\1\0\0\0\0\0\0\0\306\2\0\0\0\0\0\0\360\257\241\302<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000747 sendto(57, "\1\0\0\0\0\0\0\0,\0\0\0\360\307\245\377\300^\233\302<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000789 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000541 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 432, NULL, 8) = 1
+     0.000584 recvfrom(57, "\3\0\0\0\350\237\0\321,\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000722 sendto(55, "\3\0\0\0\243\322B\350\306\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000689 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000611 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 429, NULL, 8) = 1
+     0.428216 recvfrom(55, "\1\0\0\0\0\0\0\0\310\2\0\0\0\0\0\0\2509n\334<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000953 sendto(57, "\1\0\0\0Z?\324\351-\0\0\0X\267\344\320\0mj\334<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000877 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000689 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000599 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000570 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000483 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000449 getuid32()                = 10079
+     0.000534 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 0, NULL, 8) = 1
+     0.000435 recvfrom(57, "\3\0\0\0\350\237\0\321-\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.001130 futex(0xea18b738, FUTEX_WAKE, 1) = 1
+     0.000311 futex(0xcfd5d150, FUTEX_WAKE, 1) = 1
+     0.000278 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000253 futex(0xe0a85090, FUTEX_WAKE, 1) = 1
+     0.000217 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000348 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000381 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000001 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000000 sendto(55, "\3\0\0\0\243\322B\350\310\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000000 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.004886 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.006888 recvfrom(35, "nysv\0\0\0\0\334\211\257\335<\0\0\0\5\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000262 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000358 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000505 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000466 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000579 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000626 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000447 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000470 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000824 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 894, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000448 getuid32()                = 10079
+     0.000340 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000596 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000485 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000353 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 482, NULL, 8) = 1
+     0.100624 recvfrom(55, "\1\0\0\0\0\0\0\0\312\2\0\0\0\0\0\0x\24\7\344<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000754 sendto(57, "\1\0\0\0\0\0\0\0.\0\0\0\360\307\245\377\300J\374\343<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000601 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000465 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 379, NULL, 8) = 1
+     0.000377 recvfrom(57, "\3\0\0\0\350\237\0\321.\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000581 sendto(55, "\3\0\0\0\243\322B\350\312\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000682 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000418 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 377, NULL, 8) = 1
+     0.000363 recvfrom(55, "\1\0\0\0\0\0\0\0\314\2\0\0\0\0\0\0\0c\22\344<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000601 sendto(57, "\1\0\0\0Z?\324\351/\0\0\0X\267\344\320\0\215\v\344<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000515 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000463 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 375, NULL, 8) = 1
+     0.000438 recvfrom(57, "\3\0\0\0\350\237\0\321/\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000916 futex(0xded9dcd8, FUTEX_WAKE, 1) = 1
+     0.000454 futex(0xd0314510, FUTEX_WAKE, 1) = 1
+     0.000401 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000339 futex(0xe0a85450, FUTEX_WAKE, 1) = 1
+     0.000673 futex(0xe0a85430, FUTEX_WAKE, 1) = 1
+     0.000556 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000511 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000227 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000361 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000288 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000447 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000384 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000255 sendto(55, "\3\0\0\0\243\322B\350\314\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000356 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000220 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.022957 recvfrom(35, "nysv\0\0\0\0D\324\237\345<\0\0\0\7\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000397 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000305 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000355 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000439 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000577 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000557 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000704 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000495 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000373 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000342 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 898, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000430 getuid32()                = 10079
+     0.000821 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000000 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000000 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000001 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 470, NULL, 8) = 1
+     0.021588 recvfrom(55, "\1\0\0\0\0\0\0\0\316\2\0\0\0\0\0\0\340i\327\347<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000279 sendto(57, "\1\0\0\0\0\0\0\0000\0\0\0\360\307\245\377\300\332\314\347<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000249 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000199 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 447, NULL, 8) = 1
+     0.000143 recvfrom(57, "\3\0\0\0\350\237\0\3210\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000285 sendto(55, "\3\0\0\0\243\322B\350\316\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000279 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000155 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 447, NULL, 8) = 1
+     0.222497 recvfrom(55, "\1\0\0\0\0\0\0\0\320\2\0\0\0\0\0\0(>5\365<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000191 sendto(57, "\1\0\0\0Z?\324\3511\0\0\0X\267\344\320\300\322&\365<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.000165 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000111 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 224, NULL, 8) = 1
+     0.000110 recvfrom(57, "\3\0\0\0\350\237\0\3211\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000532 futex(0xddeda8a8, FUTEX_WAKE, 1) = 1
+     0.000106 futex(0xd0314720, FUTEX_WAKE, 1) = 1
+     0.000117 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.000110 futex(0xea1d1050, FUTEX_WAKE, 1) = 1
+     0.000101 futex(0xea1d1030, FUTEX_WAKE, 1) = 1
+     0.002365 futex(0xea195180, FUTEX_WAKE, 1) = 0
+     0.000235 futex(0xea26c748, FUTEX_WAIT, 15, NULL) = -1 EAGAIN (Try again)
+     0.000288 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000288 ioctl(8, BINDER_WRITE_READ, 0xffa5be78) = 0
+     0.000363 recvfrom(35, 0xffa5b338, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000278 ioctl(8, BINDER_WRITE_READ, 0xffa5ba48) = 0
+     0.000307 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000239 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000421 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000293 ioctl(8, BINDER_WRITE_READ, 0xffa5bfa8) = 0
+     0.000297 ioctl(8, BINDER_WRITE_READ, 0xffa5c078) = 0
+     0.000278 sendto(55, "\3\0\0\0\243\322B\350\320\2\0\0\1l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000320 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000265 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.038358 recvfrom(35, "nysv\0\0\0\0d9{\367<\0\0\0\t\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000313 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000308 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000279 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000239 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000483 ioctl(8, BINDER_WRITE_READ, 0xffa5d4e8) = 0
+     0.000626 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000292 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000259 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000230 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 902, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000187 getuid32()                = 10079
+     0.000198 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000231 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000248 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000282 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 456, NULL, 8) = 1
+     0.014770 recvfrom(55, "\1\0\0\0\0\0\0\0\322\2\0\0\0\0\0\0\270\337\23\371<\0\0\0\1\0\0\0\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+     0.000471 sendto(57, "\1\0\0\0\0\0\0\0002\0\0\0\360\307\245\377\0\245\6\371<\0\0\0\1\0\0\0\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+     0.001538 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000337 epoll_pwait(29, [{EPOLLIN, {u32=57, u64=57}}], 16, 439, NULL, 8) = 1
+     0.000306 recvfrom(57, "\3\0\0\0\350\237\0\3212\0\0\0\0\312\245\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000399 sendto(55, "\3\0\0\0\243\322B\350\322\2\0\0\0l\10\352", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000293 recvfrom(57, 0xffa5cf50, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000295 epoll_pwait(29, [], 16, 437, NULL, 8) = 0
+     0.494669 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000253 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000389 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000297 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000288 getuid32()                = 10079
+     0.000262 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000248 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.039111 recvfrom(35, "nysv\0\0\0\0#[<\30=\0\0\0\v\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000302 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000290 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000341 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000269 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000400 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000237 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000214 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000250 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 906, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000236 getuid32()                = 10079
+     0.000374 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000242 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000507 epoll_pwait(29, [], 16, 456, NULL, 8) = 0
+     0.457250 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000306 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000422 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000401 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000261 getuid32()                = 10079
+     0.000233 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000235 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.037108 recvfrom(35, "nysv\0\0\0\0\314\332\0076=\0\0\0\r\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000286 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000261 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000234 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000203 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000374 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000202 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000234 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000269 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 910, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000330 getuid32()                = 10079
+     0.000218 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000220 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000240 epoll_pwait(29, [{EPOLLIN, {u32=55, u64=55}}], 16, 459, NULL, 8) = 1
+     0.173464 recvfrom(55, "\2\0\0\0\210)\367\355\326\2\0\0\300#\366\355\20\317\210A=\0\0\0\1\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+     0.000282 ioctl(8, BINDER_WRITE_READ, 0xffa5d098) = 0
+     0.000285 ioctl(8, BINDER_WRITE_READ, 0xffa5d098) = 0
+     0.000331 recvfrom(35, 0xffa5b268, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000319 ioctl(8, BINDER_WRITE_READ, 0xffa5b978) = 0
+     0.000503 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000370 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000450 sendto(55, "\3\0\0\0\370xJ\23\326\2\0\0\1g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000376 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000362 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.003552 recvfrom(35, "nysv\0\0\0\0\r\341\364A=\0\0\0\17\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000224 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000196 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000191 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000233 recvfrom(35, 0xffa5ced8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000191 ioctl(8, BINDER_WRITE_READ, 0xffa5d5e8) = 0
+     0.000288 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000385 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000227 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000186 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000218 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 914, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000177 getuid32()                = 10079
+     0.000187 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000238 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000216 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 275, NULL, 8) = 1
+     0.037510 recvfrom(35, "nysv\0\0\0\0\30=\360C=\0\0\0\20\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000337 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000366 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000325 recvfrom(35, 0xffa5c9b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000295 ioctl(8, BINDER_WRITE_READ, 0xffa5d0c8) = 0
+     0.000287 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000236 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000561 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000429 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000290 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000464 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000312 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 918, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000338 getuid32()                = 10079
+     0.000483 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000353 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000317 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 233, NULL, 8) = 1
+     0.003974 recvfrom(35, "nysv\0\0\0\0\304\337\356D=\0\0\0\21\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000340 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000572 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000362 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000291 recvfrom(35, 0xffa5c9b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000221 ioctl(8, BINDER_WRITE_READ, 0xffa5d0c8) = 0
+     0.000303 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000321 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000455 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000240 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 922, NULL, 0xffffffff) = 0
+     0.002975 getuid32()                = 10079
+     0.000372 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000294 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000359 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 222, NULL, 8) = 1
+     0.009590 recvfrom(35, "nysv\0\0\0\0\357\201\355E=\0\0\0\22\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000000 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000001 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000000 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000000 recvfrom(35, 0xffa5c9b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000001 ioctl(8, BINDER_WRITE_READ, 0xffa5d0c8) = 0
+     0.004225 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000286 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000374 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000449 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000301 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000305 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000581 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 926, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000451 getuid32()                = 10079
+     0.000262 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000257 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000323 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 204, NULL, 8) = 1
+     0.008939 recvfrom(35, "nysv\0\0\0\0\361\"\354F=\0\0\0\23\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000451 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000549 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000390 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000350 recvfrom(35, 0xffa5c9b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000272 ioctl(8, BINDER_WRITE_READ, 0xffa5d0c8) = 0
+     0.000323 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000318 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000364 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000557 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000328 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000571 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 930, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000420 getuid32()                = 10079
+     0.000228 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=55, u64=55}}], 16, 0, NULL, 8) = 2
+     0.000251 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000244 recvfrom(55, "\2\0\0\0\210)\367\355\330\2\0\0\300#\366\355\00039G=\0\0\0\1\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+     0.000299 sendto(55, "\3\0\0\0h}L\23\330\2\0\0\1k\27\354", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000288 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000276 getuid32()                = 10079
+     0.000226 getuid32()                = 10079
+     0.000184 fstat64(43, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000229 fstat64(43, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000251 ioctl(43, ASHMEM_GET_SIZE, 0) = 84
+     0.000232 fstat64(43, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000203 fstat64(43, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+     0.000217 ioctl(43, ASHMEM_PIN, 0xffa5d8c0) = 0
+     0.000246 ioctl(8, BINDER_WRITE_READ, 0xffa5d7f8) = 0
+     0.001649 ioctl(8, BINDER_WRITE_READ, 0xffa5d068) = 0
+     0.000586 ioctl(8, BINDER_WRITE_READ, 0xffa5d068) = 0
+     0.005297 futex(0xea18b738, FUTEX_WAKE, 1) = 1
+     0.000304 futex(0xcfd5d150, FUTEX_WAKE, 1) = 1
+     0.000482 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000349 futex(0xe0a85090, FUTEX_WAKE, 1) = 1
+     0.000596 futex(0xe0a85070, FUTEX_WAKE, 1) = 1
+     0.000285 getuid32()                = 10079
+     0.000339 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1
+     0.000258 recvfrom(35, "nysv\0\0\0\0\210\303\352G=\0\0\0\24\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000451 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000374 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000337 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000349 getuid32()                = 10079
+     0.000297 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000322 ioctl(8, BINDER_WRITE_READ, 0xffa5d778) = 0
+     0.000354 ioctl(8, BINDER_WRITE_READ, 0xffa5d778) = 0
+     0.000422 ioctl(8, BINDER_WRITE_READ, 0xffa5d6b8) = 0
+     0.000425 ioctl(8, BINDER_WRITE_READ, 0xffa5d6b8) = 0
+     0.000334 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000272 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000282 futex(0xdb75d770, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000257 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000227 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000281 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000267 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000223 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000272 futex(0xdb75d770, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000282 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000390 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000231 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000314 ioctl(8, BINDER_WRITE_READ, 0xffa5d728) = 0
+     0.001042 dup(40)                   = 49
+     0.003091 fcntl64(49, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+     0.000339 close(40)                 = 0
+     0.000397 epoll_ctl(29, EPOLL_CTL_ADD, 49, {EPOLLIN, {u32=49, u64=49}}) = 0
+     0.000271 getuid32()                = 10079
+     0.000241 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000273 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000456 recvfrom(49, 0xcfd19210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000369 recvfrom(35, 0xffa5ced8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000316 ioctl(8, BINDER_WRITE_READ, 0xffa5d5e8) = 0
+     0.002832 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000539 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000536 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000338 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 934, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000467 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000217 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = 0
+     0.016452 ioctl(8, BINDER_WRITE_READ, 0xffa5d5c8) = 0
+     0.001037 ioctl(8, BINDER_WRITE_READ, 0xffa5d5c8) = 0
+     0.002500 ioctl(8, BINDER_WRITE_READ, 0xffa5d3f8) = 0
+     0.000223 ioctl(8, BINDER_WRITE_READ, 0xffa5d3f8) = 0
+     0.000333 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000270 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000373 ioctl(8, BINDER_WRITE_READ, 0xffa5d598) = 0
+     0.000351 ioctl(8, BINDER_WRITE_READ, 0xffa5d598) = 0
+     0.097771 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000410 ioctl(8, BINDER_WRITE_READ, 0xffa5d558) = 0
+     0.000310 ioctl(8, BINDER_WRITE_READ, 0xffa5d558) = 0
+     0.000667 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000306 getuid32()                = 10079
+     0.000288 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+     0.000251 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000321 recvfrom(35, "nysv\0\0\0\0\326\350\350H=\0\0\0\25\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000234 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000730 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000601 getuid32()                = 10079
+     0.000260 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000302 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = 0
+     0.024125 getuid32()                = 10079
+     0.000081 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000117 recvfrom(49, 0xcfd19210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000093 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000168 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000102 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000081 futex(0xdb75d770, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000085 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000261 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000098 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000085 futex(0xdb75d700, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+     0.026878 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000060 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = 0
+     0.006146 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000040 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = 0
+     0.023240 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.000491 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.002341 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000360 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 938, NULL, 0xffffffff) = 0
+     0.004052 getuid32()                = 10079
+     0.000422 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000877 recvfrom(35, 0xffa5cfb8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000398 ioctl(8, BINDER_WRITE_READ, 0xffa5d6c8) = 0
+     0.000523 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000763 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001156 getuid32()                = 10079
+     0.000453 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000552 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000366 getuid32()                = 10079
+     0.000343 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000362 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.010653 recvfrom(35, "nysv\0\0\0\0Tm\324V=\0\0\0\37\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000474 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000371 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000371 recvfrom(49, 0xcfd19210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001594 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000791 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000492 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000494 futex(0xdb75d770, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000457 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000502 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000462 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 38, NULL, 0xffffffff) = 0
+     0.001159 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.000508 ioctl(8, BINDER_WRITE_READ, 0xffa5d618) = 0
+     0.000425 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000489 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000377 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000405 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000845 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 942, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000461 getuid32()                = 10079
+     0.000411 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000407 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000474 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000366 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 476, NULL, 8) = 1
+     0.041790 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000487 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 434, NULL, 8) = 1
+     0.099362 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000547 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 334, NULL, 8) = 1
+     0.182838 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000363 epoll_pwait(29, [], 16, 151, NULL, 8) = 0
+     0.151669 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000298 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000336 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000225 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000250 getuid32()                = 10079
+     0.000229 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000266 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.009320 recvfrom(35, "nysv\0\0\0\0\365\343\245t=\0\0\0=\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000388 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000177 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000368 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000303 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000476 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000258 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000223 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000536 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 946, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.001224 getuid32()                = 10079
+     0.000384 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000245 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000271 getuid32()                = 10079
+     0.000226 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000212 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 485, NULL, 8) = 1
+     0.048896 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000272 epoll_pwait(29, [], 16, 436, NULL, 8) = 0
+     0.436932 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000271 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000287 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000323 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000425 getuid32()                = 10079
+     0.000367 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000318 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.006598 recvfrom(35, "nysv\0\0\0\0&_t\222=\0\0\0C\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000296 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000402 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000421 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000475 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000580 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000439 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000433 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000406 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 950, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000806 getuid32()                = 10079
+     0.000420 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000339 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000331 epoll_pwait(29, [], 16, 488, NULL, 8) = 0
+     0.489482 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.001181 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000593 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000492 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000508 getuid32()                = 10079
+     0.000284 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000220 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.007953 recvfrom(35, "nysv\0\0\0\0\233\323@\260=\0\0\0E\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000396 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000482 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000246 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000427 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000490 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000315 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000269 futex(0xdb75e5fc, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000293 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 954, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+     0.000261 getuid32()                = 10079
+     0.000368 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000401 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000390 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 488, NULL, 8) = 1
+     0.234641 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000332 recvfrom(35, 0xffa5cc08, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000364 ioctl(8, BINDER_WRITE_READ, 0xffa5d318) = 0
+     0.000500 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000245 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000216 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000154 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000169 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 42, NULL, 0xffffffff) = 0
+     0.001194 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000238 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000226 futex(0xdb75d774, FUTEX_WAIT_BITSET_PRIVATE, 46, NULL, 0xffffffff) = 0
+     0.012642 epoll_ctl(29, EPOLL_CTL_DEL, 49, NULL) = 0
+     0.001174 ioctl(8, BINDER_WRITE_READ, 0xffa5d6f8) = 0
+     0.000303 ioctl(8, BINDER_WRITE_READ, 0xffa5d6f8) = 0
+     0.001262 close(49)                 = 0
+     0.000471 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000248 getuid32()                = 10079
+     0.000404 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 2
+     0.000352 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000257 recvfrom(35, "nysv\0\0\0\0(\32(\277=\0\0\0G\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000337 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000383 getuid32()                = 10079
+     0.000328 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000204 ioctl(8, BINDER_WRITE_READ, 0xffa5da38) = 0
+     0.000189 epoll_pwait(29, [], 16, 231, NULL, 8) = 0
+     0.234349 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000261 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000361 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000200 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000249 getuid32()                = 10079
+     0.000246 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000177 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.013800 recvfrom(35, "nysv\0\0\0\0Q\26\17\317=\0\0\0I\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000388 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000117 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000262 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000231 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000318 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000418 futex(0xea232968, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000127 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 958, NULL, 0xffffffff) = 0
+     0.000275 getuid32()                = 10079
+     0.000226 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000184 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+     0.000243 epoll_pwait(29, [], 16, 483, NULL, 8) = 0
+     0.484000 recvfrom(35, 0xffa5ccc8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000215 ioctl(8, BINDER_WRITE_READ, 0xffa5d3d8) = 0
+     0.000182 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000159 getuid32()                = 10079
+     0.000199 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+     0.000122 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+     0.012207 recvfrom(35, "nysv\0\0\0\0\362;\335\354=\0\0\0K\5\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+     0.000089 recvfrom(35, 0xffa5cf38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000104 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000086 recvfrom(55, 0xe0783a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+     0.000124 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000332 write(33, "\1\0\0\0\0\0\0\0", 8) = 8
+     0.000100 futex(0xdb75e600, FUTEX_WAIT_BITSET_PRIVATE, 962, NULL, 0xffffffff) = 0
+     0.000125 getuid32()                = 10079
+     0.000048 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+     0.000061 read(25, "\2\0\0\0\0\0\0\0", 8) = 8

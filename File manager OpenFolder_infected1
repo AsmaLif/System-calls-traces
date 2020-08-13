@@ -1,0 +1,1746 @@
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {70781, 178845975}) = 0
+     0.000165 epoll_wait(30, {{EPOLLIN, {u32=39, u64=39}}}, 16, -1) = 1
+     1.742841 recvfrom(39, "\2\0\0\0\1\0\0\0\t\3\0\0���n`@\0\0\1\0\0\0\2\20\0\0\n\0\0\0"..., 1228, MSG_DONTWAIT, NULL, NULL) = 148
+     0.000111 sendto(39, "\3\0\0\0000\17;�\t\3\0\0\1\236��", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000182 recvfrom(39, "\2\0\0\0\1\0\0\0\v\3\0\0���n`@\0\0\1\0\0\0\2\20\0\0\0\0\0\0"..., 1228, MSG_DONTWAIT, NULL, NULL) = 148
+     0.000196 clock_gettime(CLOCK_MONOTONIC, {70782, 922341813}) = 0
+     0.000146 write(29, "W", 1)         = 1
+     0.000189 clock_gettime(CLOCK_MONOTONIC, {70782, 922672639}) = 0
+     0.000044 sendto(39, "\3\0\0\0000\17;�\v\3\0\0\1\236��", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000162 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000145 clock_gettime(CLOCK_MONOTONIC, {70782, 923023524}) = 0
+     0.000028 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000137 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000026 read(23, "W", 16)         = 1
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70782, 923265514}) = 0
+     0.000135 epoll_wait(30, {{EPOLLIN, {u32=39, u64=39}}}, 16, 179) = 1
+     0.058114 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45170, NULL) = 0
+     0.009673 recvfrom(39, "\2\0\0\0\1\0\0\0\f\3\0\0\0\221tr`@\0\0\1\0\0\0\2\20\0\0\1\0\0\0"..., 1228, MSG_DONTWAIT, NULL, NULL) = 148
+     0.000623 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000057 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000081 clock_gettime(CLOCK_MONOTONIC, {70782, 991947074}) = 0
+     0.000077 clock_gettime(CLOCK_MONOTONIC, {70782, 992103242}) = 0
+     0.000102 recvfrom(38, 0xbfa29c9c, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000195 ioctl(9, 0xc0186201, 0xbfa29a48) = 0
+     0.000283 clock_gettime(CLOCK_MONOTONIC, {70782, 992651578}) = 0
+     0.000299 clock_gettime(CLOCK_MONOTONIC, {70782, 992917411}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {70782, 992956934}) = 0
+     0.000134 sendto(39, "\3\0\0\0000\17;�\f\3\0\0\1\236��", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+     0.000175 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000040 clock_gettime(CLOCK_MONOTONIC, {70782, 993310600}) = 0
+     0.000165 epoll_wait(30, {{EPOLLIN, {u32=38, u64=38}}}, 16, -1) = 1
+     0.004086 recvfrom(38, "nysv(\2gs`@\0\0�b\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000081 recvfrom(38, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000202 clock_gettime(CLOCK_MONOTONIC, {70782, 997847192}) = 0
+     0.000044 write(29, "W", 1)         = 1
+     0.000276 clock_gettime(CLOCK_MONOTONIC, {70782, 998174077}) = 0
+     0.000064 clock_gettime(CLOCK_MONOTONIC, {70782, 998234677}) = 0
+     0.000211 clock_gettime(CLOCK_MONOTONIC, {70782, 998428945}) = 0
+     0.000253 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000064 clock_gettime(CLOCK_MONOTONIC, {70782, 998762324}) = 0
+     0.000274 clock_gettime(CLOCK_MONOTONIC, {70782, 999051672}) = 0
+     0.000092 write(29, "W", 1)         = 1
+     0.000309 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000330 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000085 getpid()                  = 5741
+     0.000287 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000330 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000063 getpid()                  = 5741
+     0.000206 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000360 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000276 sendto(41, "('\0\0(p\27\0�\0\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000122 sendto(41, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000259 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.008536 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001272 getpid()                  = 5741
+     0.000027 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000203 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000163 clock_gettime(CLOCK_MONOTONIC, {70783, 11949998}) = 0
+     0.000715 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000118 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000179 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000212 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000153 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000153 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000044 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.001112 mmap2(NULL, 1187840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x98f8a000
+     0.000090 madvise(0x98f8a000, 1187840, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000627 sendto(41, "('\0\0�\23\22\0�\0\0\0\0\0\0\0l\0\0\0�\1\0\0i\2\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.004463 sendto(41, "\200\23\22\0", 4, 0, NULL, 0) = 4
+     0.000074 sendto(41, "��\r���\16���\17���\17���\20���\22���\23���\22�"..., 1184640, 0, NULL, 0) = 1184640
+     0.011638 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.003286 munmap(0x98f8a000, 1187840) = 0
+     0.000084 clock_gettime(CLOCK_MONOTONIC, {70783, 35377518}) = 0
+     0.000139 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000186 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45174, NULL) = 0
+     0.011299 getpid()                  = 5741
+     0.000027 getuid32()                = 10049
+     0.000031 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000049 read(23, "WW", 16)        = 2
+     0.000040 clock_gettime(CLOCK_MONOTONIC, {70783, 47045963}) = 0
+     0.000028 ioctl(9, 0xc0186201, 0xbfa2a8e8) = 0
+     0.000456 epoll_wait(30, {}, 16, 9) = 0
+     0.011318 clock_gettime(CLOCK_MONOTONIC, {70783, 58923229}) = 0
+     0.000179 clock_gettime(CLOCK_MONOTONIC, {70783, 59043128}) = 0
+     0.000057 clock_gettime(CLOCK_MONOTONIC, {70783, 59088047}) = 0
+     0.000158 recvfrom(38, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000033 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 59447911}) = 0
+     0.000085 clock_gettime(CLOCK_MONOTONIC, {70783, 59608941}) = 0
+     0.000311 getpid()                  = 5741
+     0.000128 gettid()                  = 5741
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {70783, 59991286}) = 0
+     0.000136 ioctl(9, 0xc0186201, 0xbfa2a788) = 0
+     0.000648 clock_gettime(CLOCK_MONOTONIC, {70783, 60765057}) = 0
+     0.000001 stat64("/acct", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000640 clock_gettime(CLOCK_MONOTONIC, {70783, 61490625}) = 0
+     0.000111 clock_gettime(CLOCK_MONOTONIC, {70783, 61522875}) = 0
+     0.000156 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x990a8000
+     0.000033 madvise(0x990a8000, 16384, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000476 mmap2(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98fa8000
+     0.000023 madvise(0x98fa8000, 1048576, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000019 mprotect(0x98fa8000, 4096, PROT_NONE) = 0
+     0.000032 clone(child_stack=0x990a7ef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|0x400000) = 5804
+     0.000142 futex(0xb6875c18, FUTEX_WAIT_PRIVATE, -674, NULL) = 0
+     0.019753 futex(0xb6875c14, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000288 futex(0xb6875c14, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000031 futex(0xb6875c18, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+     0.000028 getpid()                  = 5741
+     0.000060 getuid32()                = 10049
+     0.000145 epoll_wait(30, {{EPOLLIN, {u32=38, u64=38}}}, 16, 0) = 1
+     0.000043 recvfrom(38, "nysv�B`w`@\0\0�b\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000185 recvfrom(38, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000031 clock_gettime(CLOCK_MONOTONIC, {70783, 82973468}) = 0
+     0.000180 clock_gettime(CLOCK_MONOTONIC, {70783, 83152792}) = 0
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {70783, 83182335}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 83343175}) = 0
+     0.000183 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {70783, 83569779}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 83612006}) = 0
+     0.000035 write(29, "W", 1)         = 1
+     0.000383 open("/system/fonts/Roboto-Bold.ttf", O_RDONLY|O_LARGEFILE) = 37
+     0.000089 lseek(37, 0, SEEK_END)    = 79620
+     0.000162 lseek(37, 0, SEEK_SET)    = 0
+     0.000027 mmap2(NULL, 79620, PROT_READ, MAP_SHARED, 37, 0) = 0x98f94000
+     0.000034 close(37)                 = 0
+     0.000187 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000175 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000031 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000454 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000051 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000001 getpid()                  = 5741
+     0.000000 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000000 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000001 getpid()                  = 5741
+     0.000000 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000001 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000000 sendto(41, "('\0\0(p\27\0�\0\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.004019 sendto(41, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000426 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.008859 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001926 getpid()                  = 5741
+     0.000030 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000349 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000164 clock_gettime(CLOCK_MONOTONIC, {70783, 101018649}) = 0
+     0.000394 clock_gettime(CLOCK_MONOTONIC, {70783, 101478964}) = 0
+     0.000102 clock_gettime(CLOCK_MONOTONIC, {70783, 101510981}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 101547545}) = 0
+     0.000312 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000178 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000923 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000422 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000200 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000203 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000194 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000162 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000244 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000174 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000205 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000167 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000112 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000068 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000130 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000170 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000137 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000151 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000165 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000056 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000152 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000061 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000167 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000155 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000172 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000096 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000139 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000161 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000162 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000061 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000170 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000115 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000096 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000344 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000116 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000175 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000169 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000412 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000108 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000064 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000376 mmap2(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x9906b000
+     0.000145 madvise(0x9906b000, 266240, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000323 sendto(41, "('\0\0(\v\4\0�\0\0\0\0\0\0\0&\0\0\0�\1\0\0\212\0\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000114 sendto(41, "\0\v\4\0", 4, 0, NULL, 0) = 4
+     0.000199 sendto(41, "\232\233\232�\233\233\232�\232\232\232�\232\232\232�\232\232\232�\232\232\232�\232\232\232�\233\232\233�"..., 264960, 0, NULL, 0) = 264960
+     0.001555 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000506 munmap(0x9906b000, 266240) = 0
+     0.000051 clock_gettime(CLOCK_MONOTONIC, {70783, 112923724}) = 0
+     0.000153 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000237 getpid()                  = 5741
+     0.000139 getuid32()                = 10049
+     0.000037 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000076 read(23, "W", 16)         = 1
+     0.000113 clock_gettime(CLOCK_MONOTONIC, {70783, 113677227}) = 0
+     0.000061 clock_gettime(CLOCK_MONOTONIC, {70783, 113847364}) = 0
+     0.000147 clock_gettime(CLOCK_MONOTONIC, {70783, 113885321}) = 0
+     0.000054 recvfrom(38, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000269 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000542 clock_gettime(CLOCK_MONOTONIC, {70783, 114833226}) = 0
+     0.000132 getpid()                  = 5741
+     0.000030 getuid32()                = 10049
+     0.000140 epoll_wait(30, {}, 16, 0) = 0
+     0.000039 clock_gettime(CLOCK_MONOTONIC, {70783, 115087597}) = 0
+     0.000261 getpid()                  = 5741
+     0.000035 getuid32()                = 10049
+     0.000166 epoll_wait(30, {}, 16, 0) = 0
+     0.000038 clock_gettime(CLOCK_MONOTONIC, {70783, 115591960}) = 0
+     0.000200 clock_gettime(CLOCK_MONOTONIC, {70783, 115790224}) = 0
+     0.000193 clock_gettime(CLOCK_MONOTONIC, {70783, 115983510}) = 0
+     0.000841 clock_gettime(CLOCK_MONOTONIC, {70783, 117010083}) = 0
+     0.000550 clock_gettime(CLOCK_MONOTONIC, {70783, 117377652}) = 0
+     0.000094 clock_gettime(CLOCK_MONOTONIC, {70783, 117541272}) = 0
+     0.000198 clock_gettime(CLOCK_MONOTONIC, {70783, 117776739}) = 0
+     0.000219 clock_gettime(CLOCK_MONOTONIC, {70783, 117959203}) = 0
+     0.000294 clock_gettime(CLOCK_MONOTONIC, {70783, 118177407}) = 0
+     0.000032 clock_gettime(CLOCK_MONOTONIC, {70783, 118328206}) = 0
+     0.000154 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000151 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 118550431}) = 0
+     0.000131 epoll_wait(30, {{EPOLLIN, {u32=38, u64=38}}}, 16, 73) = 1
+     0.013172 recvfrom(38, "nysvx\203Y{`@\0\0�b\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000078 recvfrom(38, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000054 clock_gettime(CLOCK_MONOTONIC, {70783, 131989744}) = 0
+     0.000042 write(29, "W", 1)         = 1
+     0.000177 clock_gettime(CLOCK_MONOTONIC, {70783, 132198554}) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {70783, 132198988}) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 132237113}) = 0
+     0.000236 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000043 clock_gettime(CLOCK_MONOTONIC, {70783, 132515467}) = 0
+     0.000162 clock_gettime(CLOCK_MONOTONIC, {70783, 132668380}) = 0
+     0.000000 write(29, "W", 1)         = 1
+     0.000001 pread64(34, "PK\3\4\n\0\0\0\0\0A\\!?���\217S\26\0\0S\26\0\0\25\0\1\0", 30, 12704) = 30
+     0.000000 mmap2(NULL, 6183, PROT_READ, MAP_SHARED, 34, 0x3) = 0x990aa000
+     0.000000 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000001 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.005983 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000153 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000042 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.001064 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.001004 munmap(0x990aa000, 6183)  = 0
+     0.004478 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000153 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000159 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000112 gettimeofday({1589570698, 146473}, NULL) = 0
+     0.000760 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000826 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000188 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000214 gettimeofday({1589570698, 148457}, NULL) = 0
+     0.000622 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.002014 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.012384 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000314 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000179 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000210 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000230 gettimeofday({1589570698, 164515}, NULL) = 0
+     0.001517 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000061 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000284 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000456 gettimeofday({1589570698, 166738}, NULL) = 0
+     0.000740 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000231 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000291 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.001023 gettimeofday({1589570698, 169098}, NULL) = 0
+     0.000968 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.007582 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000185 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000404 gettimeofday({1589570698, 178157}, NULL) = 0
+     0.000502 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000148 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000176 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000199 gettimeofday({1589570698, 179178}, NULL) = 0
+     0.000470 munmap(0x98f94000, 79620) = 0
+     0.000127 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000141 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000184 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000220 gettimeofday({1589570698, 180385}, NULL) = 0
+     0.000568 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000046 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000148 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000334 gettimeofday({1589570698, 181416}, NULL) = 0
+     0.000488 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000240 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000196 gettimeofday({1589570698, 182340}, NULL) = 0
+     0.000485 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000128 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000208 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000272 gettimeofday({1589570698, 183437}, NULL) = 0
+     0.000441 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000120 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000190 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000274 gettimeofday({1589570698, 184458}, NULL) = 0
+     0.000435 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000842 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000187 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000197 gettimeofday({1589570698, 186123}, NULL) = 0
+     0.000437 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000123 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000214 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000280 gettimeofday({1589570698, 187173}, NULL) = 0
+     0.000438 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000122 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000177 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000196 gettimeofday({1589570698, 188110}, NULL) = 0
+     0.000435 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000123 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000126 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000307 gettimeofday({1589570698, 189096}, NULL) = 0
+     0.000433 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000136 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000217 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000280 gettimeofday({1589570698, 190163}, NULL) = 0
+     0.000434 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000112 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000076 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000186 gettimeofday({1589570698, 190975}, NULL) = 0
+     0.000433 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000122 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000210 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000278 gettimeofday({1589570698, 192014}, NULL) = 0
+     0.000504 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000048 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000115 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000312 gettimeofday({1589570698, 192992}, NULL) = 0
+     0.000401 clock_gettime(CLOCK_MONOTONIC, {70783, 193594849}) = 0
+     0.001015 clock_gettime(CLOCK_MONOTONIC, {70783, 193776820}) = 0
+     0.005121 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45190, NULL) = 0
+     0.024605 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.014583 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000277 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000051 clock_gettime(CLOCK_MONOTONIC, {70783, 238626176}) = 0
+     0.001024 pread64(34, "PK\3\4\n\0\0\0\0\0A\\!?���\217S\26\0\0S\26\0\0\25\0\1\0", 30, 12704) = 30
+     0.000192 mmap2(NULL, 6183, PROT_READ, MAP_SHARED, 34, 0x3) = 0x990aa000
+     0.000110 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000051 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000266 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000050 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.001142 munmap(0x990aa000, 6183)  = 0
+     0.001113 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000240 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000351 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000587 gettimeofday({1589570698, 244178}, NULL) = 0
+     0.005610 clock_gettime(CLOCK_MONOTONIC, {70783, 249667469}) = 0
+     0.000744 clock_gettime(CLOCK_MONOTONIC, {70783, 249931932}) = 0
+     0.000315 clock_gettime(CLOCK_MONOTONIC, {70783, 250315982}) = 0
+     0.000779 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000122 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000161 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000195 gettimeofday({1589570698, 252096}, NULL) = 0
+     0.000390 clock_gettime(CLOCK_MONOTONIC, {70783, 251878676}) = 0
+     0.000042 clock_gettime(CLOCK_MONOTONIC, {70783, 251880811}) = 0
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {70783, 252059949}) = 0
+     0.000569 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000113 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000176 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000182 gettimeofday({1589570698, 253740}, NULL) = 0
+     0.001334 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.012359 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000107 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000434 clock_gettime(CLOCK_MONOTONIC, {70783, 267392943}) = 0
+     0.000137 clock_gettime(CLOCK_MONOTONIC, {70783, 267469518}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 267529638}) = 0
+     0.000418 pread64(34, "PK\3\4\n\0\0\0\0\0A\\!?���\217S\26\0\0S\26\0\0\25\0\1\0", 30, 12704) = 30
+     0.000101 mmap2(NULL, 6183, PROT_READ, MAP_SHARED, 34, 0x3) = 0x990aa000
+     0.000054 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000789 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000031 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000136 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000960 munmap(0x990aa000, 6183)  = 0
+     0.002833 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000181 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000238 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000271 gettimeofday({1589570698, 274193}, NULL) = 0
+     0.000549 clock_gettime(CLOCK_MONOTONIC, {70783, 274175110}) = 0
+     0.000222 clock_gettime(CLOCK_MONOTONIC, {70783, 274424575}) = 0
+     0.000355 clock_gettime(CLOCK_MONOTONIC, {70783, 274878851}) = 0
+     0.001150 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.007954 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.014062 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000754 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000203 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000300 gettimeofday({1589570698, 299898}, NULL) = 0
+     0.006256 clock_gettime(CLOCK_MONOTONIC, {70783, 305406211}) = 0
+     0.000135 clock_gettime(CLOCK_MONOTONIC, {70783, 305482350}) = 0
+     0.000171 clock_gettime(CLOCK_MONOTONIC, {70783, 305654479}) = 0
+     0.000681 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000114 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000060 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000203 gettimeofday({1589570698, 307459}, NULL) = 0
+     0.000503 clock_gettime(CLOCK_MONOTONIC, {70783, 307269294}) = 0
+     0.000126 clock_gettime(CLOCK_MONOTONIC, {70783, 307340007}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 307400664}) = 0
+     0.000605 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000113 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000056 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000159 gettimeofday({1589570698, 308975}, NULL) = 0
+     0.000398 clock_gettime(CLOCK_MONOTONIC, {70783, 308915807}) = 0
+     0.000256 clock_gettime(CLOCK_MONOTONIC, {70783, 308991486}) = 0
+     0.000179 clock_gettime(CLOCK_MONOTONIC, {70783, 309168628}) = 0
+     0.000620 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000161 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000166 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000183 gettimeofday({1589570698, 310938}, NULL) = 0
+     0.000377 clock_gettime(CLOCK_MONOTONIC, {70783, 310729270}) = 0
+     0.000159 clock_gettime(CLOCK_MONOTONIC, {70783, 310907755}) = 0
+     0.000150 clock_gettime(CLOCK_MONOTONIC, {70783, 311103834}) = 0
+     0.000513 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000131 getpid()                  = 5741
+     0.000026 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000269 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000026 getpid()                  = 5741
+     0.000021 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000066 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.002908 sendto(41, "('\0\0(p\27\0�\0\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000078 sendto(41, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000192 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.007054 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.003193 getpid()                  = 5741
+     0.000029 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000067 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000183 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45206, NULL) = 0
+     0.009058 clock_gettime(CLOCK_MONOTONIC, {70783, 334846359}) = 0
+     0.000683 open("/system/fonts/Roboto-Bold.ttf", O_RDONLY|O_LARGEFILE) = 37
+     0.000122 lseek(37, 0, SEEK_END)    = 79620
+     0.000259 lseek(37, 0, SEEK_SET)    = 0
+     0.000029 mmap2(NULL, 79620, PROT_READ, MAP_SHARED, 37, 0) = 0x99098000
+     0.000027 close(37)                 = 0
+     0.000144 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000028 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000187 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000182 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000368 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000328 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000321 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000302 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000113 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000192 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.001460 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000250 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000322 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000333 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000242 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000154 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000180 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000275 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000115 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000160 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000296 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000381 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000102 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000268 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000102 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000058 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000306 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000034 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000153 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000149 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.001085 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000086 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000035 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000042 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000146 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000043 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.006856 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000415 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000095 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000190 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000505 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000111 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000064 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000191 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000189 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000054 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000186 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000173 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000171 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000187 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000203 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000182 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000192 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000185 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000340 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000102 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000034 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000133 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000129 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000138 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000183 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000489 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000105 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000040 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000031 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000134 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000132 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000060 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000117 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000129 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000038 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000092 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000387 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000105 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000139 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000035 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000141 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000134 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000136 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000386 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000104 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000038 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000159 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000129 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000152 munmap(0x99098000, 79620) = 0
+     0.000394 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000113 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000034 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000053 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000112 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000137 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000046 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000500 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000103 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000120 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000048 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000045 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000029 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000137 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000388 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000100 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000131 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000157 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000070 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000123 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000133 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000099 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000554 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000220 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000219 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000208 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000209 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000200 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000070 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000119 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000397 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000101 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000140 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000041 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000336 mmap2(NULL, 1323008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x98f69000
+     0.000086 madvise(0x98f69000, 1323008, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000691 sendto(41, "('\0\0� \24\0�\0\0\0\0\0\0\0&\0\0\0�\1\0\0�\2\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000176 sendto(41, "\200 \24\0", 4, 0, NULL, 0) = 4
+     0.000180 sendto(41, "\232\233\232�\233\233\232�\232\232\232�\232\232\232�\232\232\232�\232\232\232�\232\232\232�\233\232\233�"..., 1319040, 0, NULL, 0) = 1319040
+     0.007887 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000905 munmap(0x98f69000, 1323008) = 0
+     0.000213 clock_gettime(CLOCK_MONOTONIC, {70783, 377197295}) = 0
+     0.000034 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000293 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45210, NULL) = 0
+     0.012137 getpid()                  = 5741
+     0.000263 getuid32()                = 10049
+     0.000063 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000144 read(23, "WW", 16)        = 2
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 390159462}) = 0
+     0.000029 getpid()                  = 5741
+     0.000124 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {70783, 390359410}) = 0
+     0.000127 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000124 clock_gettime(CLOCK_MONOTONIC, {70783, 390649772}) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {70783, 390673133}) = 0
+     0.000127 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000125 clock_gettime(CLOCK_MONOTONIC, {70783, 390967226}) = 0
+     0.000040 clock_gettime(CLOCK_MONOTONIC, {70783, 391008360}) = 0
+     0.000131 clock_gettime(CLOCK_MONOTONIC, {70783, 391138385}) = 0
+     0.000036 recvfrom(38, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000133 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000168 clock_gettime(CLOCK_MONOTONIC, {70783, 391474800}) = 0
+     0.000025 getpid()                  = 5741
+     0.000022 getuid32()                = 10049
+     0.000123 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {70783, 391662344}) = 0
+     0.000099 getpid()                  = 5741
+     0.000000 getuid32()                = 10049
+     0.000091 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 391871387}) = 0
+     0.000128 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000119 clock_gettime(CLOCK_MONOTONIC, {70783, 392161145}) = 0
+     0.000032 getpid()                  = 5741
+     0.000119 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000049 clock_gettime(CLOCK_MONOTONIC, {70783, 392453537}) = 0
+     0.000103 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 392544576}) = 0
+     0.000023 getpid()                  = 5741
+     0.000039 getuid32()                = 10049
+     0.000100 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 392726043}) = 0
+     0.000025 getpid()                  = 5741
+     0.000122 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 392917045}) = 0
+     0.000129 getpid()                  = 5741
+     0.000034 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000125 clock_gettime(CLOCK_MONOTONIC, {70783, 393224500}) = 0
+     0.000027 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000246 epoll_wait(30, {}, 16, 0) = 0
+     0.000041 clock_gettime(CLOCK_MONOTONIC, {70783, 393553254}) = 0
+     0.000127 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000125 clock_gettime(CLOCK_MONOTONIC, {70783, 393851441}) = 0
+     0.000027 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000127 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 394038871}) = 0
+     0.000127 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000125 clock_gettime(CLOCK_MONOTONIC, {70783, 394332303}) = 0
+     0.000028 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000124 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 394520292}) = 0
+     0.000027 getpid()                  = 5741
+     0.000120 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000122 clock_gettime(CLOCK_MONOTONIC, {70783, 394812947}) = 0
+     0.000026 getpid()                  = 5741
+     0.000045 getuid32()                = 10049
+     0.000101 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 395002010}) = 0
+     0.000025 getpid()                  = 5741
+     0.000120 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 395189439}) = 0
+     0.000026 getpid()                  = 5741
+     0.000120 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {70783, 395378641}) = 0
+     0.000129 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000125 clock_gettime(CLOCK_MONOTONIC, {70783, 395667868}) = 0
+     0.000025 getpid()                  = 5741
+     0.000118 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 395854099}) = 0
+     0.000126 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000092 clock_gettime(CLOCK_MONOTONIC, {70783, 396106312}) = 0
+     0.000064 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000018 clock_gettime(CLOCK_MONOTONIC, {70783, 396238505}) = 0
+     0.000132 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 396523297}) = 0
+     0.000129 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000127 clock_gettime(CLOCK_MONOTONIC, {70783, 396720462}) = 0
+     0.000053 getpid()                  = 5741
+     0.000031 getuid32()                = 10049
+     0.000126 epoll_wait(30, {}, 16, 0) = 0
+     0.000034 clock_gettime(CLOCK_MONOTONIC, {70783, 396966736}) = 0
+     0.000141 getpid()                  = 5741
+     0.000021 getuid32()                = 10049
+     0.000036 epoll_wait(30, {}, 16, 0) = 0
+     0.000037 clock_gettime(CLOCK_MONOTONIC, {70783, 397272293}) = 0
+     0.000149 getpid()                  = 5741
+     0.000025 getuid32()                = 10049
+     0.000038 epoll_wait(30, {{EPOLLIN, {u32=38, u64=38}}}, 16, 0) = 1
+     0.000144 recvfrom(38, "nysv\30\206>\213`@\0\0�b\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000150 recvfrom(38, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {70783, 397754730}) = 0
+     0.000162 clock_gettime(CLOCK_MONOTONIC, {70783, 397967510}) = 0
+     0.000095 getpid()                  = 5741
+     0.000035 getuid32()                = 10049
+     0.000150 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45214, NULL) = 0
+     0.021502 epoll_wait(30, {}, 16, 0) = 0
+     0.000219 clock_gettime(CLOCK_MONOTONIC, {70783, 419922444}) = 0
+     0.000093 clock_gettime(CLOCK_MONOTONIC, {70783, 420077237}) = 0
+     0.000082 clock_gettime(CLOCK_MONOTONIC, {70783, 420221998}) = 0
+     0.000195 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000189 clock_gettime(CLOCK_MONOTONIC, {70783, 420479011}) = 0
+     0.000055 clock_gettime(CLOCK_MONOTONIC, {70783, 420534117}) = 0
+     0.000177 write(29, "W", 1)         = 1
+     0.000078 clock_gettime(CLOCK_MONOTONIC, {70783, 420913975}) = 0
+     0.000180 clock_gettime(CLOCK_MONOTONIC, {70783, 420969803}) = 0
+     0.000072 clock_gettime(CLOCK_MONOTONIC, {70783, 421292778}) = 0
+     0.000301 clock_gettime(CLOCK_MONOTONIC, {70783, 421342578}) = 0
+     0.000057 clock_gettime(CLOCK_MONOTONIC, {70783, 421393293}) = 0
+     0.000169 clock_gettime(CLOCK_MONOTONIC, {70783, 421567242}) = 0
+     0.000057 clock_gettime(CLOCK_MONOTONIC, {70783, 421624986}) = 0
+     0.000173 clock_gettime(CLOCK_MONOTONIC, {70783, 421798119}) = 0
+     0.000058 clock_gettime(CLOCK_MONOTONIC, {70783, 421855112}) = 0
+     0.000173 clock_gettime(CLOCK_MONOTONIC, {70783, 422029630}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 422087105}) = 0
+     0.000171 clock_gettime(CLOCK_MONOTONIC, {70783, 422261308}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {70783, 422317388}) = 0
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {70783, 422492961}) = 0
+     0.000061 clock_gettime(CLOCK_MONOTONIC, {70783, 422549404}) = 0
+     0.000171 clock_gettime(CLOCK_MONOTONIC, {70783, 422722922}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {70783, 422779379}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 422952307}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 423009446}) = 0
+     0.000187 clock_gettime(CLOCK_MONOTONIC, {70783, 423199652}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {70783, 423254940}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 423429154}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 423484884}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 423657978}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 423715442}) = 0
+     0.000171 clock_gettime(CLOCK_MONOTONIC, {70783, 423889248}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 423946451}) = 0
+     0.000126 clock_gettime(CLOCK_MONOTONIC, {70783, 424059995}) = 0
+     0.000143 clock_gettime(CLOCK_MONOTONIC, {70783, 424218169}) = 0
+     0.000059 clock_gettime(CLOCK_MONOTONIC, {70783, 424274615}) = 0
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {70783, 424448952}) = 0
+     0.000060 clock_gettime(CLOCK_MONOTONIC, {70783, 424506208}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 424680096}) = 0
+     0.000061 clock_gettime(CLOCK_MONOTONIC, {70783, 424736515}) = 0
+     0.000170 clock_gettime(CLOCK_MONOTONIC, {70783, 424911154}) = 0
+     0.000089 clock_gettime(CLOCK_MONOTONIC, {70783, 424992760}) = 0
+     0.000096 clock_gettime(CLOCK_MONOTONIC, {70783, 425079903}) = 0
+     0.000095 clock_gettime(CLOCK_MONOTONIC, {70783, 425186060}) = 0
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {70783, 425229907}) = 0
+     0.000129 clock_gettime(CLOCK_MONOTONIC, {70783, 425362269}) = 0
+     0.000047 clock_gettime(CLOCK_MONOTONIC, {70783, 425406229}) = 0
+     0.000131 clock_gettime(CLOCK_MONOTONIC, {70783, 425538388}) = 0
+     0.000046 clock_gettime(CLOCK_MONOTONIC, {70783, 425582953}) = 0
+     0.000129 clock_gettime(CLOCK_MONOTONIC, {70783, 425713583}) = 0
+     0.000045 clock_gettime(CLOCK_MONOTONIC, {70783, 425757101}) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {70783, 425889049}) = 0
+     0.000045 clock_gettime(CLOCK_MONOTONIC, {70783, 425932331}) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {70783, 426065323}) = 0
+     0.000050 clock_gettime(CLOCK_MONOTONIC, {70783, 426110783}) = 0
+     0.000141 clock_gettime(CLOCK_MONOTONIC, {70783, 426256970}) = 0
+     0.000143 clock_gettime(CLOCK_MONOTONIC, {70783, 426396679}) = 0
+     0.000049 clock_gettime(CLOCK_MONOTONIC, {70783, 426447209}) = 0
+     0.000140 clock_gettime(CLOCK_MONOTONIC, {70783, 426588535}) = 0
+     0.000049 clock_gettime(CLOCK_MONOTONIC, {70783, 426731203}) = 0
+     0.000142 clock_gettime(CLOCK_MONOTONIC, {70783, 426780561}) = 0
+     0.000140 clock_gettime(CLOCK_MONOTONIC, {70783, 426919704}) = 0
+     0.000363 pread64(34, "PK\3\4\n\0\0\0\0\0A\\!?���\217S\26\0\0S\26\0\0\25\0\1\0", 30, 12704) = 30
+     0.000114 mmap2(NULL, 6183, PROT_READ, MAP_SHARED, 34, 0x3) = 0x990aa000
+     0.000180 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000141 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000045 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000643 munmap(0x990aa000, 6183)  = 0
+     0.000678 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000131 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000183 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000249 gettimeofday({1589570698, 430532}, NULL) = 0
+     0.000749 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000107 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000196 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000235 gettimeofday({1589570698, 431790}, NULL) = 0
+     0.000570 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000203 futex(0xb932e4c0, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000047 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 1
+     0.000154 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45218, NULL) = 0
+     0.012426 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000000 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.003317 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000139 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000312 gettimeofday({1589570698, 448887}, NULL) = 0
+     0.000576 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000126 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000244 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000256 gettimeofday({1589570698, 450091}, NULL) = 0
+     0.000656 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000143 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000209 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000244 gettimeofday({1589570698, 451339}, NULL) = 0
+     0.007144 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.013129 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000359 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000428 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000051 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000138 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000251 gettimeofday({1589570698, 472890}, NULL) = 0
+     0.000541 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000163 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000260 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000276 gettimeofday({1589570698, 474080}, NULL) = 0
+     0.000629 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000165 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000090 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000275 gettimeofday({1589570698, 475239}, NULL) = 0
+     0.000621 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000460 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000092 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000272 gettimeofday({1589570698, 476684}, NULL) = 0
+     0.000735 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.002743 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000286 gettimeofday({1589570698, 480453}, NULL) = 0
+     0.000683 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000165 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000232 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000272 gettimeofday({1589570698, 481800}, NULL) = 0
+     0.000594 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000157 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000223 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000249 gettimeofday({1589570698, 483023}, NULL) = 0
+     0.000588 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000153 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000223 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000243 gettimeofday({1589570698, 484229}, NULL) = 0
+     0.000584 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.005868 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.013295 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000398 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000034 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000244 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000231 gettimeofday({1589570698, 504950}, NULL) = 0
+     0.000764 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.003995 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000335 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000216 gettimeofday({1589570698, 510191}, NULL) = 0
+     0.000467 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000175 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000257 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000283 gettimeofday({1589570698, 511377}, NULL) = 0
+     0.000518 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000123 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000180 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000164 gettimeofday({1589570698, 512358}, NULL) = 0
+     0.000466 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000051 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000037 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000203 gettimeofday({1589570698, 513198}, NULL) = 0
+     0.000579 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000119 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000190 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000086 gettimeofday({1589570698, 514203}, NULL) = 0
+     0.002143 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.005496 getpid()                  = 5741
+     0.000093 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000331 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000139 getpid()                  = 5741
+     0.000025 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000208 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000182 sendto(41, "('\0\0(p\27\0�\0\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000177 sendto(41, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000166 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.006700 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001253 getpid()                  = 5741
+     0.000028 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000216 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000077 clock_gettime(CLOCK_MONOTONIC, {70783, 530756337}) = 0
+     0.000671 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000111 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000152 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000103 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000126 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000103 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000090 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000144 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000032 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000140 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000462 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000052 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000145 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000044 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000142 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000070 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000128 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000162 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000313 futex(0xb7646658, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000262 futex(0xb7646658, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000185 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000281 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.001860 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000604 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000225 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000166 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000164 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000083 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000135 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000153 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000126 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000164 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000075 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000128 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000398 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000119 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000170 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000161 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000164 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000191 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000114 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000159 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000398 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000118 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000109 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000122 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000163 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000072 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000320 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45230, NULL) = 0
+     0.016979 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000133 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000048 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000173 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000170 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000043 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000214 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000339 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000678 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000888 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000126 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000072 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000166 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000042 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000155 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000052 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000449 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000048 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000185 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.004595 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000125 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000047 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000035 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000199 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000190 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000144 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000209 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000035 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000160 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000399 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000100 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000157 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000160 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000157 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000049 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000155 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000383 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000101 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000431 mmap2(NULL, 1187840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x98f8a000
+     0.000118 madvise(0x98f8a000, 1187840, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.001115 sendto(41, "('\0\0�\23\22\0�\0\0\0\0\0\0\0l\0\0\0�\1\0\0i\2\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000659 sendto(41, "\200\23\22\0", 4, 0, NULL, 0) = 4
+     0.000268 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1184640, 0, NULL, 0) = 1184640
+     0.003866 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.001538 munmap(0x98f8a000, 1187840) = 0
+     0.000203 clock_gettime(CLOCK_MONOTONIC, {70783, 579097208}) = 0
+     0.000038 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000227 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45234, NULL) = 0
+     0.011841 getpid()                  = 5741
+     0.000195 getuid32()                = 10049
+     0.000260 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000074 read(23, "W", 16)         = 1
+     0.000167 clock_gettime(CLOCK_MONOTONIC, {70783, 592053017}) = 0
+     0.000235 clock_gettime(CLOCK_MONOTONIC, {70783, 592303451}) = 0
+     0.000229 clock_gettime(CLOCK_MONOTONIC, {70783, 592375632}) = 0
+     0.000237 recvfrom(38, 0xbfa2a2fc, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000075 ioctl(9, 0xc0186201, 0xbfa2a0a8) = 0
+     0.000298 clock_gettime(CLOCK_MONOTONIC, {70783, 593326288}) = 0
+     0.000478 getpid()                  = 5741
+     0.000054 getuid32()                = 10049
+     0.000269 epoll_wait(30, {}, 16, 0) = 0
+     0.000062 clock_gettime(CLOCK_MONOTONIC, {70783, 593981072}) = 0
+     0.000196 getpid()                  = 5741
+     0.000051 getuid32()                = 10049
+     0.000193 epoll_wait(30, {}, 16, 0) = 0
+     0.000053 clock_gettime(CLOCK_MONOTONIC, {70783, 594340988}) = 0
+     0.000090 getpid()                  = 5741
+     0.000151 getuid32()                = 10049
+     0.000057 epoll_wait(30, {}, 16, 0) = 0
+     0.000198 clock_gettime(CLOCK_MONOTONIC, {70783, 594835829}) = 0
+     0.000068 getpid()                  = 5741
+     0.000184 getuid32()                = 10049
+     0.000060 epoll_wait(30, {}, 16, 0) = 0
+     0.000228 clock_gettime(CLOCK_MONOTONIC, {70783, 595375332}) = 0
+     0.000055 getpid()                  = 5741
+     0.000047 getuid32()                = 10049
+     0.000217 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 595716406}) = 0
+     0.000214 getpid()                  = 5741
+     0.000030 getuid32()                = 10049
+     0.000031 epoll_wait(30, {}, 16, 0) = 0
+     0.000193 clock_gettime(CLOCK_MONOTONIC, {70783, 596188153}) = 0
+     0.000693 getpid()                  = 5741
+     0.000120 getuid32()                = 10049
+     0.000033 epoll_wait(30, {}, 16, 0) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 597058904}) = 0
+     0.000036 getpid()                  = 5741
+     0.000024 getuid32()                = 10049
+     0.000887 epoll_wait(30, {{EPOLLIN, {u32=38, u64=38}}}, 16, 0) = 1
+     0.000462 recvfrom(38, "nysv\20H*\227`@\0\0�b\0\0", 16, MSG_DONTWAIT, NULL, NULL) = 16
+     0.000018 recvfrom(38, 0xbfa2a110, 16, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000161 clock_gettime(CLOCK_MONOTONIC, {70783, 598647951}) = 0
+     0.000043 clock_gettime(CLOCK_MONOTONIC, {70783, 598690570}) = 0
+     0.000369 getpid()                  = 5741
+     0.000115 getuid32()                = 10049
+     0.000034 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 599237896}) = 0
+     0.000185 getpid()                  = 5741
+     0.000030 getuid32()                = 10049
+     0.000031 epoll_wait(30, {}, 16, 0) = 0
+     0.000177 clock_gettime(CLOCK_MONOTONIC, {70783, 599665211}) = 0
+     0.000041 getpid()                  = 5741
+     0.000025 getuid32()                = 10049
+     0.000182 epoll_wait(30, {}, 16, 0) = 0
+     0.000033 clock_gettime(CLOCK_MONOTONIC, {70783, 599942394}) = 0
+     0.000036 getpid()                  = 5741
+     0.000140 getuid32()                = 10049
+     0.000184 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 600331400}) = 0
+     0.000378 getpid()                  = 5741
+     0.000114 getuid32()                = 10049
+     0.000054 epoll_wait(30, {}, 16, 0) = 0
+     0.000176 clock_gettime(CLOCK_MONOTONIC, {70783, 601058142}) = 0
+     0.000039 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000039 epoll_wait(30, {}, 16, 0) = 0
+     0.000067 clock_gettime(CLOCK_MONOTONIC, {70783, 601292679}) = 0
+     0.000114 getpid()                  = 5741
+     0.000024 getuid32()                = 10049
+     0.000028 epoll_wait(30, {}, 16, 0) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {70783, 601407855}) = 0
+     0.000130 getpid()                  = 5741
+     0.000028 getuid32()                = 10049
+     0.000030 epoll_wait(30, {}, 16, 0) = 0
+     0.000134 clock_gettime(CLOCK_MONOTONIC, {70783, 601732931}) = 0
+     0.000032 getpid()                  = 5741
+     0.000138 getuid32()                = 10049
+     0.000027 epoll_wait(30, {}, 16, 0) = 0
+     0.000133 clock_gettime(CLOCK_MONOTONIC, {70783, 602068524}) = 0
+     0.000172 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000056 epoll_wait(30, {}, 16, 0) = 0
+     0.000110 clock_gettime(CLOCK_MONOTONIC, {70783, 602424718}) = 0
+     0.000032 getpid()                  = 5741
+     0.000133 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {70783, 602752066}) = 0
+     0.000175 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000056 epoll_wait(30, {}, 16, 0) = 0
+     0.000109 clock_gettime(CLOCK_MONOTONIC, {70783, 603113974}) = 0
+     0.000031 getpid()                  = 5741
+     0.000127 getuid32()                = 10049
+     0.000036 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 603440411}) = 0
+     0.000146 getpid()                  = 5741
+     0.000161 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000129 clock_gettime(CLOCK_MONOTONIC, {70783, 603799684}) = 0
+     0.000027 getpid()                  = 5741
+     0.000024 getuid32()                = 10049
+     0.000129 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 603998058}) = 0
+     0.000023 getpid()                  = 5741
+     0.000055 getuid32()                = 10049
+     0.000058 epoll_wait(30, {}, 16, 0) = 0
+     0.000086 clock_gettime(CLOCK_MONOTONIC, {70783, 604220700}) = 0
+     0.000155 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000029 epoll_wait(30, {}, 16, 0) = 0
+     0.000127 clock_gettime(CLOCK_MONOTONIC, {70783, 604552354}) = 0
+     0.000027 getpid()                  = 5741
+     0.000127 getuid32()                = 10049
+     0.000037 epoll_wait(30, {}, 16, 0) = 0
+     0.000058 clock_gettime(CLOCK_MONOTONIC, {70783, 604875982}) = 0
+     0.000105 getpid()                  = 5741
+     0.000130 getuid32()                = 10049
+     0.000032 epoll_wait(30, {}, 16, 0) = 0
+     0.000126 clock_gettime(CLOCK_MONOTONIC, {70783, 605193687}) = 0
+     0.000026 getpid()                  = 5741
+     0.000128 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 605402227}) = 0
+     0.000132 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000136 clock_gettime(CLOCK_MONOTONIC, {70783, 605716450}) = 0
+     0.000184 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000122 clock_gettime(CLOCK_MONOTONIC, {70783, 606059711}) = 0
+     0.000027 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000120 clock_gettime(CLOCK_MONOTONIC, {70783, 606246509}) = 0
+     0.000027 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000120 clock_gettime(CLOCK_MONOTONIC, {70783, 606583765}) = 0
+     0.000185 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000137 epoll_wait(30, {}, 16, 0) = 0
+     0.000042 clock_gettime(CLOCK_MONOTONIC, {70783, 606815247}) = 0
+     0.000247 getpid()                  = 5741
+     0.000077 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {70783, 607278003}) = 0
+     0.000124 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000113 clock_gettime(CLOCK_MONOTONIC, {70783, 607462856}) = 0
+     0.000032 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000116 clock_gettime(CLOCK_MONOTONIC, {70783, 607647506}) = 0
+     0.000029 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000119 clock_gettime(CLOCK_MONOTONIC, {70783, 608015888}) = 0
+     0.000233 getpid()                  = 5741
+     0.000022 getuid32()                = 10049
+     0.000115 epoll_wait(30, {}, 16, 0) = 0
+     0.000187 clock_gettime(CLOCK_MONOTONIC, {70783, 608391522}) = 0
+     0.000028 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000038 epoll_wait(30, {}, 16, 0) = 0
+     0.000121 clock_gettime(CLOCK_MONOTONIC, {70783, 608595242}) = 0
+     0.000025 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000119 clock_gettime(CLOCK_MONOTONIC, {70783, 608780192}) = 0
+     0.000027 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000119 clock_gettime(CLOCK_MONOTONIC, {70783, 608965087}) = 0
+     0.000026 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000119 clock_gettime(CLOCK_MONOTONIC, {70783, 609150204}) = 0
+     0.000028 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000314 clock_gettime(CLOCK_MONOTONIC, {70783, 609532892}) = 0
+     0.000026 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000313 clock_gettime(CLOCK_MONOTONIC, {70783, 609912074}) = 0
+     0.000027 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000022 epoll_wait(30, {}, 16, 0) = 0
+     0.000121 clock_gettime(CLOCK_MONOTONIC, {70783, 610098290}) = 0
+     0.000025 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000120 clock_gettime(CLOCK_MONOTONIC, {70783, 610282662}) = 0
+     0.000025 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000114 epoll_wait(30, {}, 16, 0) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {70783, 610466112}) = 0
+     0.000025 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000266 epoll_wait(30, {}, 16, 0) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 610799686}) = 0
+     0.000025 getpid()                  = 5741
+     0.000117 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {70783, 611080988}) = 0
+     0.000124 getpid()                  = 5741
+     0.000147 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {70783, 611394977}) = 0
+     0.000124 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000253 epoll_wait(30, {}, 16, 0) = 0
+     0.000489 clock_gettime(CLOCK_MONOTONIC, {70783, 612190153}) = 0
+     0.000049 getpid()                  = 5741
+     0.000125 getuid32()                = 10049
+     0.000040 epoll_wait(30, {}, 16, 0) = 0
+     0.000140 clock_gettime(CLOCK_MONOTONIC, {70783, 612541615}) = 0
+     0.000031 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000137 epoll_wait(30, {}, 16, 0) = 0
+     0.000135 clock_gettime(CLOCK_MONOTONIC, {70783, 612853048}) = 0
+     0.000001 getpid()                  = 5741
+     0.000000 getuid32()                = 10049
+     0.000001 epoll_wait(30, {}, 16, 0) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {70783, 612854851}) = 0
+     0.000001 getpid()                  = 5741
+     0.000000 getuid32()                = 10049
+     0.000001 epoll_wait(30, {}, 16, 0) = 0
+     0.000000 clock_gettime(CLOCK_MONOTONIC, {70783, 612856689}) = 0
+     0.000001 getpid()                  = 5741
+     0.008439 getuid32()                = 10049
+     0.000514 epoll_wait(30, {}, 16, 0) = 0
+     0.000363 clock_gettime(CLOCK_MONOTONIC, {70783, 622188882}) = 0
+     0.000206 clock_gettime(CLOCK_MONOTONIC, {70783, 622387711}) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {70783, 622416016}) = 0
+     0.000155 recvfrom(39, 0xb9449828, 1228, 64, 0, 0) = -1 EAGAIN (Try again)
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {70783, 622740670}) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {70783, 622767853}) = 0
+     0.000297 write(29, "W", 1)         = 1
+     0.000054 clock_gettime(CLOCK_MONOTONIC, {70783, 623119399}) = 0
+     0.000296 clock_gettime(CLOCK_MONOTONIC, {70783, 623419917}) = 0
+     0.000041 clock_gettime(CLOCK_MONOTONIC, {70783, 623453105}) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {70783, 623584603}) = 0
+     0.000143 clock_gettime(CLOCK_MONOTONIC, {70783, 623624357}) = 0
+     0.000142 clock_gettime(CLOCK_MONOTONIC, {70783, 623772762}) = 0
+     0.000041 clock_gettime(CLOCK_MONOTONIC, {70783, 623806039}) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 623940146}) = 0
+     0.000300 clock_gettime(CLOCK_MONOTONIC, {70783, 624135554}) = 0
+     0.000137 clock_gettime(CLOCK_MONOTONIC, {70783, 624280005}) = 0
+     0.000036 clock_gettime(CLOCK_MONOTONIC, {70783, 624308021}) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {70783, 624444804}) = 0
+     0.000207 clock_gettime(CLOCK_MONOTONIC, {70783, 624646178}) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {70783, 624673251}) = 0
+     0.000296 clock_gettime(CLOCK_MONOTONIC, {70783, 624975658}) = 0
+     0.000042 clock_gettime(CLOCK_MONOTONIC, {70783, 625008639}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 625108389}) = 0
+     0.000076 clock_gettime(CLOCK_MONOTONIC, {70783, 625108632}) = 0
+     0.000109 clock_gettime(CLOCK_MONOTONIC, {70783, 625223566}) = 0
+     0.000149 clock_gettime(CLOCK_MONOTONIC, {70783, 625376202}) = 0
+     0.000031 clock_gettime(CLOCK_MONOTONIC, {70783, 625403375}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 625432633}) = 0
+     0.000135 clock_gettime(CLOCK_MONOTONIC, {70783, 625563385}) = 0
+     0.000169 clock_gettime(CLOCK_MONOTONIC, {70783, 625731783}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 625755428}) = 0
+     0.000252 clock_gettime(CLOCK_MONOTONIC, {70783, 626061976}) = 0
+     0.000084 clock_gettime(CLOCK_MONOTONIC, {70783, 626091955}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 626118649}) = 0
+     0.000135 clock_gettime(CLOCK_MONOTONIC, {70783, 626252319}) = 0
+     0.000175 clock_gettime(CLOCK_MONOTONIC, {70783, 626426217}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 626450345}) = 0
+     0.000132 clock_gettime(CLOCK_MONOTONIC, {70783, 626585780}) = 0
+     0.000180 clock_gettime(CLOCK_MONOTONIC, {70783, 626763381}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 626788104}) = 0
+     0.000135 clock_gettime(CLOCK_MONOTONIC, {70783, 626925016}) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {70783, 626950406}) = 0
+     0.000129 clock_gettime(CLOCK_MONOTONIC, {70783, 627082425}) = 0
+     0.000188 clock_gettime(CLOCK_MONOTONIC, {70783, 627267083}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 627292457}) = 0
+     0.000291 clock_gettime(CLOCK_MONOTONIC, {70783, 627586382}) = 0
+     0.000031 clock_gettime(CLOCK_MONOTONIC, {70783, 627614213}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 627638187}) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {70783, 627662109}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 627685896}) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 627709622}) = 0
+     0.000199 clock_gettime(CLOCK_MONOTONIC, {70783, 627909642}) = 0
+     0.000025 clock_gettime(CLOCK_MONOTONIC, {70783, 627934185}) = 0
+     0.000132 clock_gettime(CLOCK_MONOTONIC, {70783, 628068522}) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 628098842}) = 0
+     0.000138 clock_gettime(CLOCK_MONOTONIC, {70783, 628233022}) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {70783, 628260044}) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 628392462}) = 0
+     0.000316 clock_gettime(CLOCK_MONOTONIC, {70783, 628606991}) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {70783, 628636638}) = 0
+     0.000138 clock_gettime(CLOCK_MONOTONIC, {70783, 628772303}) = 0
+     0.000164 clock_gettime(CLOCK_MONOTONIC, {70783, 628936838}) = 0
+     0.000279 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000160 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000187 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000220 gettimeofday({1589570698, 630534}, NULL) = 0
+     0.000669 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000112 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000137 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000226 gettimeofday({1589570698, 631571}, NULL) = 0
+     0.000446 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000111 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000167 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000207 gettimeofday({1589570698, 632501}, NULL) = 0
+     0.000468 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.002727 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000061 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000210 gettimeofday({1589570698, 635970}, NULL) = 0
+     0.000448 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000109 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000056 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000151 gettimeofday({1589570698, 636828}, NULL) = 0
+     0.000539 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000111 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000158 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000172 gettimeofday({1589570698, 637711}, NULL) = 0
+     0.000422 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000108 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000157 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000291 gettimeofday({1589570698, 638741}, NULL) = 0
+     0.000526 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000985 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.013620 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000050 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000111 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000397 gettimeofday({1589570698, 654381}, NULL) = 0
+     0.000836 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.003822 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000340 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000246 gettimeofday({1589570698, 659625}, NULL) = 0
+     0.006598 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000587 stat64("/acct/uid", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+     0.000072 gettimeofday({1589570698, 666877}, NULL) = 0
+     0.000373 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000116 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000056 stat64("/acct/cgroup.clone_children", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000209 gettimeofday({1589570698, 667633}, NULL) = 0
+     0.000448 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000130 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000196 stat64("/acct/cgroup.event_control", {st_mode=S_IFREG|0222, st_size=0, ...}) = 0
+     0.000177 gettimeofday({1589570698, 668584}, NULL) = 0
+     0.000338 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000111 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000159 stat64("/acct/cgroup.procs", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000170 gettimeofday({1589570698, 669362}, NULL) = 0
+     0.000417 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000108 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000157 stat64("/acct/cpuacct.stat", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000171 gettimeofday({1589570698, 670214}, NULL) = 0
+     0.000395 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000106 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000155 stat64("/acct/cpuacct.usage", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000172 gettimeofday({1589570698, 671043}, NULL) = 0
+     0.000394 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000107 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000155 stat64("/acct/cpuacct.usage_percpu", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+     0.000169 gettimeofday({1589570698, 671867}, NULL) = 0
+     0.000392 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000105 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000158 stat64("/acct/notify_on_release", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.001595 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.013357 futex(0xb6875c8c, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+     0.000410 futex(0xb6875c8c, FUTEX_WAKE_PRIVATE, 1) = 0
+     0.000166 gettimeofday({1589570698, 688051}, NULL) = 0
+     0.000663 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000078 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000257 stat64("/acct/release_agent", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000243 gettimeofday({1589570698, 689294}, NULL) = 0
+     0.000589 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000177 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000083 stat64("/acct/tasks", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+     0.000244 gettimeofday({1589570698, 690388}, NULL) = 0
+     0.002063 ioctl(9, 0xc0186201, 0xbfa2a048) = 0
+     0.000205 getpid()                  = 5741
+     0.000039 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.001538 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000039 getpid()                  = 5741
+     0.000032 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\0\0\0\0", 20, 0, NULL, 0) = 20
+     0.000239 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000298 sendto(41, "('\0\0(p\27\0�\0\0\0\0\0\0\0\0\0\0\0�\1\0\0 \3\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000163 sendto(41, "\0p\27\0", 4, 0, NULL, 0) = 4
+     0.000058 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1536000, 0, NULL, 0) = 1536000
+     0.011226 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000851 getpid()                  = 5741
+     0.000028 sendto(41, "&'\0\0\24\0\0\0�\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+     0.000179 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000180 clock_gettime(CLOCK_MONOTONIC, {70783, 706880288}) = 0
+     0.000573 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.003922 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000045 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000032 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000166 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000121 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000137 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000174 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000078 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000123 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000031 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000156 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000032 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000349 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000041 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000155 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000029 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000029 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000158 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000194 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000157 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000312 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000139 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000041 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000148 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000040 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000069 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000122 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000029 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000146 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000148 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000035 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000458 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000103 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000048 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000072 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000815 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000155 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000540 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000114 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000162 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000042 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000197 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000305 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000103 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000146 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000141 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000033 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000166 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000150 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000378 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000102 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000105 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000125 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000048 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000145 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000152 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000381 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000100 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000146 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000143 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000036 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000149 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000139 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000147 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000040 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000149 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000168 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45246, NULL) = 0
+     0.022072 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000115 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000131 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000039 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000173 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000159 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000037 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000166 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000074 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000488 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000106 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000066 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000128 sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE]) = 0
+     0.000299 mmap2(NULL, 1187840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x98f8a000
+     0.000134 madvise(0x98f8a000, 1187840, 0xc /* MADV_??? */) = -1 EINVAL (Invalid argument)
+     0.000638 sendto(41, "('\0\0�\23\22\0�\0\0\0\0\0\0\0l\0\0\0�\1\0\0i\2\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+     0.000141 sendto(41, "\200\23\22\0", 4, 0, NULL, 0) = 4
+     0.000238 sendto(41, "\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�\0\0\0�"..., 1184640, 0, NULL, 0) = 1184640
+     0.006929 recvfrom(41, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+     0.000099 munmap(0x98f8a000, 1187840) = 0
+     0.000099 clock_gettime(CLOCK_MONOTONIC, {70783, 755054222}) = 0
+     0.000149 ioctl(9, 0xc0186201, 0xbfa2a1b8) = 0
+     0.000200 futex(0xb6875c24, FUTEX_WAIT_PRIVATE, -45250, NULL) = 0
+     0.016771 getpid()                  = 5741
+     0.000000 getuid32()                = 10049
+     0.000116 epoll_wait(30, {{EPOLLIN, {u32=23, u64=23}}}, 16, 0) = 1
+     0.000039 read(23, "W", 16)         = 1
+     0.000185 clock_gettime(CLOCK_MONOTONIC, {70783, 772518585}) = 0
+     0.000038 getpid()                  = 5741
+     0.000036 getuid32()                = 10049
+     0.000290 epoll_wait(30, {}, 16, 0) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {70783, 772910377}) = 0
+     0.000204 getpid()                  = 5741
+     0.000212 getuid32()                = 10049
+     0.000027 epoll_wait(30, {}, 16, 0) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 773488748}) = 0
+     0.000154 getpid()                  = 5741
+     0.000021 getuid32()                = 10049
+     0.000052 epoll_wait(30, {}, 16, 0) = 0
+     0.000123 clock_gettime(CLOCK_MONOTONIC, {70783, 773721090}) = 0
+     0.000029 getpid()                  = 5741
+     0.000047 getuid32()                = 10049
+     0.000124 epoll_wait(30, {}, 16, 0) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 773944506}) = 0
+     0.000145 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000172 clock_gettime(CLOCK_MONOTONIC, {70783, 774313254}) = 0
+     0.000029 getpid()                  = 5741
+     0.000047 getuid32()                = 10049
+     0.000123 epoll_wait(30, {}, 16, 0) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {70783, 774535141}) = 0
+     0.000282 getpid()                  = 5741
+     0.000093 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000023 clock_gettime(CLOCK_MONOTONIC, {70783, 775075101}) = 0
+     0.000152 getpid()                  = 5741
+     0.000021 getuid32()                = 10049
+     0.000051 epoll_wait(30, {}, 16, 0) = 0
+     0.000123 clock_gettime(CLOCK_MONOTONIC, {70783, 775306297}) = 0
+     0.000029 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000149 epoll_wait(30, {}, 16, 0) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 775527481}) = 0
+     0.000281 getpid()                  = 5741
+     0.000096 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000130 clock_gettime(CLOCK_MONOTONIC, {70783, 776064098}) = 0
+     0.000033 getpid()                  = 5741
+     0.000144 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000050 clock_gettime(CLOCK_MONOTONIC, {70783, 776404394}) = 0
+     0.000126 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000052 epoll_wait(30, {}, 16, 0) = 0
+     0.000141 clock_gettime(CLOCK_MONOTONIC, {70783, 776844846}) = 0
+     0.000229 getpid()                  = 5741
+     0.000021 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000150 clock_gettime(CLOCK_MONOTONIC, {70783, 777076957}) = 0
+     0.000028 getpid()                  = 5741
+     0.000053 getuid32()                = 10049
+     0.000170 epoll_wait(30, {}, 16, 0) = 0
+     0.000078 clock_gettime(CLOCK_MONOTONIC, {70783, 777507380}) = 0
+     0.000138 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000153 clock_gettime(CLOCK_MONOTONIC, {70783, 777950101}) = 0
+     0.000252 getpid()                  = 5741
+     0.000021 getuid32()                = 10049
+     0.000149 epoll_wait(30, {}, 16, 0) = 0
+     0.000027 clock_gettime(CLOCK_MONOTONIC, {70783, 778190338}) = 0
+     0.000028 getpid()                  = 5741
+     0.000144 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000447 clock_gettime(CLOCK_MONOTONIC, {70783, 779038332}) = 0
+     0.000668 getpid()                  = 5741
+     0.000075 getuid32()                = 10049
+     0.000183 epoll_wait(30, {}, 16, 0) = 0
+     0.000024 clock_gettime(CLOCK_MONOTONIC, {70783, 779785219}) = 0
+     0.000289 getpid()                  = 5741
+     0.000044 getuid32()                = 10049
+     0.000169 epoll_wait(30, {}, 16, 0) = 0
+     0.000040 clock_gettime(CLOCK_MONOTONIC, {70783, 780494855}) = 0
+     0.000215 getpid()                  = 5741
+     0.000035 getuid32()                = 10049
+     0.000176 epoll_wait(30, {}, 16, 0) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 781516794}) = 0
+     0.000769 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000026 clock_gettime(CLOCK_MONOTONIC, {70783, 781713912}) = 0
+     0.000130 getpid()                  = 5741
+     0.000017 getuid32()                = 10049
+     0.000019 epoll_wait(30, {}, 16, 0) = 0
+     0.000127 clock_gettime(CLOCK_MONOTONIC, {70783, 781909487}) = 0
+     0.000027 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000121 clock_gettime(CLOCK_MONOTONIC, {70783, 782097339}) = 0
+     0.000024 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000128 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 782286398}) = 0
+     0.000023 getpid()                  = 5741
+     0.000048 getuid32()                = 10049
+     0.000101 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 782477659}) = 0
+     0.000027 getpid()                  = 5741
+     0.000120 getuid32()                = 10049
+     0.000021 epoll_wait(30, {}, 16, 0) = 0
+     0.000019 clock_gettime(CLOCK_MONOTONIC, {70783, 782670139}) = 0
+     0.000130 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000020 epoll_wait(30, {}, 16, 0) = 0
+     0.000121 clock_gettime(CLOCK_MONOTONIC, {70783, 782959169}) = 0
+     0.000029 getpid()                  = 5741
+     0.000016 getuid32()                = 10049
+     0.000125 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 783147494}) = 0
+     0.000024 getpid()                  = 5741
+     0.000121 getuid32()                = 10049
+     0.000024 epoll_wait(30, {}, 16, 0) = 0
+     0.000020 clock_gettime(CLOCK_MONOTONIC, {70783, 783340565}) = 0
+     0.000136 getpid()                  = 5741
+     0.000032 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000055 clock_gettime(CLOCK_MONOTONIC, {70783, 783658358}) = 0
+     0.000114 getpid()                  = 5741
+     0.000018 getuid32()                = 10049
+     0.000032 epoll_wait(30, {}, 16, 0) = 0
+     0.000107 clock_gettime(CLOCK_MONOTONIC, {70783, 783854306}) = 0
+     0.000037 getpid()                  = 5741
+     0.000128 getuid32()                = 10049
+     0.000025 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 784150929}) = 0
+     0.000084 getpid()                  = 5741
+     0.000068 getuid32()                = 10049
+     0.000023 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 784378586}) = 0
+     0.000138 getpid()                  = 5741
+     0.000022 getuid32()                = 10049
+     0.000150 epoll_wait(30, {}, 16, 0) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 784621012}) = 0
+     0.000140 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000057 epoll_wait(30, {}, 16, 0) = 0
+     0.000109 clock_gettime(CLOCK_MONOTONIC, {70783, 784950833}) = 0
+     0.000033 getpid()                  = 5741
+     0.000086 getuid32()                = 10049
+     0.000139 epoll_wait(30, {}, 16, 0) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {70783, 785337730}) = 0
+     0.000141 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000137 epoll_wait(30, {}, 16, 0) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 785669477}) = 0
+     0.000138 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000135 epoll_wait(30, {}, 16, 0) = 0
+     0.000029 clock_gettime(CLOCK_MONOTONIC, {70783, 785997109}) = 0
+     0.000139 getpid()                  = 5741
+     0.000027 getuid32()                = 10049
+     0.000136 epoll_wait(30, {}, 16, 0) = 0
+     0.000028 clock_gettime(CLOCK_MONOTONIC, {70783, 786332258}) = 0
+     0.000145 getpid()                  = 5741
+     0.000131 getuid32()                = 10049
+     0.000037 epoll_wait(30, {}, 16, 0) = 0
+     0.000138 clock_gettime(CLOCK_MONOTONIC, {70783, 786683870}) = 0
+     0.000039 getpid()                  = 5741
+     0.000134 getuid32()                = 10049
+     0.000031 epoll_wait(30, {}, 16, 0) = 0
+     0.000138 clock_gettime(CLOCK_MONOTONIC, {70783, 787021328}) = 0
+     0.000139 getpid()                  = 5741
+     0.000029 getuid32()                = 10049
+     0.000137 epoll_wait(30, {}, 16, 0) = 0
+     0.000183 clock_gettime(CLOCK_MONOTONIC, {70783, 787508853}) = 0
+     0.000138 getpid()                  = 5741
+     0.000031 getuid32()                = 10049
+     0.000133 epoll_wait(30, {}, 16, 0) = 0
+     0.000035 clock_gettime(CLOCK_MONOTONIC, {70783, 787849975}) = 0
+     0.000789 getpid()                  = 5741
+     0.000408 getuid32()                = 10049
+     0.000286 epoll_wait(30, {}, 16, 0) = 0
+     0.000030 clock_gettime(CLOCK_MONOTONIC, {70783, 789363025}) = 0
+     0.000144 getpid()                  = 5741
+     0.000027 getuid32()                = 10049
+     0.000142 epoll_wait(30, {}, 16, 0) = 0
+     0.000031 clock_gettime(CLOCK_MONOTONIC, {70783, 789924231}) = 0
+     0.000316 getpid()                  = 5741
+     0.000026 getuid32()                = 10049
+     0.000142 epoll_wait(30, {}, 16, 0) = 0
+     0.000032 clock_gettime(CLOCK_MONOTONIC, {70783, 790320978}) = 0
+     0.000140 getpid()                  = 5741
+     0.000130 getuid32()                = 10049
+     0.000036 epoll_wait(30, {}, 16, 0) = 0
+     0.000140 clock_gettime(CLOCK_MONOTONIC, {70783, 790668899}) = 0
+     0.000038 getpid()                  = 5741
+     0.000280 getuid32()                = 10049
+     0.000035 epoll_wait(30, {}, 16, 0) = 0
+     0.000140 clock_gettime(CLOCK_MONOTONIC, {70783, 791160924}) = 0
+     0.000038 getpid()                  = 5741
+     0.000134 getuid32()                = 10049
+     0.000034 epoll_wait(30, {}, 16, 0) = 0
+     0.000134 clock_gettime(CLOCK_MONOTONIC, {70783, 791499324}) = 0
+     0.000258 getpid()                  = 5741
+     0.000142 getuid32()                = 10049
+     0.000029 epoll_wait(30, {}, 16, 0) = 0
+     0.000105 clock_gettime(CLOCK_MONOTONIC, {70783, 792024529}) = 0
+     0.000121 getpid()                  = 5741
+     0.000028 getuid32()                = 10049
+     0.000140 epoll_wait(30, {}, 16, 0) = 0
+     0.000033 clock_gettime(CLOCK_MONOTONIC, {70783, 792615370}) = 0
+     0.000302 getpid()                  = 5741
+     0.000032 getuid32()                = 10049
+     0.000143 epoll_wait(30, {}, 16, 0) = 0
+     0.000021 clock_gettime(CLOCK_MONOTONIC, {70783, 792855099}) = 0
+     0.000180 getpid()                  = 5741
+     0.000025 getuid32()                = 10049
+     0.000026 epoll_wait(30, {}, 16, 0) = 0
+     0.000145 clock_gettime(CLOCK_MONOTONIC, {70783, 793229435}) = 0
+     0.000031 getpid()                  = 5741
+     0.000275 getuid32()                = 10049
+     0.000092 epoll_wait(30, {}, 16, 0) = 0
+     0.000032 clock_gettime(CLOCK_MONOTONIC, {70783, 793795649}) = 0
+     0.000240 getpid()                  = 5741
+     0.000020 getuid32()                = 10049
+     0.000141 epoll_wait(30, {}, 16, 0) = 0
+     0.000364 clock_gettime(CLOCK_MONOTONIC, {70783, 794428170}) = 0
+     0.000033 getpid()                  = 5741
+     0.000019 getuid32()                = 10049
+     0.000135 epoll_wait(30, {}, 16, 0) = 0
+     0.000022 clock_gettime(CLOCK_MONOTONIC, {70783, 794630766}) = 0
+     0.000132 ioctl(9, 0xc0186201, 0xbfa2a8e8) = 0
+     0.000038 epoll_wait(30, ^C <unfinished ...>
+
